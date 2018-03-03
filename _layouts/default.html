@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+      {% include meta.html %}
+      {% include styling.html %}
+      {% include scripting.html %}
+      {% include google_analytics.html %}
+  </head>
+
+  <body  onload="onPageLoad();" onunload="onPageUnload();">
+    <div style="text-align: center; ">
+      <div style="margin-bottom: 0px; margin-left: auto; margin-right: auto; margin-top: 0px; overflow: hidden; position: relative; word-wrap: break-word;  text-align: left; width: 700px; " id="body_content">
+
+        <a name="Top"></a>
+        <div style="margin-left: 0px;padding-top: 0pt; width: 700px; z-index: 5; " id="body_layer">
+
+          {{ content }}
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
