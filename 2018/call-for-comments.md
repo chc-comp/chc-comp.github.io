@@ -1,4 +1,5 @@
 ================================================================================
+
 1st International Constrained Horn Clause Satisfiability Competition
                             (CHC-COMP'18)
                       https://chc-comp.github.io
@@ -9,6 +10,7 @@
                           CALL FOR COMMENTS
                          CALL FOR BENCHMARKS
                      PRELIMINARY CALL FOR SOLVERS
+
 ================================================================================
 
 CHC-COMP is the annual competition among Constrained Horn Clause
