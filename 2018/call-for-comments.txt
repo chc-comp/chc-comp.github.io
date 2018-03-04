@@ -1,7 +1,7 @@
 ================================================================================
 1st International Constrained Horn Clause Satisfiability Competition
                             (CHC-COMP'18)
-                      https://chc-comp.github.io
+        https://chc-comp.github.io/2018/call-for-comments.html
 
                             July 13, 2018
                         Oxford, United Kingdom

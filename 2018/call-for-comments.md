@@ -4,7 +4,7 @@ title: Call For Comments
 ---
 
 # 1st International Constrained Horn Clause Satisfiability Competition (CHC-COMP'18)
-[https://chc-comp.github.io](https://chc-comp.github.io)
+[https://chc-comp.github.io/2018/call-for-comments.html](https://chc-comp.github.io/2018/call-for-comments.html)
 {: style="font-size: 120%; text-align: center;"}
 
 July 13, 2018\\
@@ -64,12 +64,13 @@ competition, in accordance with the rules that are currently being
 discussed.
 
 A preliminary collection of benchmarks is being collected at
-https://github.com/chc-comp. If you have benchmarks that can be made
-publicly available and might be of interest to the competition, please
-let us know. Even if the benchmarks are not quite ready (for example,
-they are in a custom format). We will work closely with any benchmark
-submitter to prepare the benchmarks for inclusion in the current (or
-future) versions of CHC-COMP.
+[https://github.com/chc-comp](https://github.com/chc-comp). If you
+have benchmarks that can be made publicly available and might be of
+interest to the competition, please let us know. Even if the
+benchmarks are not quite ready (for example, they are in a custom
+format). We will work closely with any benchmark submitter to prepare
+the benchmarks for inclusion in the current (or future) versions of
+CHC-COMP.
 
 The deadline for the benchmarks to be used in the competition will be
 announced when the rules for the competition and benchmark format are
