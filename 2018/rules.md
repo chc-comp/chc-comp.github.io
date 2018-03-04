@@ -389,8 +389,8 @@ $$\alpha_{b′} = \alpha_b / ( \sum_{b′} \alpha_{b′})$$,
 where the sum is over all benchmarks in the
 division. Let $$N$$ be the total number of benchmarks in the division.
 
-For main track and unsat-core track divisions, we will separately
-compute the weighted sum of all raw scores:
+For the main track, we will separately compute the weighted sum of all
+raw scores:
 
 $$
 \sum_{b} \alpha'_b \cdot (e_b \cdot N, n_b \cdot N, w_b, c_b)
