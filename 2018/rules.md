@@ -158,7 +158,82 @@ made public.
 
 ### Logistics
 
+__Dates of competition.__ The bulk of the computation will take place
+during the weeks leading up to FLoC 2018. Intermediate results will be
+regularly posted to the CHC-COMP website as the competition runs.
+
+The organizers reserve the right to prioritize certain competition
+tracks or divisions to ensure their timely completion, and in
+exceptional circumstances to complete divisions after the HCVS
+workshop.
+
+__Input and output.__ In the main track, a participating solver must
+read a single benchmark script, whose filename is presented as the
+solver’s first command-line argument.
+
+The benchmark script is in the concrete syntax of the SMT-LIB format,
+version 2.6, though with a restricted set of commands. A benchmark
+script is a text file containing a sequence of SMT-LIB commands that
+satisfies the following requirements:
+
+1. The script starts with the single `(set-logic HORN)` command.
+2. The script may contain any number of `set-info` commands.
+3. The script may contain any number of `declare-fun` commands.
+4. The script may contain any number of `assert` commands.
+5. There is exactly one `check-sat` command.
+6. The script might optionally contain an `(exit)` command.
+7. No other commands besides the ones mentioned above should be used.
+
+Additional restrictions will be placed on the format and will be made
+available on the web site at [https://chc-comp.github.io][chc-comp].
+
+__Time and memory limits.__ Each CHC-COMP solver will be executed on a
+dedicated processor of a competition machine, for each given
+benchmark, up to a fixed wall-clock time limit $$T$$ . Each processor
+has 4 cores. Detailed machine specifications are available on the
+competition web site.
+
+The time limit $$T$$ is yet to be determined, but it is anticipated to
+be at most 40 minutes of wall-clock time per solver/benchmark
+pair. Solvers that take more than this time limit will be
+killed. Solvers are allowed to spawn other processes; these will be
+killed at approximately the same time as the first started process.
+
+The StarExec service also limits the memory consumption of the solver
+processes. We expect the memory limit per solver/benchmark pair to be
+on the order of 60 GB. The values of both the time limit and the
+memory limit are available to a solver process through environment
+variables. See the StarExec user guide for more information.
+
 ### Main track
+
+The main track competition will consist of selected benchmarks in each
+of the logic divisions. Each benchmark script will be presented to the
+solver as its first command-line argument. The solver is then expected
+to attempt to report on its standard output channel whether the
+formula is satisfiable (`sat`, in lowercase) or unsatisfiable
+(`unsat`). A solver may also report `unknown` to indicate that it
+cannot determine satisfiability of the formula.  The main track
+competition uses a StarExec post-processor (named "CHC-COMP 2018") to
+accumulate the results.
+
+__Aborts and unparsable output.__ Any `success` outputs will be
+ignored. Solvers that exit before the time limit without reporting a
+result (e.g., due to exhausting memory or crashing) and do not produce
+output that includes `sat`, `unsat` or `unknown` will be considered to
+have aborted.
+
+__Persistent state.__ Solvers may create and write to files and
+directories during the course of an execution, but they must not read
+such files back during later executions. Each solver is executed with
+a temporary directory as its current working directory. Any generated
+files should be produced there (and not, say, in the system’s `/tmp`
+directory). The StarExec system sets a limit on the amount of disk
+storage permitted -- typically 20 GB. See the StarExec user guide for
+more information. The temporary directory is deleted after the job is
+complete. Solvers must not attempt to communicate with other machines,
+e.g., over the network.
+
 
 ## Benchmarks and Problem Divisions
 
@@ -180,7 +255,7 @@ represents a distinct family.
 __Benchmark selection.__ The competition will use a subset of CHC-COMP
 benchmarks. The benchmark pool is culled as follows:
 
-1. _Remove inappropriate benchmarks._ The competition organizers may
+- _Remove inappropriate benchmarks._ The competition organizers may
    remove benchmarks that are deemed inappropriate or uninteresting
    for competition, or cut the size of certain benchmark families to
    avoid their over-representation. CHC-COMP attempts to give
