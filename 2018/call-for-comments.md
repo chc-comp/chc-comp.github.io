@@ -1,17 +1,21 @@
-================================================================================
+---
+layout: page
+title: Call For Comments
+---
 
-1st International Constrained Horn Clause Satisfiability Competition
-                            (CHC-COMP'18)
-                      https://chc-comp.github.io
+# 1st International Constrained Horn Clause Satisfiability Competition (CHC-COMP'18)
+[https://chc-comp.github.io](https://chc-comp.github.io)
+{: style="font-size: 120%; text-align: center;"}
 
-                            July 13, 2018
-                        Oxford, United Kingdom
+July 13, 2018\\
+Oxford, United Kingdom
+{: style="text-align: center;"}
 
-                          CALL FOR COMMENTS
-                         CALL FOR BENCHMARKS
-                     PRELIMINARY CALL FOR SOLVERS
+CALL FOR COMMENTS\\
+CALL FOR BENCHMARKS\\
+PRELIMINARY CALL FOR SOLVERS
+{: style="font-size:120%; text-align: center;"}
 
-================================================================================
 
 CHC-COMP is the annual competition among Constrained Horn Clause
 solvers. The goal of the competition is to advance development of
@@ -27,14 +31,16 @@ International Federated Logic Conference (FLoC 2018).
 
 The organizers for CHC-COMP'18 are:
 
-    - Arie Gurfinkel            University of Waterloo, Canada
-    - Philipp Ruemmer           Uppsala University, Sweden
-    - Grigory Fedyukovich       Princeton University, USA
-    - Adrien Champion           University of Tokyo, Japan
+|Arie Gurfinkel|University of Waterloo, Canada|
+|Philipp Ruemmer|Uppsala University, Sweden|
+|Grigory Fedyukovich|Princeton University, USA|
+|Adrien Champion|University of Tokyo, Japan|
+{: .table style="width:100%;"}
+
 
 This is a call for three things:
 
-# CALL FOR COMMENTS:
+## CALL FOR COMMENTS:
 
 The organizers are preparing the schedule and the rules for 2018.  Any
 comments that you might have based on related competitions (SAT, SMT,
@@ -42,14 +48,15 @@ SVCOMP, etc.) to improve any aspect of the competition or improve the
 focus of the competition will be considered by the organizers. We
 particularly appreciate comments received by
 
-             ** April 2, 2018 **
+**April 2, 2018**
+{: style="text-align: center;"}
 
 For CHC-COMP'18, we are particularly in comments regarding the rules
 and the benchmark format that might prevent a potential competitor
 from participating (e.g., complexities of the input format, supported
 theories, etc.)
 
-# CALL FOR BENCHMARKS:
+## CALL FOR BENCHMARKS:
 
 The competition crucially depends on continuously renewed set of
 benchmarks. A selection of benchmarks will be used for the
@@ -68,7 +75,7 @@ The deadline for the benchmarks to be used in the competition will be
 announced when the rules for the competition and benchmark format are
 announced.
 
-# PRELIMINARY CALL FOR SOLVERS
+## PRELIMINARY CALL FOR SOLVERS
 
 A submission deadline for solvers will be announced along with the
 rules. However, it is useful for us to know in advance the potential
@@ -77,10 +84,11 @@ us know as soon as possible. In particular, let us know if there are
 changes to the rules and to the format that might block your
 participation.
 
-# COMMUNICATION
+## COMMUNICATION
 
-The competition web-site is https://chc-comp.github.io.
+The competition web-site is [https://chc-comp.github.io](https://chc-comp.github.io)
 
-Announcements and discussions on gitter at https://gitter.im/chc-comp.
 
-The competition GitHub organization is https://github.com/chc-comp.
+Announcements and discussions on gitter at [https://gitter.im/chc-comp](https://gitter.im/chc-comp)
+
+The competition GitHub organization is [https://github.com/chc-comp](https://github.com/chc-comp)
