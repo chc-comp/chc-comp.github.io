@@ -293,11 +293,11 @@ __Pseudo-random numbers.__ Pseudo-random numbers used, e.g., for the
 creation of heats or the scrambling of benchmarks, will be generated
 using the standard C library function `random()`, seeded (using
 `srandom()`) with the sum, modulo 2<sup>30</sup>, of the integer numbers
-provided in the system descriptions (see Section 4) by all CHC-COMP
+provided in the system descriptions  by all CHC-COMP
 entrants other than the organizers. Additionally, the integer part of
 the opening value of the New York Stock Exchange Composite Index on
 the first day the exchange is open on or after the date specified in
-the timeline (Section 2) will be added to the other seeding
+the timeline  will be added to the other seeding
 values. This helps provide transparency, by guaranteeing that the
 organizers cannot manipulate the seed in favour of or against any
 particular submitted solver.
