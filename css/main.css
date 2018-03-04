@@ -43,7 +43,7 @@
 .style_External_390_357 {
     position: relative;
 }
-.Body {
+body, p, li, ul, .Body {
     color: rgb(15, 26, 0);
     font-family: 'Trebuchet MS';
     font-size: 13px;
@@ -100,7 +100,7 @@
     text-indent: 0px;
     text-transform: none;
 }
-.Header {
+h1, .Header {
     font-family: 'Futura-Medium', 'Futura', 'Trebuchet MS', sans-serif;
     font-size: 20px;
      font-weight: 100;
