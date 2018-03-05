@@ -282,8 +282,8 @@ will be ignored.
 
 __Benchmark scrambling.__ Benchmarks might be slightly scrambled
 before the competition, using a simple benchmark scrambler. The
-benchmark scrambler, if used, the scrambler will be made publicly
-available before the competition.
+benchmark scrambler, if used, will be made publicly available before
+the competition.
 
 Naturally, solvers must not rely on previously determined identifying
 syntactic characteristics of competition benchmarks in testing
