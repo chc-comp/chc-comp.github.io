@@ -20,7 +20,7 @@ PRELIMINARY CALL FOR SOLVERS
 CHC-COMP is the annual competition among Constrained Horn Clause
 solvers. The goal of the competition is to advance development of
 solvers, facilitate standardization and evolution of the input format,
-and collect benchmarks, and promote a friendly competition.
+collect benchmarks, and promote a friendly competition.
 
 CHC-COMP'18 will end in time to be described and the results announced
 during the HCVS Workshop (July 13), which is affiliated with the
@@ -54,7 +54,7 @@ particularly appreciate comments received by
 For CHC-COMP'18, we are particularly in comments regarding the rules
 and the benchmark format that might prevent a potential competitor
 from participating (e.g., complexities of the input format, supported
-theories, etc.)
+theories, considered CHC fragment, etc.)
 
 ## CALL FOR BENCHMARKS:
 
@@ -63,26 +63,25 @@ benchmarks. A selection of benchmarks will be used for the
 competition, in accordance with the rules that are currently being
 discussed.
 
-A preliminary collection of benchmarks is being collected at
+A preliminary collection of benchmarks can be found at
 [https://github.com/chc-comp](https://github.com/chc-comp). If you
 have benchmarks that can be made publicly available and might be of
-interest to the competition, please let us know. Even if the
-benchmarks are not quite ready (for example, they are in a custom
+interest to the competition, please let us know; we are also interested in benchmarks that are not quite ready, for example, because they are in a custom
 format). We will work closely with any benchmark submitter to prepare
 the benchmarks for inclusion in the current (or future) versions of
 CHC-COMP.
 
 The deadline for the benchmarks to be used in the competition will be
-announced when the rules for the competition and benchmark format are
-announced.
+announced together with the rules for the competition and benchmark
+format.
 
 ## PRELIMINARY CALL FOR SOLVERS
 
 A submission deadline for solvers will be announced along with the
 rules. However, it is useful for us to know in advance the potential
-number of participants. If you are planning to participate, please let
-us know as soon as possible. In particular, let us know if there are
-changes to the rules and to the format that might block your
+number of participants. If you plan or consider to participate, please
+let us know as soon as possible. In particular, let us know if there
+are changes to the rules and to the format that might block your
 participation.
 
 ## COMMUNICATION
