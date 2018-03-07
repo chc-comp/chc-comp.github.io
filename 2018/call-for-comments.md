@@ -84,6 +84,8 @@ let us know as soon as possible. In particular, let us know if there
 are changes to the rules and to the format that might block your
 participation.
 
+This can be done by participating in the following poll <https://doodle.com/poll/gdk2vy5euvfcc67v>
+
 ## COMMUNICATION
 
 The competition web-site is [https://chc-comp.github.io](https://chc-comp.github.io)
