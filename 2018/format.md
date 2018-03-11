@@ -37,7 +37,7 @@ chc_head    ::=
 chc_tail    ::=
   | (u_predicate var*)
   | i_formula
-  | (and (u_predicate var*)+ i_formula?)
+  | (and (u_predicate var*)+ i_formula*)
 
 chc_query   ::=  ;; a well-formed first-order sentence of the form
   | (forall ( var_decl+ ) (=> chc_tail false)
