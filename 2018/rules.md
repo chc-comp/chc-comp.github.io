@@ -6,7 +6,7 @@ title: Rules
 
 # 1st International Constrained Horn Clause Satisfiability Competition (CHC-COMP 2018): Rules and Procedures
 
-(Revision: Mar 4, 2018)\\
+(Revision: Apr 14, 2018)\\
 (Based on rules and procedures of [SMT-COMP'17][smt-comp])
 
 Comments on this document can be submitted through [Gitter][chc gitter] or emailed
@@ -348,16 +348,16 @@ in all competitive main track divisions.
 
 The raw score, as defined above, favours parallel solvers, which may
 utilize all available processor cores. To evaluate sequential
-performance, we derive a sequential score by imposing a (virtual) CPU
+performance, we derive a __sequential score__ by imposing a (virtual) CPU
 time limit equal to the wall-clock time limit $$T$$. A solver result is
 taken into consideration for the sequential score only if the solver
 process terminates within this CPU time limit. More specifically, for
 a given raw score $$(e, n, w, c)$$, the corresponding sequential score is
-defined as $$(e_S , n_S , c_S )$$, where
+defined as triple $$(e_S , n_S , c_S )$$, where
 
-- $$e_S =0$$ and $$n_S =0$$ if $$c>T$$, $$e_S =e$$ and $$n_S =n$$, otherwise,
-
-- $$c_S = min\{c,T\}$$.
+- if $$c>T$$ then $$e_S =0$$ and $$n_S =0$$;
+- if $$c\leq T$$ then $$e_S =e$$ and $$n_S =n$$;
+- and $$c_S = min\{c,T\}$$.
 
 ### Division Scoring
 
@@ -379,41 +379,21 @@ benchmark scores for all benchmarks in the division are first
 multiplied by a scalar weight that depends on the benchmark’s family,
 and then summed component-wise.
 
-For a given competition benchmark $$b$$, let $$F_b \geq 1$$ be the
-total number of benchmarks in $$b$$’s benchmark family that were used
-in the competition track to which the division belongs (and not
-removed because of disagreements). We define the weight for benchmark
-$$b$$ as $$\alpha_b = (1 +log_e F_b)/F_b$$. We define the _normalized
-weight_ for benchmark $$b$$ as
-$$\alpha_{b′} = \alpha_b / ( \sum_{b′} \alpha_{b′})$$,
-where the sum is over all benchmarks in the
-division. Let $$N$$ be the total number of benchmarks in the division.
-
-For the main track, we will separately compute the weighted sum of all
-raw scores:
-
-$$
-\sum_{b} \alpha'_b \cdot (e_b \cdot N, n_b \cdot N, w_b, c_b)
-$$
-
-where the sum is over all benchmarks in the division to assess
-parallel performance, and the weighted sum of all sequential scores to
-assess sequential performance.
-
 Division scores are compared lexicographically:
 
-- A weighted sum of raw scores $$(e,n,w,c)$$ is better than
-  $$(e',n',w',c')$$ iff $$e < e'$$ or ($$e = e'$$ and $$n>n'$$) or
-  ($$e=e'$$ and $$n=n'$$ and $$w<w'$$) or ($$e=e'$$ and $$n=n'$$ and
-  $$w=w'$$ and $$c<c'$$). That is, fewer errors takes precedence over
-  more correct solutions, which takes precedence over less wall-clock
-  time taken, which takes precedence over less CPU time taken.
+- A sum of raw scores $$(e,n,w,c)$$ is better than
+  $$(e',n',w',c')$$ iff $$e < e'$$, or ($$e = e'$$ and $$n>n'$$), or
+  ($$e=e'$$ and $$n=n'$$ and $$w<w'$$), or ($$e=e'$$ and $$n=n'$$ and
+  $$w=w'$$ and $$c<c'$$).
 
-- A weighted sum of sequential scores $$(e_S,n_S,c_S)$$ is better than
-  $$(e'_S,n'_S,c'_S)$$ iff $$e_S < e'_S$$ or ($$e_S =e'_S$$ and $$n_S >n'_S$$)
-  or ($$e_S =e'_S$$ and $$n_S =n'_S$$ and $$c_S
-  <c'_S$$). That is, fewer errors takes precedence over more correct
-  solutions, which takes precedence over less CPU time taken.
+- A sum of sequential scores $$(e_S,n_S,c_S)$$ is better than
+  $$(e'_S,n'_S,c'_S)$$ iff $$e_S < e'_S$$ or ($$e_S =e'_S$$ and $$n_S>
+  n'_S$$) or ($$e_S =e'_S$$ and $$n_S =n'_S$$ and $$c_S <c'_S$$).
+
+
+That is, fewer errors takes precedence over more correct solutions,
+which, in turn, takes precedence over execution time, and clock time
+takes precedence over wall time.
 
 We will not make any comparisons between raw scores and sequential
 scores, as these are intended to measure fundamentally different
@@ -421,22 +401,23 @@ performance characteristics.
 
 ### Competition-wide scoring (main track)
 
-We define a competition-wide metric for the main track, separately for
-parallel and sequential performance, as follows. Let $$N_i$$ be the
-total number of benchmarks in division $$i$$ that were used in the
-competition (and not removed because of disagreements), and let
-$$(e_i, n_i, w_i, c_i)$$ be a solver’s raw score for this
-division. The solver’s competition-wide raw score is
+The competition-wide metric for the main track is defined for both
+parallel and sequential performance based on raw and sequential
+scores, respectively.
+
+The solver's competition-wide scores are defined by
 
 $$
-\sum_{i} (e_i = 0 \;?\; (n_i / N_i)^2 : -4) \log_e N_i
+\sum_{i} (e_i = 0 \;?\; n_i)
 $$
 
-where the sum is overall competitive divisions in to which the solver
-was entered. The solver’s competition-wide sequential score is
-computed from its sequential division scores according to the same
-formula. We will recognize the best three solvers according to these
-metrics.
+where the sum is over all competitive divisions to which the solver
+was entered, using parallel and sequential score, as appropriate.
+
+We will recognize the best three solvers according to these metrics.
+Solvers that produce unsound results (i.e., $$e_i > 0$$) will not be
+ranked with solvers that are sound and are not eligible for any
+potential awards.
 
 ## Other Awards and Mentions
 
@@ -458,7 +439,7 @@ recused from these decisions. The organizers’ decisions are final.
 
 The organizing team for CHC-COMP 2018 is
 
-- Arie Gurfinkel -- University of Waterloo, Canada
+- [Arie Gurfinkel][ag] -- University of Waterloo, Canada
 - Philipp Ruemmer -- Uppsala University, Sweden
 - Grigory Fedyukovich -- Princeton University, USA
 - Adrien Champion -- University of Tokyo, Japan
@@ -470,7 +451,7 @@ __Disclosures.__ The organizers might be participants. In this case,
 the association between tools and organizers should be described here.
 
 
-
+[ag]: https://ece.uwaterloo.ca/~agurfink
 [smt-comp]: http://smtcomp.sourceforge.net/2017/rules17.pdf
 [chc gitter]: https://gitter.im/chc-comp
 [chc-comp]: https://chc-comp.github.io
