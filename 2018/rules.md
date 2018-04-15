@@ -64,14 +64,14 @@ This document is based significantly on the rules and procedures for
 __Solver submission.__ An entrant to CHC-COMP is an CHC solver
 submitted by its authors using the [StarExec](http://www.starexec.org)
 service. The execution service enables members of the SMT research
-community (of which CHC is a fragment) to run solvers on jobs
-consisting of benchmarks from the SMT-LIB benchmark library. Jobs are
-run on a shared computer cluster. The execution service is provided
-free of charge, but it does require registration to create a login
-account. Registered users may then upload their own solvers to run, or
-may run public solvers already uploaded to the service. Information
-about how to configure and upload a solver is contained in the
-StarExec user guide,
+community (which includes some members of the CHC research community)
+to run solvers on jobs consisting of benchmarks from the SMT-LIB
+benchmark library. Jobs are run on a shared computer cluster. The
+execution service is provided free of charge, but it does require
+registration to create a login account. Registered users may then
+upload their own solvers to run, or may run public solvers already
+uploaded to the service. Information about how to configure and upload
+a solver is contained in the StarExec user guide,
 
 [https://wiki.uiowa.edu/display/stardev/User+Guide](https://wiki.uiowa.edu/display/stardev/User+Guide).
 {: style="text-align: center;" }
