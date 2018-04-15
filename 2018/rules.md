@@ -407,7 +407,7 @@ scores, respectively.
 The solver's competition-wide scores are defined by
 
 $$
-\sum_{i} (e_i = 0 \;?\; n_i)
+\sum_{i} (e_i = 0 \;?\; n_i \;:\; 0)
 $$
 
 where the sum is over all competitive divisions to which the solver
