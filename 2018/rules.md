@@ -375,9 +375,8 @@ benchmark if one of them reported `sat` and the other reported
 computation of division scores.
 
 To compute a solver’s score for a division, the solver’s individual
-benchmark scores for all benchmarks in the division are first
-multiplied by a scalar weight that depends on the benchmark’s family,
-and then summed component-wise.
+benchmark scores for all benchmarks in the division are summed
+component-wise.
 
 Division scores are compared lexicographically:
 
