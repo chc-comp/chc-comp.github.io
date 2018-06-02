@@ -47,12 +47,13 @@ title: CHC-COMP
 <a name="Dates"></a>
 <p style="padding-top: 0pt; " class="Body"><b>Important Dates</b>:</p><ul>
 <li><p class="Body">Mar 15:&nbsp;First draft of the benchmarks is publicly available</p></li>
-<li><p class="Body">Jun 1:&nbsp;Initial deadline for submitting solvers</p></li>
+<li><p class="Body"><s>Jun 1</s> Jun 15:&nbsp;Initial deadline for submitting solvers</p></li>
 <li><p class="Body">Jul 13:&nbsp;Announcement of results at <a href="https://www.sci.unich.it/hcvs18/">HCVS</a></p></li></ul>
 </p>
 
 <a name="Rules"></a>
 <p style="padding-top: 0pt; " class="Body"><b>Rules and competition procedure</b>:</p><ul>
+  <li><p class="Body">Formalized <a href="https://chc-comp.github.io/2018/rules.html">here</a>.</p></li>
 <li><p class="Body">Benchmarks will use (a subset of) version 2.6 of the SMT-LIB language.</p></li>
 <li><p class="Body">The result of a solving run is a tuple &lt<b>sat</b>|<b>unsat</b>|<b>unknown</b>, <b>TIME</b>&gt:
 <ul>
@@ -63,7 +64,6 @@ title: CHC-COMP
 </ul></p></li>
 <li><p class="Body">If the run exceeds the predefined timeout (15 min) the result is interpreted as unknown.</p></li>
 <li><p class="Body">There is no requirement on a witness generation (neither for models (sat) nor refutations (unsat)).</p></li>
-<li><p class="Body">The total score for each solver is calculated by the formula: <b>S_correct - 2 * S_incorrect</b>, where <b>S_correct</b> (resp. <b>S_incorrect</b>) is the number of correctly (resp. incorrectly) solved benchmarks.</p></li>
 <li><p class="Body">All participating solvers should be submitted by its authors to the <a href="https://www.starexec.org/starexec/secure/explore/spaces.jsp?id=73700">StarExec</a> platform.</p></li>
 <li><p class="Body">Each submitted solver must have one configuration only. The authors are responsible of any technical problems while running the configuration on <a href="https://www.starexec.org/starexec/secure/explore/spaces.jsp?id=73700">StarExec</a>.</p></li>
 <li><p class="Body">All participants are encouraged (but not required) to provide a short (1–2 pages) description of the solver and give a short (5 min) talk at the workshop.</p></li>
