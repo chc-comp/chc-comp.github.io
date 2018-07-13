@@ -1,0 +1,23 @@
+* means Hors Concours
+- means incorrect results on some benchmarks
+        solver  cnt  ok  sat  uns  fld   to  mo    time    real  space  uniq
+*        rebus  132  96   82   14   36   36   0   42838   42842     59    15
+*       spacer  132  82   73    9   50   50   0   54070   54032     93     3
+      tree-aut  132  25   24    1  107  107   0  101241   92580   7488     0
+      eldarica  132  20   18    2  112   77   0   72526   35825   2120     0
+- TransfHORNer  132  15    2   13  117  105   1  103490  103619   1294     2
+       uni-aut  132   9    9    0  123   90   0   82877   70345   7536     0
+         hoice  132   1    0    1  131  131   0  118793  118459     31     0
+         pecos  132   0    0    0  132   57   1   54743   54811    893     0
+
+cnt       number of benchmarks
+ok        number of solved benchmarks
+sat       number of SAT solved
+uns       number of UNSAT solved
+fld       number of failed unsolved
+to        number of timeouts
+mo        number of memory outs
+time      sum of total cpu time in seconds
+real      sum of total wall-clock time in seconds
+space     sum of memory used in MB
+uniq      number of unique benchmarks solved

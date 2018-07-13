@@ -1,0 +1,1057 @@
+pair id,benchmark,benchmark id,solver,solver id,configuration,configuration id,status,cpu time,wallclock time,memory usage,result
+380642294,lra/chc-lra-0002.smt2,7589636,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.08,901.112,319388.0,starexec-unknown
+380642295,lra/chc-lra-0002.smt2,7589636,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.13,412.853,1.8402148E7,starexec-unknown
+380642296,lra/chc-lra-0002.smt2,7589636,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.07,898.743,274936.0,starexec-unknown
+380642297,lra/chc-lra-0002.smt2,7589636,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.08,820.924,5.9472896E7,starexec-unknown
+380642298,lra/chc-lra-0002.smt2,7589636,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.03,764.4,5.9843072E7,starexec-unknown
+380642299,lra/chc-lra-0002.smt2,7589636,rebus v1.5,20525,def,303851,complete,2.56198,2.56122,155344.0,sat
+380642300,lra/chc-lra-0002.smt2,7589636,spacer,19768,def,300997,complete,9.99337,9.99346,183588.0,sat
+380642301,lra/chc-lra-0002.smt2,7589636,TransfHORNer,20513,default,303835,timeout (cpu),900.03,900.535,2.0671736E7,starexec-unknown
+380642014,lra/chc-lra-0003.smt2,7589601,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.07,900.149,333136.0,starexec-unknown
+380642015,lra/chc-lra-0003.smt2,7589601,Eldarica 2.0alpha 12GB,20382,def,303234,complete,1.99128,1.10514,1.5711576E7,starexec-unknown
+380642016,lra/chc-lra-0003.smt2,7589601,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.01,898.736,285636.0,starexec-unknown
+380642017,lra/chc-lra-0003.smt2,7589601,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.01,849.858,5.9470372E7,starexec-unknown
+380642018,lra/chc-lra-0003.smt2,7589601,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,8.7133,3.77439,5.9743004E7,starexec-unknown
+380642019,lra/chc-lra-0003.smt2,7589601,rebus v1.5,20525,def,303851,timeout (cpu),900.03,900.195,327208.0,starexec-unknown
+380642020,lra/chc-lra-0003.smt2,7589601,spacer,19768,def,300997,timeout (cpu),900.07,900.206,775204.0,starexec-unknown
+380642021,lra/chc-lra-0003.smt2,7589601,TransfHORNer,20513,default,303835,complete,1.10707,1.1924,753740.0,unsat
+380642510,lra/chc-lra-0004.smt2,7589663,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.06,900.432,417616.0,starexec-unknown
+380642511,lra/chc-lra-0004.smt2,7589663,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.02,464.395,1.72225E7,starexec-unknown
+380642512,lra/chc-lra-0004.smt2,7589663,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.03,898.876,274384.0,starexec-unknown
+380642513,lra/chc-lra-0004.smt2,7589663,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.03,831.618,5.9470732E7,starexec-unknown
+380642514,lra/chc-lra-0004.smt2,7589663,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.04,279.063,5.98431E7,starexec-unknown
+380642515,lra/chc-lra-0004.smt2,7589663,rebus v1.5,20525,def,303851,complete,366.96,367.09,667244.0,sat
+380642516,lra/chc-lra-0004.smt2,7589663,spacer,19768,def,300997,timeout (cpu),900.02,900.201,562224.0,starexec-unknown
+380642517,lra/chc-lra-0004.smt2,7589663,TransfHORNer,20513,default,303835,timeout (cpu),900.03,900.894,4453052.0,starexec-unknown
+380642358,lra/chc-lra-0005.smt2,7589644,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.01,900.12,396556.0,starexec-unknown
+380642359,lra/chc-lra-0005.smt2,7589644,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.14,462.354,1.6631144E7,starexec-unknown
+380642360,lra/chc-lra-0005.smt2,7589644,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.03,898.982,273952.0,starexec-unknown
+380642361,lra/chc-lra-0005.smt2,7589644,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.1,848.434,5.9470372E7,starexec-unknown
+380642362,lra/chc-lra-0005.smt2,7589644,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.07,291.578,5.9843104E7,starexec-unknown
+380642363,lra/chc-lra-0005.smt2,7589644,rebus v1.5,20525,def,303851,complete,482.115,482.204,488420.0,unsat
+380642364,lra/chc-lra-0005.smt2,7589644,spacer,19768,def,300997,timeout (cpu),900.03,900.166,585940.0,starexec-unknown
+380642365,lra/chc-lra-0005.smt2,7589644,TransfHORNer,20513,default,303835,timeout (cpu),900.04,900.735,4453088.0,starexec-unknown
+380641630,lra/chc-lra-0006.smt2,7589553,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.03,900.073,458264.0,starexec-unknown
+380641631,lra/chc-lra-0006.smt2,7589553,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.00956,1.12652,1.5711576E7,starexec-unknown
+380641632,lra/chc-lra-0006.smt2,7589553,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.01,898.996,274068.0,starexec-unknown
+380641633,lra/chc-lra-0006.smt2,7589553,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.03,833.507,5.9470372E7,starexec-unknown
+380641634,lra/chc-lra-0006.smt2,7589553,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,9.2984,4.17499,5.981264E7,starexec-unknown
+380641635,lra/chc-lra-0006.smt2,7589553,rebus v1.5,20525,def,303851,complete,51.6382,51.64,204512.0,sat
+380641636,lra/chc-lra-0006.smt2,7589553,spacer,19768,def,300997,timeout (cpu),900.02,900.114,570328.0,starexec-unknown
+380641637,lra/chc-lra-0006.smt2,7589553,TransfHORNer,20513,default,303835,timeout (cpu),900.05,900.931,4453224.0,starexec-unknown
+380641622,lra/chc-lra-0007.smt2,7589552,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.09,900.128,426320.0,starexec-unknown
+380641623,lra/chc-lra-0007.smt2,7589552,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.16,468.219,1.6829284E7,starexec-unknown
+380641624,lra/chc-lra-0007.smt2,7589552,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.02,898.993,273904.0,starexec-unknown
+380641625,lra/chc-lra-0007.smt2,7589552,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.02,828.022,5.9470372E7,starexec-unknown
+380641626,lra/chc-lra-0007.smt2,7589552,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.13,281.938,5.9843072E7,starexec-unknown
+380641627,lra/chc-lra-0007.smt2,7589552,rebus v1.5,20525,def,303851,timeout (cpu),900.04,900.192,674552.0,starexec-unknown
+380641628,lra/chc-lra-0007.smt2,7589552,spacer,19768,def,300997,timeout (cpu),900.09,900.149,615848.0,starexec-unknown
+380641629,lra/chc-lra-0007.smt2,7589552,TransfHORNer,20513,default,303835,timeout (cpu),900.03,900.635,4452800.0,starexec-unknown
+380642302,lra/chc-lra-0009.smt2,7589637,PECOS-v1.10,20409,lra.sh,303281,complete,115.085,115.09,3.9880336E7,starexec-unknown
+380642303,lra/chc-lra-0009.smt2,7589637,Eldarica 2.0alpha 12GB,20382,def,303234,complete,115.32,40.6052,1.9032952E7,sat
+380642304,lra/chc-lra-0009.smt2,7589637,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.06,899.39,278780.0,starexec-unknown
+380642305,lra/chc-lra-0009.smt2,7589637,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,complete,22.6769,7.72397,5.9470372E7,sat
+380642306,lra/chc-lra-0009.smt2,7589637,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.06,885.712,5.984308E7,starexec-unknown
+380642307,lra/chc-lra-0009.smt2,7589637,rebus v1.5,20525,def,303851,complete,8.84439,8.84413,158412.0,sat
+380642308,lra/chc-lra-0009.smt2,7589637,spacer,19768,def,300997,complete,8.44596,8.44651,186192.0,sat
+380642309,lra/chc-lra-0009.smt2,7589637,TransfHORNer,20513,default,303835,complete,413.779,414.032,2737008.0,unsat
+380641670,lra/chc-lra-0010.smt2,7589558,PECOS-v1.10,20409,lra.sh,303281,complete,115.591,115.592,3.9881024E7,starexec-unknown
+380641671,lra/chc-lra-0010.smt2,7589558,Eldarica 2.0alpha 12GB,20382,def,303234,complete,116.714,43.3108,1.8531688E7,sat
+380641672,lra/chc-lra-0010.smt2,7589558,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.05,899.505,278708.0,starexec-unknown
+380641673,lra/chc-lra-0010.smt2,7589558,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,complete,57.5228,26.6749,5.9540008E7,sat
+380641674,lra/chc-lra-0010.smt2,7589558,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.0,882.83,5.9845764E7,starexec-unknown
+380641675,lra/chc-lra-0010.smt2,7589558,rebus v1.5,20525,def,303851,complete,4.33424,4.33367,156364.0,sat
+380641676,lra/chc-lra-0010.smt2,7589558,spacer,19768,def,300997,complete,4.77217,5.03688,169212.0,sat
+380641677,lra/chc-lra-0010.smt2,7589558,TransfHORNer,20513,default,303835,complete,13.3922,13.4789,1037576.0,unsat
+380641582,lra/chc-lra-0011.smt2,7589547,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.07,900.408,678308.0,starexec-unknown
+380641583,lra/chc-lra-0011.smt2,7589547,Eldarica 2.0alpha 12GB,20382,def,303234,complete,1.96233,1.14075,1.5711576E7,starexec-unknown
+380641584,lra/chc-lra-0011.smt2,7589547,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.04,898.908,284716.0,starexec-unknown
+380641585,lra/chc-lra-0011.smt2,7589547,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.07,818.609,5.9470428E7,starexec-unknown
+380641586,lra/chc-lra-0011.smt2,7589547,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,9.7322,5.90238,5.977194E7,starexec-unknown
+380641587,lra/chc-lra-0011.smt2,7589547,rebus v1.5,20525,def,303851,complete,20.8308,20.8318,180804.0,sat
+380641588,lra/chc-lra-0011.smt2,7589547,spacer,19768,def,300997,complete,7.5895,7.58947,180672.0,sat
+380641589,lra/chc-lra-0011.smt2,7589547,TransfHORNer,20513,default,303835,complete,70.8634,70.9628,1175532.0,unsat
+380642470,lra/chc-lra-0012.smt2,7589658,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.04,900.674,638172.0,starexec-unknown
+380642471,lra/chc-lra-0012.smt2,7589658,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.06069,1.13611,1.5711576E7,starexec-unknown
+380642472,lra/chc-lra-0012.smt2,7589658,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.04,896.703,286456.0,starexec-unknown
+380642473,lra/chc-lra-0012.smt2,7589658,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.07,820.627,5.9470472E7,starexec-unknown
+380642474,lra/chc-lra-0012.smt2,7589658,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,10.072,3.877,5.9841356E7,starexec-unknown
+380642475,lra/chc-lra-0012.smt2,7589658,rebus v1.5,20525,def,303851,complete,6.16261,6.16191,175684.0,sat
+380642476,lra/chc-lra-0012.smt2,7589658,spacer,19768,def,300997,timeout (cpu),900.02,900.107,570096.0,starexec-unknown
+380642477,lra/chc-lra-0012.smt2,7589658,TransfHORNer,20513,default,303835,complete,3.25513,3.34011,1059044.0,unsat
+380642398,lra/chc-lra-0013.smt2,7589649,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.01,900.767,2.7427156E7,starexec-unknown
+380642399,lra/chc-lra-0013.smt2,7589649,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.16,427.078,2.1748584E7,starexec-unknown
+380642400,lra/chc-lra-0013.smt2,7589649,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.12,899.641,275284.0,starexec-unknown
+380642401,lra/chc-lra-0013.smt2,7589649,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,complete,32.2873,10.8427,5.9540008E7,sat
+380642402,lra/chc-lra-0013.smt2,7589649,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.09,870.134,5.9845992E7,starexec-unknown
+380642403,lra/chc-lra-0013.smt2,7589649,rebus v1.5,20525,def,303851,complete,20.6076,20.6078,162804.0,sat
+380642404,lra/chc-lra-0013.smt2,7589649,spacer,19768,def,300997,complete,65.9198,65.9205,300052.0,sat
+380642405,lra/chc-lra-0013.smt2,7589649,TransfHORNer,20513,default,303835,timeout (cpu),900.04,900.818,5186324.0,starexec-unknown
+380642254,lra/chc-lra-0014.smt2,7589631,PECOS-v1.10,20409,lra.sh,303281,complete,183.276,183.509,2.027628E7,starexec-unknown
+380642255,lra/chc-lra-0014.smt2,7589631,Eldarica 2.0alpha 12GB,20382,def,303234,complete,636.647,292.038,1.8794848E7,sat
+380642256,lra/chc-lra-0014.smt2,7589631,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.04,899.409,277192.0,starexec-unknown
+380642257,lra/chc-lra-0014.smt2,7589631,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,complete,51.1437,20.4196,5.9540008E7,sat
+380642258,lra/chc-lra-0014.smt2,7589631,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.03,883.236,5.984576E7,starexec-unknown
+380642259,lra/chc-lra-0014.smt2,7589631,rebus v1.5,20525,def,303851,complete,19.7696,19.7696,164856.0,sat
+380642260,lra/chc-lra-0014.smt2,7589631,spacer,19768,def,300997,complete,44.4241,44.4241,244296.0,sat
+380642261,lra/chc-lra-0014.smt2,7589631,TransfHORNer,20513,default,303835,timeout (cpu),900.01,900.835,4062880.0,starexec-unknown
+380642054,lra/chc-lra-0015.smt2,7589606,PECOS-v1.10,20409,lra.sh,303281,complete,273.729,273.731,3.9416724E7,starexec-unknown
+380642055,lra/chc-lra-0015.smt2,7589606,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.04,589.467,1.7090912E7,starexec-unknown
+380642056,lra/chc-lra-0015.smt2,7589606,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.03,899.286,278896.0,starexec-unknown
+380642057,lra/chc-lra-0015.smt2,7589606,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,complete,27.8572,9.45133,5.9470372E7,sat
+380642058,lra/chc-lra-0015.smt2,7589606,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.08,871.926,5.9846072E7,starexec-unknown
+380642059,lra/chc-lra-0015.smt2,7589606,rebus v1.5,20525,def,303851,complete,44.8504,44.8511,171000.0,sat
+380642060,lra/chc-lra-0015.smt2,7589606,spacer,19768,def,300997,complete,10.2808,10.281,189272.0,sat
+380642061,lra/chc-lra-0015.smt2,7589606,TransfHORNer,20513,default,303835,timeout (cpu),900.04,900.854,4036784.0,starexec-unknown
+380641982,lra/chc-lra-0016.smt2,7589597,PECOS-v1.10,20409,lra.sh,303281,complete,273.915,273.917,3.941818E7,starexec-unknown
+380641983,lra/chc-lra-0016.smt2,7589597,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.09,559.963,1.7025376E7,starexec-unknown
+380641984,lra/chc-lra-0016.smt2,7589597,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.04,899.556,279908.0,starexec-unknown
+380641985,lra/chc-lra-0016.smt2,7589597,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,complete,161.979,123.671,5.9540008E7,sat
+380641986,lra/chc-lra-0016.smt2,7589597,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.07,881.613,5.9843428E7,starexec-unknown
+380641987,lra/chc-lra-0016.smt2,7589597,rebus v1.5,20525,def,303851,complete,50.8596,50.8732,172616.0,sat
+380641988,lra/chc-lra-0016.smt2,7589597,spacer,19768,def,300997,complete,109.368,109.377,317936.0,sat
+380641989,lra/chc-lra-0016.smt2,7589597,TransfHORNer,20513,default,303835,timeout (cpu),900.01,900.942,4083684.0,starexec-unknown
+380641782,lra/chc-lra-0017.smt2,7589572,PECOS-v1.10,20409,lra.sh,303281,complete,274.509,274.627,3.941724E7,starexec-unknown
+380641783,lra/chc-lra-0017.smt2,7589572,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.05,599.076,1.7090912E7,starexec-unknown
+380641784,lra/chc-lra-0017.smt2,7589572,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.02,899.648,278712.0,starexec-unknown
+380641785,lra/chc-lra-0017.smt2,7589572,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,complete,47.2485,17.3571,5.9540008E7,sat
+380641786,lra/chc-lra-0017.smt2,7589572,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.01,882.235,5.9843436E7,starexec-unknown
+380641787,lra/chc-lra-0017.smt2,7589572,rebus v1.5,20525,def,303851,complete,102.414,102.414,171000.0,sat
+380641788,lra/chc-lra-0017.smt2,7589572,spacer,19768,def,300997,complete,15.1485,15.1479,202688.0,sat
+380641789,lra/chc-lra-0017.smt2,7589572,TransfHORNer,20513,default,303835,complete,235.733,235.851,1074136.0,unsat
+380642206,lra/chc-lra-0018.smt2,7589625,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.01,900.083,4.408598E7,starexec-unknown
+380642207,lra/chc-lra-0018.smt2,7589625,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.06,867.645,1.7419608E7,starexec-unknown
+380642208,lra/chc-lra-0018.smt2,7589625,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.03,898.775,273108.0,starexec-unknown
+380642209,lra/chc-lra-0018.smt2,7589625,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,complete,74.7326,41.1621,5.9540008E7,sat
+380642210,lra/chc-lra-0018.smt2,7589625,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.02,885.374,5.98459E7,starexec-unknown
+380642211,lra/chc-lra-0018.smt2,7589625,rebus v1.5,20525,def,303851,complete,26.0865,26.0847,164560.0,sat
+380642212,lra/chc-lra-0018.smt2,7589625,spacer,19768,def,300997,complete,15.6408,15.642,204768.0,sat
+380642213,lra/chc-lra-0018.smt2,7589625,TransfHORNer,20513,default,303835,complete,43.1829,43.9953,1092936.0,unsat
+380642102,lra/chc-lra-0019.smt2,7589612,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.03,900.147,476000.0,starexec-unknown
+380642103,lra/chc-lra-0019.smt2,7589612,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.14,407.825,1.7025892E7,starexec-unknown
+380642104,lra/chc-lra-0019.smt2,7589612,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.01,899.718,276760.0,starexec-unknown
+380642105,lra/chc-lra-0019.smt2,7589612,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,complete,45.3228,16.6006,5.9540008E7,sat
+380642106,lra/chc-lra-0019.smt2,7589612,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.06,816.509,5.984344E7,starexec-unknown
+380642107,lra/chc-lra-0019.smt2,7589612,rebus v1.5,20525,def,303851,complete,16.642,16.6421,162508.0,sat
+380642108,lra/chc-lra-0019.smt2,7589612,spacer,19768,def,300997,complete,20.4492,20.4492,212800.0,sat
+380642109,lra/chc-lra-0019.smt2,7589612,TransfHORNer,20513,default,303835,timeout (cpu),900.01,900.551,4959008.0,starexec-unknown
+380641918,lra/chc-lra-0020.smt2,7589589,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.07,900.313,4.2081672E7,starexec-unknown
+380641919,lra/chc-lra-0020.smt2,7589589,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.01,867.322,1.6108888E7,starexec-unknown
+380641920,lra/chc-lra-0020.smt2,7589589,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.02,899.191,275672.0,starexec-unknown
+380641921,lra/chc-lra-0020.smt2,7589589,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,complete,185.935,138.108,5.9540008E7,sat
+380641922,lra/chc-lra-0020.smt2,7589589,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.02,889.913,5.9843576E7,starexec-unknown
+380641923,lra/chc-lra-0020.smt2,7589589,rebus v1.5,20525,def,303851,complete,81.7742,81.7943,180808.0,sat
+380641924,lra/chc-lra-0020.smt2,7589589,spacer,19768,def,300997,complete,319.723,319.776,499820.0,sat
+380641925,lra/chc-lra-0020.smt2,7589589,TransfHORNer,20513,default,303835,timeout (cpu),900.04,900.945,4256656.0,starexec-unknown
+380641846,lra/chc-lra-0021.smt2,7589580,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.05,901.852,6.2435084E7,starexec-unknown
+380641847,lra/chc-lra-0021.smt2,7589580,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.06,870.527,1.6241516E7,starexec-unknown
+380641848,lra/chc-lra-0021.smt2,7589580,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.05,899.945,274532.0,starexec-unknown
+380641849,lra/chc-lra-0021.smt2,7589580,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,complete,750.762,692.171,5.9540008E7,sat
+380641850,lra/chc-lra-0021.smt2,7589580,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.01,874.703,5.9843684E7,starexec-unknown
+380641851,lra/chc-lra-0021.smt2,7589580,rebus v1.5,20525,def,303851,complete,78.4718,78.4769,172020.0,sat
+380641852,lra/chc-lra-0021.smt2,7589580,spacer,19768,def,300997,complete,47.2337,47.2379,259068.0,sat
+380641853,lra/chc-lra-0021.smt2,7589580,TransfHORNer,20513,default,303835,timeout (cpu),900.1,901.039,4234436.0,starexec-unknown
+380642174,lra/chc-lra-0022.smt2,7589621,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.05,900.507,4.093962E7,starexec-unknown
+380642175,lra/chc-lra-0022.smt2,7589621,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.32239,1.22568,1.5712092E7,starexec-unknown
+380642176,lra/chc-lra-0022.smt2,7589621,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.06,899.862,285836.0,starexec-unknown
+380642177,lra/chc-lra-0022.smt2,7589621,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.02,802.937,5.9470372E7,starexec-unknown
+380642178,lra/chc-lra-0022.smt2,7589621,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,10.0551,4.16307,5.9841364E7,starexec-unknown
+380642179,lra/chc-lra-0022.smt2,7589621,rebus v1.5,20525,def,303851,complete,14.7128,14.7115,180804.0,unsat
+380642180,lra/chc-lra-0022.smt2,7589621,spacer,19768,def,300997,complete,38.4842,38.4847,255580.0,unsat
+380642181,lra/chc-lra-0022.smt2,7589621,TransfHORNer,20513,default,303835,complete,176.704,176.791,1928656.0,unsat
+380642134,lra/chc-lra-0023.smt2,7589616,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.04,900.09,4.093936E7,starexec-unknown
+380642135,lra/chc-lra-0023.smt2,7589616,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.30373,1.18829,1.5712092E7,starexec-unknown
+380642136,lra/chc-lra-0023.smt2,7589616,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.02,899.938,286852.0,starexec-unknown
+380642137,lra/chc-lra-0023.smt2,7589616,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.01,823.981,5.9470372E7,starexec-unknown
+380642138,lra/chc-lra-0023.smt2,7589616,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,9.52754,4.03587,5.9745052E7,starexec-unknown
+380642139,lra/chc-lra-0023.smt2,7589616,rebus v1.5,20525,def,303851,complete,9.1445,9.14348,179784.0,sat
+380642140,lra/chc-lra-0023.smt2,7589616,spacer,19768,def,300997,complete,97.0897,48.6004,297668.0,sat
+380642141,lra/chc-lra-0023.smt2,7589616,TransfHORNer,20513,default,303835,complete,230.293,230.369,1721136.0,sat
+380642526,lra/chc-lra-0024.smt2,7589665,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.06,903.099,2473848.0,starexec-unknown
+380642527,lra/chc-lra-0024.smt2,7589665,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.21,416.221,1.7025376E7,starexec-unknown
+380642528,lra/chc-lra-0024.smt2,7589665,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.02,899.499,274552.0,starexec-unknown
+380642529,lra/chc-lra-0024.smt2,7589665,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.01,827.12,5.9470372E7,starexec-unknown
+380642530,lra/chc-lra-0024.smt2,7589665,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.03,381.939,5.9843396E7,starexec-unknown
+380642531,lra/chc-lra-0024.smt2,7589665,rebus v1.5,20525,def,303851,timeout (cpu),900.076,900.315,445920.0,starexec-unknown
+380642532,lra/chc-lra-0024.smt2,7589665,spacer,19768,def,300997,timeout (cpu),900.02,900.206,576976.0,starexec-unknown
+380642533,lra/chc-lra-0024.smt2,7589665,TransfHORNer,20513,default,303835,timeout (cpu),900.01,900.708,3027988.0,starexec-unknown
+380642342,lra/chc-lra-0025.smt2,7589642,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.03,900.113,4.7583132E7,starexec-unknown
+380642343,lra/chc-lra-0025.smt2,7589642,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.03,826.911,2.4327536E7,starexec-unknown
+380642344,lra/chc-lra-0025.smt2,7589642,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.1,897.217,273644.0,starexec-unknown
+380642345,lra/chc-lra-0025.smt2,7589642,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,complete,394.736,345.939,5.9540008E7,sat
+380642346,lra/chc-lra-0025.smt2,7589642,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.11,343.058,5.9843716E7,starexec-unknown
+380642347,lra/chc-lra-0025.smt2,7589642,rebus v1.5,20525,def,303851,complete,208.191,208.192,178168.0,sat
+380642348,lra/chc-lra-0025.smt2,7589642,spacer,19768,def,300997,complete,26.9154,26.9165,231364.0,sat
+380642349,lra/chc-lra-0025.smt2,7589642,TransfHORNer,20513,default,303835,complete,96.3189,96.4088,1267420.0,unsat
+380641734,lra/chc-lra-0026.smt2,7589566,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.1,900.406,4.0940676E7,starexec-unknown
+380641735,lra/chc-lra-0026.smt2,7589566,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.33168,1.2402,1.5712092E7,starexec-unknown
+380641736,lra/chc-lra-0026.smt2,7589566,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.07,899.841,287200.0,starexec-unknown
+380641737,lra/chc-lra-0026.smt2,7589566,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.01,850.52,5.9470372E7,starexec-unknown
+380641738,lra/chc-lra-0026.smt2,7589566,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,9.76559,3.96386,5.9746808E7,starexec-unknown
+380641739,lra/chc-lra-0026.smt2,7589566,rebus v1.5,20525,def,303851,complete,11.5787,11.5774,191888.0,unsat
+380641740,lra/chc-lra-0026.smt2,7589566,spacer,19768,def,300997,complete,15.286,15.2863,209560.0,unsat
+380641741,lra/chc-lra-0026.smt2,7589566,TransfHORNer,20513,default,303835,timeout (cpu),900.05,900.858,3784616.0,starexec-unknown
+380641518,lra/chc-lra-0027.smt2,7589539,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.01,900.213,4.0076912E7,starexec-unknown
+380641519,lra/chc-lra-0027.smt2,7589539,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.20975,1.3892,1.5712036E7,starexec-unknown
+380641520,lra/chc-lra-0027.smt2,7589539,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.06,901.534,287376.0,starexec-unknown
+380641521,lra/chc-lra-0027.smt2,7589539,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.03,812.122,5.9470372E7,starexec-unknown
+380641522,lra/chc-lra-0027.smt2,7589539,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,10.9047,5.03974,5.9745052E7,starexec-unknown
+380641523,lra/chc-lra-0027.smt2,7589539,rebus v1.5,20525,def,303851,complete,29.4833,29.4838,199240.0,sat
+380641524,lra/chc-lra-0027.smt2,7589539,spacer,19768,def,300997,complete,79.8233,79.8279,310104.0,sat
+380641525,lra/chc-lra-0027.smt2,7589539,TransfHORNer,20513,default,303835,timeout (cpu),900.08,901.045,3532456.0,starexec-unknown
+380642446,lra/chc-lra-0028.smt2,7589655,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.05,900.204,4.0939656E7,starexec-unknown
+380642447,lra/chc-lra-0028.smt2,7589655,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.32192,1.22407,1.5712092E7,starexec-unknown
+380642448,lra/chc-lra-0028.smt2,7589655,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.05,899.842,286732.0,starexec-unknown
+380642449,lra/chc-lra-0028.smt2,7589655,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.07,827.333,5.9470372E7,starexec-unknown
+380642450,lra/chc-lra-0028.smt2,7589655,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,9.98346,4.19493,5.9814688E7,starexec-unknown
+380642451,lra/chc-lra-0028.smt2,7589655,rebus v1.5,20525,def,303851,complete,4.2891,2.17846,162512.0,sat
+380642452,lra/chc-lra-0028.smt2,7589655,spacer,19768,def,300997,complete,4.09913,4.09923,167460.0,sat
+380642453,lra/chc-lra-0028.smt2,7589655,TransfHORNer,20513,default,303835,complete,309.184,309.437,3280936.0,sat
+380642422,lra/chc-lra-0029.smt2,7589652,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.04,903.564,332512.0,starexec-unknown
+380642423,lra/chc-lra-0029.smt2,7589652,Eldarica 2.0alpha 12GB,20382,def,303234,complete,24.7192,7.60055,1.6304996E7,sat
+380642424,lra/chc-lra-0029.smt2,7589652,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.02,894.352,314296.0,starexec-unknown
+380642425,lra/chc-lra-0029.smt2,7589652,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.04,824.854,5.9470372E7,starexec-unknown
+380642426,lra/chc-lra-0029.smt2,7589652,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,183.688,145.272,6.0227052E7,sat
+380642427,lra/chc-lra-0029.smt2,7589652,rebus v1.5,20525,def,303851,complete,7.2631,7.2638,174068.0,sat
+380642428,lra/chc-lra-0029.smt2,7589652,spacer,19768,def,300997,complete,3.68096,3.68094,166564.0,sat
+380642429,lra/chc-lra-0029.smt2,7589652,TransfHORNer,20513,default,303835,timeout (cpu),900.03,901.015,1625996.0,starexec-unknown
+380641726,lra/chc-lra-0030.smt2,7589565,PECOS-v1.10,20409,lra.sh,303281,complete,3.03153,3.03108,319284.0,starexec-unknown
+380641727,lra/chc-lra-0030.smt2,7589565,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.08,616.206,2.4307036E7,starexec-unknown
+380641728,lra/chc-lra-0030.smt2,7589565,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.09,886.287,273244.0,starexec-unknown
+380641729,lra/chc-lra-0030.smt2,7589565,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,complete,67.925,34.8196,5.9540008E7,sat
+380641730,lra/chc-lra-0030.smt2,7589565,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.09,890.626,5.9843752E7,starexec-unknown
+380641731,lra/chc-lra-0030.smt2,7589565,rebus v1.5,20525,def,303851,complete,180.434,180.428,192068.0,sat
+380641732,lra/chc-lra-0030.smt2,7589565,spacer,19768,def,300997,complete,176.991,177.053,393728.0,sat
+380641733,lra/chc-lra-0030.smt2,7589565,TransfHORNer,20513,default,303835,timeout (cpu),900.05,900.903,4688768.0,starexec-unknown
+380641526,lra/chc-lra-0031.smt2,7589540,PECOS-v1.10,20409,lra.sh,303281,complete,3.09355,3.17104,319284.0,starexec-unknown
+380641527,lra/chc-lra-0031.smt2,7589540,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.27,630.259,2.429884E7,starexec-unknown
+380641528,lra/chc-lra-0031.smt2,7589540,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.04,886.246,275380.0,starexec-unknown
+380641529,lra/chc-lra-0031.smt2,7589540,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,complete,127.872,86.6337,5.9540008E7,sat
+380641530,lra/chc-lra-0031.smt2,7589540,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.22,332.409,5.9843832E7,starexec-unknown
+380641531,lra/chc-lra-0031.smt2,7589540,rebus v1.5,20525,def,303851,complete,222.839,222.859,185332.0,sat
+380641532,lra/chc-lra-0031.smt2,7589540,spacer,19768,def,300997,complete,66.9617,66.9634,279512.0,sat
+380641533,lra/chc-lra-0031.smt2,7589540,TransfHORNer,20513,default,303835,complete,114.894,115.068,1312152.0,unsat
+380642534,lra/chc-lra-0032.smt2,7589666,PECOS-v1.10,20409,lra.sh,303281,complete,3.02267,3.02238,319284.0,starexec-unknown
+380642535,lra/chc-lra-0032.smt2,7589666,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.02,866.317,1.6241876E7,starexec-unknown
+380642536,lra/chc-lra-0032.smt2,7589666,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.09,899.26,277344.0,starexec-unknown
+380642537,lra/chc-lra-0032.smt2,7589666,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.03,835.106,5.9470952E7,starexec-unknown
+380642538,lra/chc-lra-0032.smt2,7589666,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.0,885.233,5.984378E7,starexec-unknown
+380642539,lra/chc-lra-0032.smt2,7589666,rebus v1.5,20525,def,303851,complete,167.605,167.625,199392.0,sat
+380642540,lra/chc-lra-0032.smt2,7589666,spacer,19768,def,300997,complete,641.783,641.865,598384.0,sat
+380642541,lra/chc-lra-0032.smt2,7589666,TransfHORNer,20513,default,303835,timeout (cpu),900.04,900.943,4764192.0,starexec-unknown
+380642334,lra/chc-lra-0033.smt2,7589641,PECOS-v1.10,20409,lra.sh,303281,complete,2.93046,2.93034,319284.0,starexec-unknown
+380642335,lra/chc-lra-0033.smt2,7589641,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.07,851.714,2.4329584E7,starexec-unknown
+380642336,lra/chc-lra-0033.smt2,7589641,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.06,899.285,276244.0,starexec-unknown
+380642337,lra/chc-lra-0033.smt2,7589641,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,complete,214.788,168.041,5.9540008E7,sat
+380642338,lra/chc-lra-0033.smt2,7589641,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.01,828.443,5.9843728E7,starexec-unknown
+380642339,lra/chc-lra-0033.smt2,7589641,rebus v1.5,20525,def,303851,complete,174.271,174.284,178164.0,sat
+380642340,lra/chc-lra-0033.smt2,7589641,spacer,19768,def,300997,complete,82.6746,82.7299,328404.0,sat
+380642341,lra/chc-lra-0033.smt2,7589641,TransfHORNer,20513,default,303835,timeout (cpu),900.05,900.943,4654892.0,starexec-unknown
+380642182,lra/chc-lra-0034.smt2,7589622,PECOS-v1.10,20409,lra.sh,303281,complete,3.59167,3.59114,319284.0,starexec-unknown
+380642183,lra/chc-lra-0034.smt2,7589622,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.02,818.894,2.4327536E7,starexec-unknown
+380642184,lra/chc-lra-0034.smt2,7589622,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.03,896.083,275560.0,starexec-unknown
+380642185,lra/chc-lra-0034.smt2,7589622,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,complete,131.91,93.1839,5.9540008E7,sat
+380642186,lra/chc-lra-0034.smt2,7589622,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.04,784.377,5.9843944E7,starexec-unknown
+380642187,lra/chc-lra-0034.smt2,7589622,rebus v1.5,20525,def,303851,complete,208.143,208.134,185332.0,sat
+380642188,lra/chc-lra-0034.smt2,7589622,spacer,19768,def,300997,complete,67.6134,67.6154,275280.0,sat
+380642189,lra/chc-lra-0034.smt2,7589622,TransfHORNer,20513,default,303835,timeout (cpu),900.07,901.031,5466012.0,starexec-unknown
+380642126,lra/chc-lra-0035.smt2,7589615,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.07,900.206,319284.0,starexec-unknown
+380642127,lra/chc-lra-0035.smt2,7589615,Eldarica 2.0alpha 12GB,20382,def,303234,complete,47.5043,7.11821,1.656714E7,sat
+380642128,lra/chc-lra-0035.smt2,7589615,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.0,885.564,336608.0,starexec-unknown
+380642129,lra/chc-lra-0035.smt2,7589615,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.02,822.082,5.9470372E7,starexec-unknown
+380642130,lra/chc-lra-0035.smt2,7589615,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,26.642,10.0899,6.0157248E7,sat
+380642131,lra/chc-lra-0035.smt2,7589615,rebus v1.5,20525,def,303851,complete,2.84535,2.84485,172024.0,sat
+380642132,lra/chc-lra-0035.smt2,7589615,spacer,19768,def,300997,complete,16.9017,16.9025,199912.0,sat
+380642133,lra/chc-lra-0035.smt2,7589615,TransfHORNer,20513,default,303835,timeout (cpu),900.01,900.958,1640196.0,starexec-unknown
+380641910,lra/chc-lra-0036.smt2,7589588,PECOS-v1.10,20409,lra.sh,303281,complete,3.39401,3.44951,319284.0,starexec-unknown
+380641911,lra/chc-lra-0036.smt2,7589588,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.04,710.078,1.5712092E7,starexec-unknown
+380641912,lra/chc-lra-0036.smt2,7589588,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.02,876.182,183248.0,starexec-unknown
+380641913,lra/chc-lra-0036.smt2,7589588,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,complete,72.4639,42.746,5.9540008E7,sat
+380641914,lra/chc-lra-0036.smt2,7589588,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.08,886.466,5.9843924E7,starexec-unknown
+380641915,lra/chc-lra-0036.smt2,7589588,rebus v1.5,20525,def,303851,complete,249.841,249.838,199388.0,sat
+380641916,lra/chc-lra-0036.smt2,7589588,spacer,19768,def,300997,complete,389.854,389.91,538372.0,sat
+380641917,lra/chc-lra-0036.smt2,7589588,TransfHORNer,20513,default,303835,timeout (cpu),900.07,900.944,5331928.0,starexec-unknown
+380641854,lra/chc-lra-0037.smt2,7589581,PECOS-v1.10,20409,lra.sh,303281,complete,138.715,138.721,4.7983684E7,starexec-unknown
+380641855,lra/chc-lra-0037.smt2,7589581,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.01,426.632,1.7027424E7,starexec-unknown
+380641856,lra/chc-lra-0037.smt2,7589581,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.02,897.051,287840.0,starexec-unknown
+380641857,lra/chc-lra-0037.smt2,7589581,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.01,830.875,5.9470372E7,starexec-unknown
+380641858,lra/chc-lra-0037.smt2,7589581,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.09,836.922,6.0223964E7,starexec-unknown
+380641859,lra/chc-lra-0037.smt2,7589581,rebus v1.5,20525,def,303851,timeout (cpu),900.01,900.09,373860.0,starexec-unknown
+380641860,lra/chc-lra-0037.smt2,7589581,spacer,19768,def,300997,timeout (cpu),900.04,900.12,604596.0,starexec-unknown
+380641861,lra/chc-lra-0037.smt2,7589581,TransfHORNer,20513,default,303835,complete,9.9064,9.99377,1268268.0,unsat
+380642238,lra/chc-lra-0038.smt2,7589629,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.03,902.647,984660.0,starexec-unknown
+380642239,lra/chc-lra-0038.smt2,7589629,Eldarica 2.0alpha 12GB,20382,def,303234,complete,40.5002,11.5237,1.6308612E7,sat
+380642240,lra/chc-lra-0038.smt2,7589629,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.03,897.043,306980.0,starexec-unknown
+380642241,lra/chc-lra-0038.smt2,7589629,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.02,830.641,5.9470372E7,starexec-unknown
+380642242,lra/chc-lra-0038.smt2,7589629,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.03,889.433,5.984356E7,starexec-unknown
+380642243,lra/chc-lra-0038.smt2,7589629,rebus v1.5,20525,def,303851,complete,16.6129,16.6126,189136.0,sat
+380642244,lra/chc-lra-0038.smt2,7589629,spacer,19768,def,300997,complete,53.7241,53.7308,300720.0,sat
+380642245,lra/chc-lra-0038.smt2,7589629,TransfHORNer,20513,default,303835,timeout (cpu),900.05,900.943,1678804.0,starexec-unknown
+380642070,lra/chc-lra-0039.smt2,7589608,PECOS-v1.10,20409,lra.sh,303281,complete,3.95281,3.95698,319392.0,starexec-unknown
+380642071,lra/chc-lra-0039.smt2,7589608,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.05,638.144,1.5712752E7,starexec-unknown
+380642072,lra/chc-lra-0039.smt2,7589608,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.02,900.019,181900.0,starexec-unknown
+380642073,lra/chc-lra-0039.smt2,7589608,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.04,845.309,5.9470372E7,starexec-unknown
+380642074,lra/chc-lra-0039.smt2,7589608,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.07,798.792,5.9844184E7,starexec-unknown
+380642075,lra/chc-lra-0039.smt2,7589608,rebus v1.5,20525,def,303851,complete,384.695,384.736,197188.0,sat
+380642076,lra/chc-lra-0039.smt2,7589608,spacer,19768,def,300997,complete,69.5798,69.5942,652416.0,sat
+380642077,lra/chc-lra-0039.smt2,7589608,TransfHORNer,20513,default,303835,complete,197.941,198.041,1716024.0,unsat
+380641798,lra/chc-lra-0040.smt2,7589574,PECOS-v1.10,20409,lra.sh,303281,complete,5.59275,5.60079,319284.0,starexec-unknown
+380641799,lra/chc-lra-0040.smt2,7589574,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.7305,1.30393,1.5712608E7,starexec-unknown
+380641800,lra/chc-lra-0040.smt2,7589574,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.13,899.321,343020.0,starexec-unknown
+380641801,lra/chc-lra-0040.smt2,7589574,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.08,854.426,5.9472728E7,starexec-unknown
+380641802,lra/chc-lra-0040.smt2,7589574,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,10.1599,4.01737,5.9773848E7,starexec-unknown
+380641803,lra/chc-lra-0040.smt2,7589574,rebus v1.5,20525,def,303851,complete,2.60326,2.60263,162508.0,sat
+380641804,lra/chc-lra-0040.smt2,7589574,spacer,19768,def,300997,complete,3.49315,3.49311,174384.0,sat
+380641805,lra/chc-lra-0040.smt2,7589574,TransfHORNer,20513,default,303835,timeout (cpu),900.06,901.549,9705260.0,starexec-unknown
+380641974,lra/chc-lra-0041.smt2,7589596,PECOS-v1.10,20409,lra.sh,303281,complete,5.39033,5.69996,319284.0,starexec-unknown
+380641975,lra/chc-lra-0041.smt2,7589596,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.66142,1.28443,1.5712608E7,starexec-unknown
+380641976,lra/chc-lra-0041.smt2,7589596,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.06,899.175,338708.0,starexec-unknown
+380641977,lra/chc-lra-0041.smt2,7589596,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.08,820.829,5.9470372E7,starexec-unknown
+380641978,lra/chc-lra-0041.smt2,7589596,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,11.0696,4.41347,5.9771084E7,starexec-unknown
+380641979,lra/chc-lra-0041.smt2,7589596,rebus v1.5,20525,def,303851,complete,3.49774,3.49691,165584.0,sat
+380641980,lra/chc-lra-0041.smt2,7589596,spacer,19768,def,300997,complete,3.49878,3.49906,168964.0,sat
+380641981,lra/chc-lra-0041.smt2,7589596,TransfHORNer,20513,default,303835,timeout (cpu),900.06,901.349,9705588.0,starexec-unknown
+380642038,lra/chc-lra-0042.smt2,7589604,PECOS-v1.10,20409,lra.sh,303281,complete,5.58325,5.58271,319284.0,starexec-unknown
+380642039,lra/chc-lra-0042.smt2,7589604,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.78942,1.3161,1.5712608E7,starexec-unknown
+380642040,lra/chc-lra-0042.smt2,7589604,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.01,899.237,338416.0,starexec-unknown
+380642041,lra/chc-lra-0042.smt2,7589604,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.05,812.874,5.9470372E7,starexec-unknown
+380642042,lra/chc-lra-0042.smt2,7589604,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,11.3792,4.33772,5.9745052E7,starexec-unknown
+380642043,lra/chc-lra-0042.smt2,7589604,rebus v1.5,20525,def,303851,complete,2.99916,2.99842,164560.0,sat
+380642044,lra/chc-lra-0042.smt2,7589604,spacer,19768,def,300997,complete,3.83862,3.83861,176252.0,sat
+380642045,lra/chc-lra-0042.smt2,7589604,TransfHORNer,20513,default,303835,timeout (cpu),900.09,901.34,9705588.0,starexec-unknown
+380642262,lra/chc-lra-0043.smt2,7589632,PECOS-v1.10,20409,lra.sh,303281,complete,5.55932,5.55901,319388.0,starexec-unknown
+380642263,lra/chc-lra-0043.smt2,7589632,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.74718,1.30911,1.5712092E7,starexec-unknown
+380642264,lra/chc-lra-0043.smt2,7589632,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.02,899.61,339524.0,starexec-unknown
+380642265,lra/chc-lra-0043.smt2,7589632,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.06,846.926,5.9470372E7,starexec-unknown
+380642266,lra/chc-lra-0043.smt2,7589632,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,10.4073,4.13059,5.9814688E7,starexec-unknown
+380642267,lra/chc-lra-0043.smt2,7589632,rebus v1.5,20525,def,303851,complete,9.10142,9.10119,178896.0,sat
+380642268,lra/chc-lra-0043.smt2,7589632,spacer,19768,def,300997,complete,55.3067,55.3072,299732.0,sat
+380642269,lra/chc-lra-0043.smt2,7589632,TransfHORNer,20513,default,303835,timeout (cpu),900.1,902.511,2.5167016E7,starexec-unknown
+380642382,lra/chc-lra-0044.smt2,7589647,PECOS-v1.10,20409,lra.sh,303281,complete,5.58324,5.70385,319284.0,starexec-unknown
+380642383,lra/chc-lra-0044.smt2,7589647,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.74306,1.31165,1.5712608E7,starexec-unknown
+380642384,lra/chc-lra-0044.smt2,7589647,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.04,899.561,339472.0,starexec-unknown
+380642385,lra/chc-lra-0044.smt2,7589647,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.07,823.975,5.9472576E7,starexec-unknown
+380642386,lra/chc-lra-0044.smt2,7589647,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,9.98438,4.11272,5.9842932E7,starexec-unknown
+380642387,lra/chc-lra-0044.smt2,7589647,rebus v1.5,20525,def,303851,complete,8.95788,8.95731,178892.0,sat
+380642388,lra/chc-lra-0044.smt2,7589647,spacer,19768,def,300997,complete,26.0298,26.0434,253156.0,sat
+380642389,lra/chc-lra-0044.smt2,7589647,TransfHORNer,20513,default,303835,timeout (cpu),900.03,902.473,2.516702E7,starexec-unknown
+380642478,lra/chc-lra-0045.smt2,7589659,PECOS-v1.10,20409,lra.sh,303281,complete,4.1766,4.17634,319284.0,starexec-unknown
+380642479,lra/chc-lra-0045.smt2,7589659,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.11,582.751,2.4327536E7,starexec-unknown
+380642480,lra/chc-lra-0045.smt2,7589659,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.06,886.168,275716.0,starexec-unknown
+380642481,lra/chc-lra-0045.smt2,7589659,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,complete,273.725,225.724,5.9540008E7,sat
+380642482,lra/chc-lra-0045.smt2,7589659,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.23,541.554,5.9845916E7,starexec-unknown
+380642483,lra/chc-lra-0045.smt2,7589659,rebus v1.5,20525,def,303851,complete,367.612,367.631,197192.0,sat
+380642484,lra/chc-lra-0045.smt2,7589659,spacer,19768,def,300997,complete,174.417,174.423,376924.0,sat
+380642485,lra/chc-lra-0045.smt2,7589659,TransfHORNer,20513,default,303835,timeout (cpu),900.08,901.439,6600504.0,starexec-unknown
+380641598,lra/chc-lra-0046.smt2,7589549,PECOS-v1.10,20409,lra.sh,303281,complete,5.45154,5.4512,319284.0,starexec-unknown
+380641599,lra/chc-lra-0046.smt2,7589549,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.44311,1.52766,1.5712732E7,starexec-unknown
+380641600,lra/chc-lra-0046.smt2,7589549,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.06,899.579,343048.0,starexec-unknown
+380641601,lra/chc-lra-0046.smt2,7589549,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.03,839.06,5.9470372E7,starexec-unknown
+380641602,lra/chc-lra-0046.smt2,7589549,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,11.0993,24.1954,5.9843484E7,starexec-unknown
+380641603,lra/chc-lra-0046.smt2,7589549,rebus v1.5,20525,def,303851,complete,2.81819,2.81725,161488.0,sat
+380641604,lra/chc-lra-0046.smt2,7589549,spacer,19768,def,300997,complete,3.09801,3.09787,166984.0,sat
+380641605,lra/chc-lra-0046.smt2,7589549,TransfHORNer,20513,default,303835,timeout (cpu),900.09,901.439,9719648.0,starexec-unknown
+380641662,lra/chc-lra-0047.smt2,7589557,PECOS-v1.10,20409,lra.sh,303281,complete,5.44451,5.44912,319388.0,starexec-unknown
+380641663,lra/chc-lra-0047.smt2,7589557,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.75946,1.31263,1.5712608E7,starexec-unknown
+380641664,lra/chc-lra-0047.smt2,7589557,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.13,899.356,340808.0,starexec-unknown
+380641665,lra/chc-lra-0047.smt2,7589557,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.01,827.187,5.9470372E7,starexec-unknown
+380641666,lra/chc-lra-0047.smt2,7589557,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,10.9945,4.80929,5.97718E7,starexec-unknown
+380641667,lra/chc-lra-0047.smt2,7589557,rebus v1.5,20525,def,303851,complete,2.34127,2.34072,163532.0,sat
+380641668,lra/chc-lra-0047.smt2,7589557,spacer,19768,def,300997,complete,3.79991,3.80582,174480.0,sat
+380641669,lra/chc-lra-0047.smt2,7589557,TransfHORNer,20513,default,303835,timeout (cpu),900.02,901.544,9719956.0,starexec-unknown
+380642310,lra/chc-lra-0048.smt2,7589638,PECOS-v1.10,20409,lra.sh,303281,complete,5.63348,5.96345,319284.0,starexec-unknown
+380642311,lra/chc-lra-0048.smt2,7589638,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.6824,1.27494,1.5712608E7,starexec-unknown
+380642312,lra/chc-lra-0048.smt2,7589638,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.07,899.262,340976.0,starexec-unknown
+380642313,lra/chc-lra-0048.smt2,7589638,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.05,831.022,5.9540008E7,starexec-unknown
+380642314,lra/chc-lra-0048.smt2,7589638,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,10.3415,4.13824,5.981644E7,starexec-unknown
+380642315,lra/chc-lra-0048.smt2,7589638,rebus v1.5,20525,def,303851,complete,2.56546,2.5648,163536.0,sat
+380642316,lra/chc-lra-0048.smt2,7589638,spacer,19768,def,300997,complete,3.46276,3.46342,169472.0,sat
+380642317,lra/chc-lra-0048.smt2,7589638,TransfHORNer,20513,default,303835,timeout (cpu),900.05,901.358,9719956.0,starexec-unknown
+380642558,lra/chc-lra-0049.smt2,7589669,PECOS-v1.10,20409,lra.sh,303281,complete,5.51069,5.59133,319392.0,starexec-unknown
+380642559,lra/chc-lra-0049.smt2,7589669,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.75345,1.32342,1.5713452E7,starexec-unknown
+380642560,lra/chc-lra-0049.smt2,7589669,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.12,899.458,339856.0,starexec-unknown
+380642561,lra/chc-lra-0049.smt2,7589669,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.05,847.052,5.9470372E7,starexec-unknown
+380642562,lra/chc-lra-0049.smt2,7589669,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,10.7776,4.24888,5.9773296E7,starexec-unknown
+380642563,lra/chc-lra-0049.smt2,7589669,rebus v1.5,20525,def,303851,complete,8.38988,8.38992,180940.0,sat
+380642564,lra/chc-lra-0049.smt2,7589669,spacer,19768,def,300997,complete,26.1287,26.1298,239256.0,sat
+380642565,lra/chc-lra-0049.smt2,7589669,TransfHORNer,20513,default,303835,timeout (cpu),900.07,902.633,2.5273048E7,starexec-unknown
+380641614,lra/chc-lra-0050.smt2,7589551,PECOS-v1.10,20409,lra.sh,303281,complete,5.58859,5.58836,319284.0,starexec-unknown
+380641615,lra/chc-lra-0050.smt2,7589551,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.81491,1.34791,1.5712608E7,starexec-unknown
+380641616,lra/chc-lra-0050.smt2,7589551,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.02,899.636,336048.0,starexec-unknown
+380641617,lra/chc-lra-0050.smt2,7589551,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.01,834.613,5.9470372E7,starexec-unknown
+380641618,lra/chc-lra-0050.smt2,7589551,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,10.4848,4.18153,5.9745052E7,starexec-unknown
+380641619,lra/chc-lra-0050.smt2,7589551,rebus v1.5,20525,def,303851,complete,7.57492,7.57448,175824.0,sat
+380641620,lra/chc-lra-0050.smt2,7589551,spacer,19768,def,300997,complete,23.7509,23.752,239052.0,sat
+380641621,lra/chc-lra-0050.smt2,7589551,TransfHORNer,20513,default,303835,timeout (cpu),900.1,902.632,2.5273048E7,starexec-unknown
+380641646,lra/chc-lra-0051.smt2,7589555,PECOS-v1.10,20409,lra.sh,303281,complete,3.84925,3.8526,319284.0,starexec-unknown
+380641647,lra/chc-lra-0051.smt2,7589555,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.02,853.813,2.4198512E7,starexec-unknown
+380641648,lra/chc-lra-0051.smt2,7589555,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.06,898.882,277492.0,starexec-unknown
+380641649,lra/chc-lra-0051.smt2,7589555,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.02,829.542,5.9470372E7,starexec-unknown
+380641650,lra/chc-lra-0051.smt2,7589555,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.03,887.258,5.9844056E7,starexec-unknown
+380641651,lra/chc-lra-0051.smt2,7589555,rebus v1.5,20525,def,303851,complete,270.507,270.543,193096.0,sat
+380641652,lra/chc-lra-0051.smt2,7589555,spacer,19768,def,300997,complete,196.228,196.261,410868.0,sat
+380641653,lra/chc-lra-0051.smt2,7589555,TransfHORNer,20513,default,303835,timeout (cpu),900.043,901.215,5959296.0,starexec-unknown
+380642366,lra/chc-lra-0052.smt2,7589645,PECOS-v1.10,20409,lra.sh,303281,complete,5.53991,5.53966,319392.0,starexec-unknown
+380642367,lra/chc-lra-0052.smt2,7589645,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.81117,1.34549,1.5712608E7,starexec-unknown
+380642368,lra/chc-lra-0052.smt2,7589645,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.03,899.528,348224.0,starexec-unknown
+380642369,lra/chc-lra-0052.smt2,7589645,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.07,778.432,5.9470528E7,starexec-unknown
+380642370,lra/chc-lra-0052.smt2,7589645,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,10.9288,4.141,5.9840788E7,starexec-unknown
+380642371,lra/chc-lra-0052.smt2,7589645,rebus v1.5,20525,def,303851,complete,57.0358,57.0577,201720.0,sat
+380642372,lra/chc-lra-0052.smt2,7589645,spacer,19768,def,300997,complete,424.332,424.405,958120.0,sat
+380642373,lra/chc-lra-0052.smt2,7589645,TransfHORNer,20513,default,303835,timeout (cpu),900.05,901.823,1.0577024E7,starexec-unknown
+380642494,lra/chc-lra-0053.smt2,7589661,PECOS-v1.10,20409,lra.sh,303281,complete,5.6769,5.68409,319408.0,starexec-unknown
+380642495,lra/chc-lra-0053.smt2,7589661,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.66825,1.26752,1.5712092E7,starexec-unknown
+380642496,lra/chc-lra-0053.smt2,7589661,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.03,899.482,346388.0,starexec-unknown
+380642497,lra/chc-lra-0053.smt2,7589661,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.04,819.213,5.9470428E7,starexec-unknown
+380642498,lra/chc-lra-0053.smt2,7589661,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,10.9946,4.26348,5.9841016E7,starexec-unknown
+380642499,lra/chc-lra-0053.smt2,7589661,rebus v1.5,20525,def,303851,complete,53.1287,53.1387,214600.0,sat
+380642500,lra/chc-lra-0053.smt2,7589661,spacer,19768,def,300997,complete,59.3528,59.3569,630332.0,sat
+380642501,lra/chc-lra-0053.smt2,7589661,TransfHORNer,20513,default,303835,timeout (cpu),900.02,901.692,1.0577292E7,starexec-unknown
+380642022,lra/chc-lra-0054.smt2,7589602,PECOS-v1.10,20409,lra.sh,303281,complete,5.55222,5.55692,319284.0,starexec-unknown
+380642023,lra/chc-lra-0054.smt2,7589602,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.76728,1.30172,1.5713376E7,starexec-unknown
+380642024,lra/chc-lra-0054.smt2,7589602,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.01,899.463,345384.0,starexec-unknown
+380642025,lra/chc-lra-0054.smt2,7589602,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.01,801.732,5.9470448E7,starexec-unknown
+380642026,lra/chc-lra-0054.smt2,7589602,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,11.3555,4.12625,5.9745052E7,starexec-unknown
+380642027,lra/chc-lra-0054.smt2,7589602,rebus v1.5,20525,def,303851,complete,79.0113,79.0118,247384.0,sat
+380642028,lra/chc-lra-0054.smt2,7589602,spacer,19768,def,300997,complete,43.6266,43.6279,459908.0,sat
+380642029,lra/chc-lra-0054.smt2,7589602,TransfHORNer,20513,default,303835,timeout (cpu),900.03,901.744,1.0577224E7,starexec-unknown
+380642278,lra/chc-lra-0055.smt2,7589634,PECOS-v1.10,20409,lra.sh,303281,complete,5.66452,5.66416,319284.0,starexec-unknown
+380642279,lra/chc-lra-0055.smt2,7589634,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.79409,1.31023,1.5712608E7,starexec-unknown
+380642280,lra/chc-lra-0055.smt2,7589634,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.04,899.446,346968.0,starexec-unknown
+380642281,lra/chc-lra-0055.smt2,7589634,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.04,854.023,5.9468324E7,starexec-unknown
+380642282,lra/chc-lra-0055.smt2,7589634,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,10.5568,4.17297,5.9746812E7,starexec-unknown
+380642283,lra/chc-lra-0055.smt2,7589634,rebus v1.5,20525,def,303851,complete,69.7037,69.7128,204496.0,sat
+380642284,lra/chc-lra-0055.smt2,7589634,spacer,19768,def,300997,complete,339.418,339.446,1230328.0,sat
+380642285,lra/chc-lra-0055.smt2,7589634,TransfHORNer,20513,default,303835,timeout (cpu),900.09,901.84,1.0616728E7,starexec-unknown
+380641814,lra/chc-lra-0056.smt2,7589576,PECOS-v1.10,20409,lra.sh,303281,complete,5.71102,5.71068,319284.0,starexec-unknown
+380641815,lra/chc-lra-0056.smt2,7589576,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.7466,1.33196,1.5713712E7,starexec-unknown
+380641816,lra/chc-lra-0056.smt2,7589576,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.13,899.511,346084.0,starexec-unknown
+380641817,lra/chc-lra-0056.smt2,7589576,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.01,803.534,5.9468324E7,starexec-unknown
+380641818,lra/chc-lra-0056.smt2,7589576,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,11.2471,4.05153,5.9814688E7,starexec-unknown
+380641819,lra/chc-lra-0056.smt2,7589576,rebus v1.5,20525,def,303851,complete,51.1538,51.1756,212552.0,sat
+380641820,lra/chc-lra-0056.smt2,7589576,spacer,19768,def,300997,complete,54.2076,54.2336,654392.0,sat
+380641821,lra/chc-lra-0056.smt2,7589576,TransfHORNer,20513,default,303835,timeout (cpu),900.01,901.893,1.0617056E7,starexec-unknown
+380641958,lra/chc-lra-0057.smt2,7589594,PECOS-v1.10,20409,lra.sh,303281,complete,5.53987,5.5476,319284.0,starexec-unknown
+380641959,lra/chc-lra-0057.smt2,7589594,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.79907,1.32683,1.5713432E7,starexec-unknown
+380641960,lra/chc-lra-0057.smt2,7589594,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.04,899.493,345076.0,starexec-unknown
+380641961,lra/chc-lra-0057.smt2,7589594,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.09,750.335,5.9468324E7,starexec-unknown
+380641962,lra/chc-lra-0057.smt2,7589594,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,11.0296,4.1354,5.977398E7,starexec-unknown
+380641963,lra/chc-lra-0057.smt2,7589594,rebus v1.5,20525,def,303851,complete,75.067,75.072,240512.0,sat
+380641964,lra/chc-lra-0057.smt2,7589594,spacer,19768,def,300997,complete,58.264,58.2689,481956.0,sat
+380641965,lra/chc-lra-0057.smt2,7589594,TransfHORNer,20513,default,303835,timeout (cpu),900.06,901.973,1.0617032E7,starexec-unknown
+380642094,lra/chc-lra-0058.smt2,7589611,PECOS-v1.10,20409,lra.sh,303281,complete,5.55847,5.55927,319284.0,starexec-unknown
+380642095,lra/chc-lra-0058.smt2,7589611,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.85619,1.33507,1.571326E7,starexec-unknown
+380642096,lra/chc-lra-0058.smt2,7589611,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.14,898.988,346684.0,starexec-unknown
+380642097,lra/chc-lra-0058.smt2,7589611,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.01,802.824,5.9468324E7,starexec-unknown
+380642098,lra/chc-lra-0058.smt2,7589611,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,10.9322,4.11475,5.9745052E7,starexec-unknown
+380642099,lra/chc-lra-0058.smt2,7589611,rebus v1.5,20525,def,303851,complete,81.0191,81.0207,238164.0,sat
+380642100,lra/chc-lra-0058.smt2,7589611,spacer,19768,def,300997,complete,42.3873,42.3902,481584.0,sat
+380642101,lra/chc-lra-0058.smt2,7589611,TransfHORNer,20513,default,303835,timeout (cpu),900.03,902.138,9504428.0,starexec-unknown
+380642214,lra/chc-lra-0059.smt2,7589626,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.08,900.463,597348.0,starexec-unknown
+380642215,lra/chc-lra-0059.smt2,7589626,Eldarica 2.0alpha 12GB,20382,def,303234,complete,49.5465,19.1902,1.6373032E7,sat
+380642216,lra/chc-lra-0059.smt2,7589626,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.01,894.554,302912.0,starexec-unknown
+380642217,lra/chc-lra-0059.smt2,7589626,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.06,835.816,5.9470684E7,starexec-unknown
+380642218,lra/chc-lra-0059.smt2,7589626,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.03,888.544,5.9843652E7,starexec-unknown
+380642219,lra/chc-lra-0059.smt2,7589626,rebus v1.5,20525,def,303851,complete,7.30261,7.30237,192072.0,sat
+380642220,lra/chc-lra-0059.smt2,7589626,spacer,19768,def,300997,complete,57.4623,57.467,289932.0,sat
+380642221,lra/chc-lra-0059.smt2,7589626,TransfHORNer,20513,default,303835,timeout (cpu),900.07,900.54,4430764.0,starexec-unknown
+380641862,lra/chc-lra-0060.smt2,7589582,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.06,900.106,5391492.0,starexec-unknown
+380641863,lra/chc-lra-0060.smt2,7589582,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.25,305.551,1.5713228E7,starexec-unknown
+380641864,lra/chc-lra-0060.smt2,7589582,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.03,900.055,138912.0,starexec-unknown
+380641865,lra/chc-lra-0060.smt2,7589582,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.06,835.725,5.9470372E7,starexec-unknown
+380641866,lra/chc-lra-0060.smt2,7589582,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.01,888.968,5.98439E7,starexec-unknown
+380641867,lra/chc-lra-0060.smt2,7589582,rebus v1.5,20525,def,303851,complete,1.70326,1.70266,173048.0,sat
+380641868,lra/chc-lra-0060.smt2,7589582,spacer,19768,def,300997,complete,5.64217,5.64241,167528.0,sat
+380641869,lra/chc-lra-0060.smt2,7589582,TransfHORNer,20513,default,303835,complete,693.476,693.641,1.0025964E7,starexec-unknown
+380641894,lra/chc-lra-0061.smt2,7589586,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.01,900.124,5407612.0,starexec-unknown
+380641895,lra/chc-lra-0061.smt2,7589586,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.21,431.466,1.5713712E7,starexec-unknown
+380641896,lra/chc-lra-0061.smt2,7589586,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.03,900.073,182024.0,starexec-unknown
+380641897,lra/chc-lra-0061.smt2,7589586,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.07,832.797,5.9470372E7,starexec-unknown
+380641898,lra/chc-lra-0061.smt2,7589586,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.1,890.021,5.9843852E7,starexec-unknown
+380641899,lra/chc-lra-0061.smt2,7589586,rebus v1.5,20525,def,303851,complete,40.7544,40.752,242256.0,unsat
+380641900,lra/chc-lra-0061.smt2,7589586,spacer,19768,def,300997,timeout (cpu),900.05,900.114,580508.0,starexec-unknown
+380641901,lra/chc-lra-0061.smt2,7589586,TransfHORNer,20513,default,303835,timeout (cpu),900.02,900.117,9949672.0,starexec-unknown
+380642118,lra/chc-lra-0062.smt2,7589614,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.09,900.218,5407612.0,starexec-unknown
+380642119,lra/chc-lra-0062.smt2,7589614,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.24,436.38,1.5712608E7,starexec-unknown
+380642120,lra/chc-lra-0062.smt2,7589614,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.04,900.05,182024.0,starexec-unknown
+380642121,lra/chc-lra-0062.smt2,7589614,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.03,827.686,5.9470372E7,starexec-unknown
+380642122,lra/chc-lra-0062.smt2,7589614,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.01,891.307,5.9843804E7,starexec-unknown
+380642123,lra/chc-lra-0062.smt2,7589614,rebus v1.5,20525,def,303851,complete,84.7592,84.7542,250948.0,sat
+380642124,lra/chc-lra-0062.smt2,7589614,spacer,19768,def,300997,timeout (cpu),900.06,900.254,594392.0,starexec-unknown
+380642125,lra/chc-lra-0062.smt2,7589614,TransfHORNer,20513,default,303835,timeout (cpu),900.05,900.32,9969736.0,starexec-unknown
+380642198,lra/chc-lra-0063.smt2,7589624,PECOS-v1.10,20409,lra.sh,303281,complete,4.80573,4.83024,319284.0,starexec-unknown
+380642199,lra/chc-lra-0063.smt2,7589624,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.01,657.856,1.5713436E7,starexec-unknown
+380642200,lra/chc-lra-0063.smt2,7589624,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.05,868.155,183680.0,starexec-unknown
+380642201,lra/chc-lra-0063.smt2,7589624,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.03,798.802,5.9540008E7,starexec-unknown
+380642202,lra/chc-lra-0063.smt2,7589624,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.04,860.596,5.9844444E7,starexec-unknown
+380642203,lra/chc-lra-0063.smt2,7589624,rebus v1.5,20525,def,303851,complete,490.856,490.921,229376.0,sat
+380642204,lra/chc-lra-0063.smt2,7589624,spacer,19768,def,300997,timeout (cpu),900.05,900.227,703496.0,starexec-unknown
+380642205,lra/chc-lra-0063.smt2,7589624,TransfHORNer,20513,default,303835,timeout (cpu),900.03,901.54,8339332.0,starexec-unknown
+380642326,lra/chc-lra-0064.smt2,7589640,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.08,900.171,3375412.0,starexec-unknown
+380642327,lra/chc-lra-0064.smt2,7589640,Eldarica 2.0alpha 12GB,20382,def,303234,complete,54.8486,16.9209,1.6434536E7,sat
+380642328,lra/chc-lra-0064.smt2,7589640,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.06,898.035,295748.0,starexec-unknown
+380642329,lra/chc-lra-0064.smt2,7589640,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.11,834.729,5.9470392E7,starexec-unknown
+380642330,lra/chc-lra-0064.smt2,7589640,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.09,889.514,5.9843564E7,starexec-unknown
+380642331,lra/chc-lra-0064.smt2,7589640,rebus v1.5,20525,def,303851,complete,35.7581,35.7578,219720.0,sat
+380642332,lra/chc-lra-0064.smt2,7589640,spacer,19768,def,300997,complete,147.943,147.941,355196.0,sat
+380642333,lra/chc-lra-0064.smt2,7589640,TransfHORNer,20513,default,303835,timeout (cpu),900.07,900.777,1999864.0,starexec-unknown
+380642550,lra/chc-lra-0065.smt2,7589668,PECOS-v1.10,20409,lra.sh,303281,complete,5.00357,5.00323,319284.0,starexec-unknown
+380642551,lra/chc-lra-0065.smt2,7589668,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.19,294.678,1.5778464E7,starexec-unknown
+380642552,lra/chc-lra-0065.smt2,7589668,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.01,900.152,181900.0,starexec-unknown
+380642553,lra/chc-lra-0065.smt2,7589668,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.05,821.268,5.9470372E7,starexec-unknown
+380642554,lra/chc-lra-0065.smt2,7589668,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.06,826.22,5.9844316E7,starexec-unknown
+380642555,lra/chc-lra-0065.smt2,7589668,rebus v1.5,20525,def,303851,complete,475.616,475.642,227036.0,sat
+380642556,lra/chc-lra-0065.smt2,7589668,spacer,19768,def,300997,complete,237.419,237.423,963112.0,sat
+380642557,lra/chc-lra-0065.smt2,7589668,TransfHORNer,20513,default,303835,timeout (cpu),900.01,901.447,8542520.0,starexec-unknown
+380641534,lra/chc-lra-0066.smt2,7589541,PECOS-v1.10,20409,lra.sh,303281,complete,5.93922,5.94616,319284.0,starexec-unknown
+380641535,lra/chc-lra-0066.smt2,7589541,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.26,401.913,1.5778464E7,starexec-unknown
+380641536,lra/chc-lra-0066.smt2,7589541,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.07,900.158,181900.0,starexec-unknown
+380641537,lra/chc-lra-0066.smt2,7589541,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.05,835.612,5.9473152E7,starexec-unknown
+380641538,lra/chc-lra-0066.smt2,7589541,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.01,881.523,5.9844724E7,starexec-unknown
+380641539,lra/chc-lra-0066.smt2,7589541,rebus v1.5,20525,def,303851,timeout (cpu),900.024,900.071,224244.0,starexec-unknown
+380641540,lra/chc-lra-0066.smt2,7589541,spacer,19768,def,300997,complete,868.213,868.555,3264908.0,sat
+380641541,lra/chc-lra-0066.smt2,7589541,TransfHORNer,20513,default,303835,complete,418.478,418.609,2410616.0,unsat
+380641702,lra/chc-lra-0067.smt2,7589562,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.02,900.031,5407612.0,starexec-unknown
+380641703,lra/chc-lra-0067.smt2,7589562,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.11,432.461,1.5713712E7,starexec-unknown
+380641704,lra/chc-lra-0067.smt2,7589562,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.01,899.997,182028.0,starexec-unknown
+380641705,lra/chc-lra-0067.smt2,7589562,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.03,842.056,5.9470372E7,starexec-unknown
+380641706,lra/chc-lra-0067.smt2,7589562,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.08,889.52,5.9846164E7,starexec-unknown
+380641707,lra/chc-lra-0067.smt2,7589562,rebus v1.5,20525,def,303851,complete,80.1317,80.1333,276360.0,unsat
+380641708,lra/chc-lra-0067.smt2,7589562,spacer,19768,def,300997,timeout (cpu),900.07,900.115,570808.0,starexec-unknown
+380641709,lra/chc-lra-0067.smt2,7589562,TransfHORNer,20513,default,303835,timeout (cpu),900.07,900.112,9965248.0,starexec-unknown
+380642414,lra/chc-lra-0068.smt2,7589651,PECOS-v1.10,20409,lra.sh,303281,complete,5.83644,5.83874,319284.0,starexec-unknown
+380642415,lra/chc-lra-0068.smt2,7589651,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.02,651.072,1.571292E7,starexec-unknown
+380642416,lra/chc-lra-0068.smt2,7589651,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.01,900.083,181900.0,starexec-unknown
+380642417,lra/chc-lra-0068.smt2,7589651,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,complete,344.909,299.076,5.9540008E7,sat
+380642418,lra/chc-lra-0068.smt2,7589651,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.02,889.34,5.9844368E7,starexec-unknown
+380642419,lra/chc-lra-0068.smt2,7589651,rebus v1.5,20525,def,303851,timeout (cpu),900.05,900.109,216648.0,starexec-unknown
+380642420,lra/chc-lra-0068.smt2,7589651,spacer,19768,def,300997,complete,120.853,120.955,708168.0,sat
+380642421,lra/chc-lra-0068.smt2,7589651,TransfHORNer,20513,default,303835,timeout (cpu),900.07,890.161,1.0655868E7,starexec-unknown
+380642462,lra/chc-lra-0069.smt2,7589657,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.09,901.119,536940.0,starexec-unknown
+380642463,lra/chc-lra-0069.smt2,7589657,Eldarica 2.0alpha 12GB,20382,def,303234,complete,52.4751,24.8207,1.6370532E7,sat
+380642464,lra/chc-lra-0069.smt2,7589657,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.11,891.529,302632.0,starexec-unknown
+380642465,lra/chc-lra-0069.smt2,7589657,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,complete,820.922,748.122,5.9540008E7,sat
+380642466,lra/chc-lra-0069.smt2,7589657,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.02,888.61,5.9843764E7,starexec-unknown
+380642467,lra/chc-lra-0069.smt2,7589657,rebus v1.5,20525,def,303851,complete,21.3519,21.3526,224988.0,sat
+380642468,lra/chc-lra-0069.smt2,7589657,spacer,19768,def,300997,complete,11.9788,11.9789,196828.0,sat
+380642469,lra/chc-lra-0069.smt2,7589657,TransfHORNer,20513,default,303835,timeout (cpu),900.01,900.256,2887520.0,starexec-unknown
+380641510,lra/chc-lra-0070.smt2,7589538,PECOS-v1.10,20409,lra.sh,303281,complete,6.84453,7.9621,319284.0,starexec-unknown
+380641511,lra/chc-lra-0070.smt2,7589538,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.71412,1.63186,1.5712772E7,starexec-unknown
+380641512,lra/chc-lra-0070.smt2,7589538,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.01,899.94,392704.0,starexec-unknown
+380641513,lra/chc-lra-0070.smt2,7589538,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.04,826.527,5.947052E7,starexec-unknown
+380641514,lra/chc-lra-0070.smt2,7589538,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,11.4993,6.54554,5.984172E7,starexec-unknown
+380641515,lra/chc-lra-0070.smt2,7589538,rebus v1.5,20525,def,303851,complete,13.2099,13.2191,161488.0,sat
+380641516,lra/chc-lra-0070.smt2,7589538,spacer,19768,def,300997,complete,3.30671,3.30656,181588.0,sat
+380641517,lra/chc-lra-0070.smt2,7589538,TransfHORNer,20513,default,303835,timeout (cpu),900.06,902.427,1.5046796E7,starexec-unknown
+380641742,lra/chc-lra-0071.smt2,7589567,PECOS-v1.10,20409,lra.sh,303281,complete,6.87053,6.87001,319392.0,starexec-unknown
+380641743,lra/chc-lra-0071.smt2,7589567,Eldarica 2.0alpha 12GB,20382,def,303234,complete,3.03759,1.41138,1.5712608E7,starexec-unknown
+380641744,lra/chc-lra-0071.smt2,7589567,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.11,900.053,337008.0,starexec-unknown
+380641745,lra/chc-lra-0071.smt2,7589567,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.11,704.563,5.9472564E7,starexec-unknown
+380641746,lra/chc-lra-0071.smt2,7589567,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,11.1228,4.22016,5.9843764E7,starexec-unknown
+380641747,lra/chc-lra-0071.smt2,7589567,rebus v1.5,20525,def,303851,complete,20.3794,20.3803,164560.0,sat
+380641748,lra/chc-lra-0071.smt2,7589567,spacer,19768,def,300997,complete,10.9466,10.9474,239184.0,sat
+380641749,lra/chc-lra-0071.smt2,7589567,TransfHORNer,20513,default,303835,timeout (cpu),900.03,902.363,1.5485804E7,starexec-unknown
+380642350,lra/chc-lra-0072.smt2,7589643,PECOS-v1.10,20409,lra.sh,303281,complete,6.91573,6.92271,319284.0,starexec-unknown
+380642351,lra/chc-lra-0072.smt2,7589643,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.94994,1.36752,1.5712608E7,starexec-unknown
+380642352,lra/chc-lra-0072.smt2,7589643,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.21,899.849,513976.0,starexec-unknown
+380642353,lra/chc-lra-0072.smt2,7589643,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.02,693.63,5.9470372E7,starexec-unknown
+380642354,lra/chc-lra-0072.smt2,7589643,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,10.9177,4.29527,5.9774128E7,starexec-unknown
+380642355,lra/chc-lra-0072.smt2,7589643,rebus v1.5,20525,def,303851,complete,21.3039,21.3035,166608.0,sat
+380642356,lra/chc-lra-0072.smt2,7589643,spacer,19768,def,300997,complete,14.8614,14.8756,268928.0,sat
+380642357,lra/chc-lra-0072.smt2,7589643,TransfHORNer,20513,default,303835,timeout (cpu),900.05,901.737,1.6317992E7,starexec-unknown
+380642518,lra/chc-lra-0073.smt2,7589664,PECOS-v1.10,20409,lra.sh,303281,complete,5.75517,5.75677,319284.0,starexec-unknown
+380642519,lra/chc-lra-0073.smt2,7589664,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.06,591.627,2.4327536E7,starexec-unknown
+380642520,lra/chc-lra-0073.smt2,7589664,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.1,882.736,282260.0,starexec-unknown
+380642521,lra/chc-lra-0073.smt2,7589664,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.07,861.727,5.9470372E7,starexec-unknown
+380642522,lra/chc-lra-0073.smt2,7589664,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.04,884.113,5.9844348E7,starexec-unknown
+380642523,lra/chc-lra-0073.smt2,7589664,rebus v1.5,20525,def,303851,complete,833.559,833.595,224992.0,sat
+380642524,lra/chc-lra-0073.smt2,7589664,spacer,19768,def,300997,complete,483.173,483.214,574808.0,sat
+380642525,lra/chc-lra-0073.smt2,7589664,TransfHORNer,20513,default,303835,timeout (cpu),900.05,901.851,1.0434416E7,starexec-unknown
+380642150,lra/chc-lra-0074.smt2,7589618,PECOS-v1.10,20409,lra.sh,303281,complete,3.91574,3.91598,319284.0,starexec-unknown
+380642151,lra/chc-lra-0074.smt2,7589618,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.05,297.333,1.5712608E7,starexec-unknown
+380642152,lra/chc-lra-0074.smt2,7589618,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.01,900.081,181900.0,starexec-unknown
+380642153,lra/chc-lra-0074.smt2,7589618,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.01,830.025,5.9470372E7,starexec-unknown
+380642154,lra/chc-lra-0074.smt2,7589618,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.05,827.119,5.9844624E7,starexec-unknown
+380642155,lra/chc-lra-0074.smt2,7589618,rebus v1.5,20525,def,303851,timeout (cpu),900.049,900.096,233032.0,starexec-unknown
+380642156,lra/chc-lra-0074.smt2,7589618,spacer,19768,def,300997,timeout (cpu),900.04,900.413,4240976.0,starexec-unknown
+380642157,lra/chc-lra-0074.smt2,7589618,TransfHORNer,20513,default,303835,timeout (cpu),900.09,902.047,1.2180724E7,starexec-unknown
+380642166,lra/chc-lra-0075.smt2,7589620,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.01,900.056,536940.0,starexec-unknown
+380642167,lra/chc-lra-0075.smt2,7589620,Eldarica 2.0alpha 12GB,20382,def,303234,complete,48.226,24.0438,1.6304996E7,sat
+380642168,lra/chc-lra-0075.smt2,7589620,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.03,893.021,308668.0,starexec-unknown
+380642169,lra/chc-lra-0075.smt2,7589620,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.02,820.398,5.9470848E7,starexec-unknown
+380642170,lra/chc-lra-0075.smt2,7589620,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.04,889.258,5.984378E7,starexec-unknown
+380642171,lra/chc-lra-0075.smt2,7589620,rebus v1.5,20525,def,303851,complete,22.4556,22.4564,253660.0,sat
+380642172,lra/chc-lra-0075.smt2,7589620,spacer,19768,def,300997,complete,14.0546,14.066,198148.0,sat
+380642173,lra/chc-lra-0075.smt2,7589620,TransfHORNer,20513,default,303835,timeout (cpu),900.02,900.268,2924056.0,starexec-unknown
+380641822,lra/chc-lra-0076.smt2,7589577,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.01,903.151,536940.0,starexec-unknown
+380641823,lra/chc-lra-0076.smt2,7589577,Eldarica 2.0alpha 12GB,20382,def,303234,complete,54.6268,26.1346,1.6503136E7,sat
+380641824,lra/chc-lra-0076.smt2,7589577,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.05,893.188,302592.0,starexec-unknown
+380641825,lra/chc-lra-0076.smt2,7589577,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.06,832.618,5.9470372E7,starexec-unknown
+380641826,lra/chc-lra-0076.smt2,7589577,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.01,889.729,5.9843836E7,starexec-unknown
+380641827,lra/chc-lra-0076.smt2,7589577,rebus v1.5,20525,def,303851,complete,67.0106,67.0141,378020.0,sat
+380641828,lra/chc-lra-0076.smt2,7589577,spacer,19768,def,300997,complete,14.3147,14.3147,198116.0,sat
+380641829,lra/chc-lra-0076.smt2,7589577,TransfHORNer,20513,default,303835,timeout (cpu),900.03,900.299,2924060.0,starexec-unknown
+380641926,lra/chc-lra-0077.smt2,7589590,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.07,900.226,6889352.0,starexec-unknown
+380641927,lra/chc-lra-0077.smt2,7589590,Eldarica 2.0alpha 12GB,20382,def,303234,complete,56.2141,20.1276,2.533464E7,unsat
+380641928,lra/chc-lra-0077.smt2,7589590,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.12,895.991,334276.0,starexec-unknown
+380641929,lra/chc-lra-0077.smt2,7589590,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.03,836.738,5.9470372E7,starexec-unknown
+380641930,lra/chc-lra-0077.smt2,7589590,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.07,889.426,5.9846332E7,starexec-unknown
+380641931,lra/chc-lra-0077.smt2,7589590,rebus v1.5,20525,def,303851,complete,6.53013,6.52934,211996.0,unsat
+380641932,lra/chc-lra-0077.smt2,7589590,spacer,19768,def,300997,complete,17.1924,17.1937,200772.0,unsat
+380641933,lra/chc-lra-0077.smt2,7589590,TransfHORNer,20513,default,303835,complete,722.783,723.184,2742364.0,starexec-unknown
+380642086,lra/chc-lra-0078.smt2,7589610,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.07,900.218,5390980.0,starexec-unknown
+380642087,lra/chc-lra-0078.smt2,7589610,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.25,292.661,1.5714204E7,starexec-unknown
+380642088,lra/chc-lra-0078.smt2,7589610,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.04,900.017,140960.0,starexec-unknown
+380642089,lra/chc-lra-0078.smt2,7589610,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.03,845.077,5.9470112E7,starexec-unknown
+380642090,lra/chc-lra-0078.smt2,7589610,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.02,888.433,5.984416E7,starexec-unknown
+380642091,lra/chc-lra-0078.smt2,7589610,rebus v1.5,20525,def,303851,complete,2.87381,2.873,194568.0,unsat
+380642092,lra/chc-lra-0078.smt2,7589610,spacer,19768,def,300997,complete,3.62079,3.62084,168156.0,unsat
+380642093,lra/chc-lra-0078.smt2,7589610,TransfHORNer,20513,default,303835,complete,838.532,838.813,9940692.0,starexec-unknown
+380642230,lra/chc-lra-0079.smt2,7589628,PECOS-v1.10,20409,lra.sh,303281,complete,7.8725,7.87309,319284.0,starexec-unknown
+380642231,lra/chc-lra-0079.smt2,7589628,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.96985,1.40414,1.5713252E7,starexec-unknown
+380642232,lra/chc-lra-0079.smt2,7589628,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.15,900.006,401144.0,starexec-unknown
+380642233,lra/chc-lra-0079.smt2,7589628,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.01,776.807,5.9470496E7,starexec-unknown
+380642234,lra/chc-lra-0079.smt2,7589628,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,10.7947,4.20876,5.9746808E7,starexec-unknown
+380642235,lra/chc-lra-0079.smt2,7589628,rebus v1.5,20525,def,303851,complete,10.3204,10.3195,158412.0,sat
+380642236,lra/chc-lra-0079.smt2,7589628,spacer,19768,def,300997,complete,8.59425,8.59434,198280.0,sat
+380642237,lra/chc-lra-0079.smt2,7589628,TransfHORNer,20513,default,303835,timeout (cpu),900.04,902.64,1.7123996E7,starexec-unknown
+380642246,lra/chc-lra-0080.smt2,7589630,PECOS-v1.10,20409,lra.sh,303281,complete,4.17558,4.1755,319392.0,starexec-unknown
+380642247,lra/chc-lra-0080.smt2,7589630,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.04,657.937,1.5777112E7,starexec-unknown
+380642248,lra/chc-lra-0080.smt2,7589630,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.05,885.914,182052.0,starexec-unknown
+380642249,lra/chc-lra-0080.smt2,7589630,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.02,840.417,5.9472444E7,starexec-unknown
+380642250,lra/chc-lra-0080.smt2,7589630,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.09,516.42,5.9845064E7,starexec-unknown
+380642251,lra/chc-lra-0080.smt2,7589630,rebus v1.5,20525,def,303851,timeout (cpu),900.01,900.113,250896.0,starexec-unknown
+380642252,lra/chc-lra-0080.smt2,7589630,spacer,19768,def,300997,timeout (cpu),900.01,900.115,626484.0,starexec-unknown
+380642253,lra/chc-lra-0080.smt2,7589630,TransfHORNer,20513,default,303835,timeout (cpu),900.02,902.166,1.3579808E7,starexec-unknown
+380642062,lra/chc-lra-0081.smt2,7589607,PECOS-v1.10,20409,lra.sh,303281,complete,4.67624,4.67609,319284.0,starexec-unknown
+380642063,lra/chc-lra-0081.smt2,7589607,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.13,299.807,1.5777112E7,starexec-unknown
+380642064,lra/chc-lra-0081.smt2,7589607,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.0,900.087,181900.0,starexec-unknown
+380642065,lra/chc-lra-0081.smt2,7589607,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.04,862.726,5.9468324E7,starexec-unknown
+380642066,lra/chc-lra-0081.smt2,7589607,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.12,282.982,5.9844748E7,starexec-unknown
+380642067,lra/chc-lra-0081.smt2,7589607,rebus v1.5,20525,def,303851,complete,871.899,871.879,262156.0,sat
+380642068,lra/chc-lra-0081.smt2,7589607,spacer,19768,def,300997,timeout (cpu),900.07,900.516,4882928.0,starexec-unknown
+380642069,lra/chc-lra-0081.smt2,7589607,TransfHORNer,20513,default,303835,timeout (cpu),900.076,902.89,1.6769204E7,starexec-unknown
+380641998,lra/chc-lra-0082.smt2,7589599,PECOS-v1.10,20409,lra.sh,303281,complete,4.6149,4.61923,319284.0,starexec-unknown
+380641999,lra/chc-lra-0082.smt2,7589599,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.01,588.127,1.5778464E7,starexec-unknown
+380642000,lra/chc-lra-0082.smt2,7589599,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.01,900.066,181900.0,starexec-unknown
+380642001,lra/chc-lra-0082.smt2,7589599,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.02,838.625,5.9470372E7,starexec-unknown
+380642002,lra/chc-lra-0082.smt2,7589599,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.08,832.252,5.9844748E7,starexec-unknown
+380642003,lra/chc-lra-0082.smt2,7589599,rebus v1.5,20525,def,303851,timeout (cpu),900.07,900.115,228936.0,starexec-unknown
+380642004,lra/chc-lra-0082.smt2,7589599,spacer,19768,def,300997,complete,173.235,173.248,732368.0,sat
+380642005,lra/chc-lra-0082.smt2,7589599,TransfHORNer,20513,default,303835,timeout (cpu),900.04,902.859,1.7892976E7,starexec-unknown
+380641774,lra/chc-lra-0083.smt2,7589571,PECOS-v1.10,20409,lra.sh,303281,complete,7.8143,7.82935,319284.0,starexec-unknown
+380641775,lra/chc-lra-0083.smt2,7589571,Eldarica 2.0alpha 12GB,20382,def,303234,complete,2.82553,1.31912,1.5713724E7,starexec-unknown
+380641776,lra/chc-lra-0083.smt2,7589571,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.04,900.0,402500.0,starexec-unknown
+380641777,lra/chc-lra-0083.smt2,7589571,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.07,784.301,5.9470372E7,starexec-unknown
+380641778,lra/chc-lra-0083.smt2,7589571,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,10.5994,4.31004,5.9814688E7,starexec-unknown
+380641779,lra/chc-lra-0083.smt2,7589571,rebus v1.5,20525,def,303851,complete,3.04243,3.04186,155340.0,sat
+380641780,lra/chc-lra-0083.smt2,7589571,spacer,19768,def,300997,complete,1.85397,1.85397,170924.0,sat
+380641781,lra/chc-lra-0083.smt2,7589571,TransfHORNer,20513,default,303835,timeout (cpu),900.1,902.74,1.6941344E7,starexec-unknown
+380641678,lra/chc-lra-0084.smt2,7589559,PECOS-v1.10,20409,lra.sh,303281,complete,4.85979,4.85981,319284.0,starexec-unknown
+380641679,lra/chc-lra-0084.smt2,7589559,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.23,301.911,1.5778464E7,starexec-unknown
+380641680,lra/chc-lra-0084.smt2,7589559,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.02,900.098,181900.0,starexec-unknown
+380641681,lra/chc-lra-0084.smt2,7589559,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.01,840.716,5.9470372E7,starexec-unknown
+380641682,lra/chc-lra-0084.smt2,7589559,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.0,771.524,5.9844936E7,starexec-unknown
+380641683,lra/chc-lra-0084.smt2,7589559,rebus v1.5,20525,def,303851,timeout (cpu),900.035,900.085,245316.0,starexec-unknown
+380641684,lra/chc-lra-0084.smt2,7589559,spacer,19768,def,300997,complete,899.047,899.323,3747596.0,sat
+380641685,lra/chc-lra-0084.smt2,7589559,TransfHORNer,20513,default,303835,timeout (cpu),900.01,903.155,2.035074E7,starexec-unknown
+380641574,lra/chc-lra-0085.smt2,7589546,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.0,900.216,9183136.0,starexec-unknown
+380641575,lra/chc-lra-0085.smt2,7589546,Eldarica 2.0alpha 12GB,20382,def,303234,complete,3.15296,1.4614,1.5712092E7,starexec-unknown
+380641576,lra/chc-lra-0085.smt2,7589546,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.05,898.059,307824.0,starexec-unknown
+380641577,lra/chc-lra-0085.smt2,7589546,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.11,831.938,5.947292E7,starexec-unknown
+380641578,lra/chc-lra-0085.smt2,7589546,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,270.676,230.44,6.0227964E7,sat
+380641579,lra/chc-lra-0085.smt2,7589546,rebus v1.5,20525,def,303851,complete,4.43161,4.43234,195572.0,sat
+380641580,lra/chc-lra-0085.smt2,7589546,spacer,19768,def,300997,complete,9.49617,9.49792,187160.0,sat
+380641581,lra/chc-lra-0085.smt2,7589546,TransfHORNer,20513,default,303835,timeout (cpu),900.06,900.716,4690000.0,starexec-unknown
+380642454,lra/chc-lra-0086.smt2,7589656,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.05,900.203,9202920.0,starexec-unknown
+380642455,lra/chc-lra-0086.smt2,7589656,Eldarica 2.0alpha 12GB,20382,def,303234,complete,3.08625,1.40486,1.5713352E7,starexec-unknown
+380642456,lra/chc-lra-0086.smt2,7589656,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.07,898.205,308304.0,starexec-unknown
+380642457,lra/chc-lra-0086.smt2,7589656,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.07,833.418,5.9470372E7,starexec-unknown
+380642458,lra/chc-lra-0086.smt2,7589656,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,244.694,203.034,6.022654E7,sat
+380642459,lra/chc-lra-0086.smt2,7589656,rebus v1.5,20525,def,303851,complete,8.68839,8.68825,206404.0,sat
+380642460,lra/chc-lra-0086.smt2,7589656,spacer,19768,def,300997,complete,4.78732,4.80222,169188.0,sat
+380642461,lra/chc-lra-0086.smt2,7589656,TransfHORNer,20513,default,303835,timeout (cpu),900.02,900.202,4358476.0,starexec-unknown
+380642406,lra/chc-lra-0087.smt2,7589650,PECOS-v1.10,20409,lra.sh,303281,complete,7.99479,8.89537,319284.0,starexec-unknown
+380642407,lra/chc-lra-0087.smt2,7589650,Eldarica 2.0alpha 12GB,20382,def,303234,complete,3.05793,1.41443,1.5775064E7,starexec-unknown
+380642408,lra/chc-lra-0087.smt2,7589650,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.17,900.087,343516.0,starexec-unknown
+380642409,lra/chc-lra-0087.smt2,7589650,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.04,755.275,5.9468324E7,starexec-unknown
+380642410,lra/chc-lra-0087.smt2,7589650,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,11.0649,4.23563,5.9745052E7,starexec-unknown
+380642411,lra/chc-lra-0087.smt2,7589650,rebus v1.5,20525,def,303851,complete,56.79,56.7909,175820.0,sat
+380642412,lra/chc-lra-0087.smt2,7589650,spacer,19768,def,300997,complete,45.22,45.2209,435784.0,sat
+380642413,lra/chc-lra-0087.smt2,7589650,TransfHORNer,20513,default,303835,timeout (cpu),900.09,901.939,1.7661152E7,starexec-unknown
+380641710,lra/chc-lra-0088.smt2,7589563,PECOS-v1.10,20409,lra.sh,303281,complete,5.36424,9.28686,319284.0,starexec-unknown
+380641711,lra/chc-lra-0088.smt2,7589563,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.12,301.296,1.5777112E7,starexec-unknown
+380641712,lra/chc-lra-0088.smt2,7589563,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.01,900.156,181900.0,starexec-unknown
+380641713,lra/chc-lra-0088.smt2,7589563,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.04,830.126,5.9470372E7,starexec-unknown
+380641714,lra/chc-lra-0088.smt2,7589563,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.1,581.613,5.9845228E7,starexec-unknown
+380641715,lra/chc-lra-0088.smt2,7589563,rebus v1.5,20525,def,303851,timeout (cpu),900.085,900.109,256584.0,starexec-unknown
+380641716,lra/chc-lra-0088.smt2,7589563,spacer,19768,def,300997,timeout (cpu),900.08,900.306,4960300.0,starexec-unknown
+380641717,lra/chc-lra-0088.smt2,7589563,TransfHORNer,20513,default,303835,timeout (cpu),900.01,903.869,2.4787236E7,starexec-unknown
+380641542,lra/chc-lra-0089.smt2,7589542,PECOS-v1.10,20409,lra.sh,303281,complete,5.39549,5.39625,319284.0,starexec-unknown
+380641543,lra/chc-lra-0089.smt2,7589542,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.23,307.76,1.5777112E7,starexec-unknown
+380641544,lra/chc-lra-0089.smt2,7589542,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.06,900.122,181912.0,starexec-unknown
+380641545,lra/chc-lra-0089.smt2,7589542,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.09,858.651,5.9470372E7,starexec-unknown
+380641546,lra/chc-lra-0089.smt2,7589542,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.02,286.179,5.9845672E7,starexec-unknown
+380641547,lra/chc-lra-0089.smt2,7589542,rebus v1.5,20525,def,303851,timeout (cpu),900.04,900.103,245472.0,starexec-unknown
+380641548,lra/chc-lra-0089.smt2,7589542,spacer,19768,def,300997,timeout (cpu),900.06,900.147,6531108.0,starexec-unknown
+380641549,lra/chc-lra-0089.smt2,7589542,TransfHORNer,20513,default,303835,timeout (cpu),900.06,903.54,2.2806896E7,starexec-unknown
+380642438,lra/chc-lra-0090.smt2,7589654,PECOS-v1.10,20409,lra.sh,303281,complete,5.43242,5.43283,319388.0,starexec-unknown
+380642439,lra/chc-lra-0090.smt2,7589654,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.02,306.33,1.5777112E7,starexec-unknown
+380642440,lra/chc-lra-0090.smt2,7589654,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.01,900.086,181900.0,starexec-unknown
+380642441,lra/chc-lra-0090.smt2,7589654,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.03,835.297,5.9470372E7,starexec-unknown
+380642442,lra/chc-lra-0090.smt2,7589654,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.27,280.463,5.9848028E7,starexec-unknown
+380642443,lra/chc-lra-0090.smt2,7589654,rebus v1.5,20525,def,303851,timeout (cpu),900.05,900.198,266820.0,starexec-unknown
+380642444,lra/chc-lra-0090.smt2,7589654,spacer,19768,def,300997,timeout (cpu),900.03,900.306,3536024.0,starexec-unknown
+380642445,lra/chc-lra-0090.smt2,7589654,TransfHORNer,20513,default,303835,timeout (cpu),900.01,903.64,2.2934012E7,starexec-unknown
+380642430,lra/chc-lra-0091.smt2,7589653,PECOS-v1.10,20409,lra.sh,303281,complete,6.22469,6.22565,319284.0,starexec-unknown
+380642431,lra/chc-lra-0091.smt2,7589653,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.17,311.918,1.5777112E7,starexec-unknown
+380642432,lra/chc-lra-0091.smt2,7589653,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.05,900.146,183948.0,starexec-unknown
+380642433,lra/chc-lra-0091.smt2,7589653,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.07,832.881,5.9470372E7,starexec-unknown
+380642434,lra/chc-lra-0091.smt2,7589653,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.06,278.202,5.984548E7,starexec-unknown
+380642435,lra/chc-lra-0091.smt2,7589653,rebus v1.5,20525,def,303851,timeout (cpu),900.07,900.206,266972.0,starexec-unknown
+380642436,lra/chc-lra-0091.smt2,7589653,spacer,19768,def,300997,timeout (cpu),900.07,900.738,3092388.0,starexec-unknown
+380642437,lra/chc-lra-0091.smt2,7589653,TransfHORNer,20513,default,303835,timeout (cpu),900.1,904.654,3.0616568E7,starexec-unknown
+380641686,lra/chc-lra-0092.smt2,7589560,PECOS-v1.10,20409,lra.sh,303281,complete,6.27811,6.27873,319284.0,starexec-unknown
+380641687,lra/chc-lra-0092.smt2,7589560,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.07,307.965,1.5777112E7,starexec-unknown
+380641688,lra/chc-lra-0092.smt2,7589560,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.03,900.046,183948.0,starexec-unknown
+380641689,lra/chc-lra-0092.smt2,7589560,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.0,835.23,5.9470372E7,starexec-unknown
+380641690,lra/chc-lra-0092.smt2,7589560,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.07,289.183,5.9845544E7,starexec-unknown
+380641691,lra/chc-lra-0092.smt2,7589560,rebus v1.5,20525,def,303851,timeout (cpu),900.06,900.204,275016.0,starexec-unknown
+380641692,lra/chc-lra-0092.smt2,7589560,spacer,19768,def,300997,timeout (cpu),900.04,900.713,3290232.0,starexec-unknown
+380641693,lra/chc-lra-0092.smt2,7589560,TransfHORNer,20513,default,303835,timeout (cpu),900.07,905.343,3.5979884E7,starexec-unknown
+380641566,lra/chc-lra-0093.smt2,7589545,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.05,900.108,5397120.0,starexec-unknown
+380641567,lra/chc-lra-0093.smt2,7589545,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.04,302.682,1.5712608E7,starexec-unknown
+380641568,lra/chc-lra-0093.smt2,7589545,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.0,900.113,140960.0,starexec-unknown
+380641569,lra/chc-lra-0093.smt2,7589545,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.01,842.998,5.9470372E7,starexec-unknown
+380641570,lra/chc-lra-0093.smt2,7589545,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.03,887.819,5.9844396E7,starexec-unknown
+380641571,lra/chc-lra-0093.smt2,7589545,rebus v1.5,20525,def,303851,complete,15.1581,15.158,243784.0,sat
+380641572,lra/chc-lra-0093.smt2,7589545,spacer,19768,def,300997,complete,221.412,221.419,349708.0,sat
+380641573,lra/chc-lra-0093.smt2,7589545,TransfHORNer,20513,default,303835,complete,838.424,838.663,9940700.0,starexec-unknown
+380642006,lra/chc-lra-0094.smt2,7589600,PECOS-v1.10,20409,lra.sh,303281,complete,5.7178,5.7184,319284.0,starexec-unknown
+380642007,lra/chc-lra-0094.smt2,7589600,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.27,303.849,1.5777112E7,starexec-unknown
+380642008,lra/chc-lra-0094.smt2,7589600,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.05,900.089,183948.0,starexec-unknown
+380642009,lra/chc-lra-0094.smt2,7589600,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.04,861.112,5.9470372E7,starexec-unknown
+380642010,lra/chc-lra-0094.smt2,7589600,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.21,293.029,5.9910812E7,starexec-unknown
+380642011,lra/chc-lra-0094.smt2,7589600,rebus v1.5,20525,def,303851,timeout (cpu),900.02,900.112,265228.0,starexec-unknown
+380642012,lra/chc-lra-0094.smt2,7589600,spacer,19768,def,300997,complete,624.015,624.142,1919104.0,sat
+380642013,lra/chc-lra-0094.smt2,7589600,TransfHORNer,20513,default,303835,timeout (cpu),900.01,904.354,2.943354E7,starexec-unknown
+380641758,lra/chc-lra-0095.smt2,7589569,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.01,900.114,5087528.0,starexec-unknown
+380641759,lra/chc-lra-0095.smt2,7589569,Eldarica 2.0alpha 12GB,20382,def,303234,complete,279.536,118.551,1.709296E7,sat
+380641760,lra/chc-lra-0095.smt2,7589569,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.0,897.482,332432.0,starexec-unknown
+380641761,lra/chc-lra-0095.smt2,7589569,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.05,835.058,5.9470372E7,starexec-unknown
+380641762,lra/chc-lra-0095.smt2,7589569,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.02,888.627,5.9844072E7,starexec-unknown
+380641763,lra/chc-lra-0095.smt2,7589569,rebus v1.5,20525,def,303851,complete,176.979,176.973,360868.0,sat
+380641764,lra/chc-lra-0095.smt2,7589569,spacer,19768,def,300997,timeout (cpu),900.03,900.119,524336.0,starexec-unknown
+380641765,lra/chc-lra-0095.smt2,7589569,TransfHORNer,20513,default,303835,complete,194.19,194.625,3167280.0,starexec-unknown
+380642222,lra/chc-lra-0096.smt2,7589627,PECOS-v1.10,20409,lra.sh,303281,complete,6.91798,6.91852,319284.0,starexec-unknown
+380642223,lra/chc-lra-0096.smt2,7589627,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.27,313.551,1.5777112E7,starexec-unknown
+380642224,lra/chc-lra-0096.smt2,7589627,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.07,900.206,183948.0,starexec-unknown
+380642225,lra/chc-lra-0096.smt2,7589627,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.05,856.428,5.9470372E7,starexec-unknown
+380642226,lra/chc-lra-0096.smt2,7589627,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.21,281.568,5.9848388E7,starexec-unknown
+380642227,lra/chc-lra-0096.smt2,7589627,rebus v1.5,20525,def,303851,timeout (cpu),900.09,900.108,284228.0,starexec-unknown
+380642228,lra/chc-lra-0096.smt2,7589627,spacer,19768,def,300997,timeout (cpu),900.04,900.466,4795692.0,starexec-unknown
+380642229,lra/chc-lra-0096.smt2,7589627,TransfHORNer,20513,default,303835,timeout (cpu),900.07,903.754,4.5436884E7,starexec-unknown
+380642078,lra/chc-lra-0097.smt2,7589609,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.02,900.02,5397620.0,starexec-unknown
+380642079,lra/chc-lra-0097.smt2,7589609,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.05,291.232,1.5778464E7,starexec-unknown
+380642080,lra/chc-lra-0097.smt2,7589609,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.0,900.085,140960.0,starexec-unknown
+380642081,lra/chc-lra-0097.smt2,7589609,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.05,834.243,5.9470372E7,starexec-unknown
+380642082,lra/chc-lra-0097.smt2,7589609,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.07,888.835,5.984498E7,starexec-unknown
+380642083,lra/chc-lra-0097.smt2,7589609,rebus v1.5,20525,def,303851,complete,12.8065,12.8057,243996.0,unsat
+380642084,lra/chc-lra-0097.smt2,7589609,spacer,19768,def,300997,complete,32.6525,32.6527,240584.0,unsat
+380642085,lra/chc-lra-0097.smt2,7589609,TransfHORNer,20513,default,303835,timeout (cpu),900.01,900.044,9830076.0,starexec-unknown
+380641942,lra/chc-lra-0098.smt2,7589592,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.06,900.12,5397120.0,starexec-unknown
+380641943,lra/chc-lra-0098.smt2,7589592,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.18,467.796,1.5713228E7,starexec-unknown
+380641944,lra/chc-lra-0098.smt2,7589592,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.01,899.972,184212.0,starexec-unknown
+380641945,lra/chc-lra-0098.smt2,7589592,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.0,825.081,5.9470372E7,starexec-unknown
+380641946,lra/chc-lra-0098.smt2,7589592,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.05,889.414,5.9844412E7,starexec-unknown
+380641947,lra/chc-lra-0098.smt2,7589592,rebus v1.5,20525,def,303851,complete,31.1065,31.1044,279176.0,unsat
+380641948,lra/chc-lra-0098.smt2,7589592,spacer,19768,def,300997,complete,59.1639,59.2029,257584.0,unsat
+380641949,lra/chc-lra-0098.smt2,7589592,TransfHORNer,20513,default,303835,complete,826.625,826.81,9940036.0,starexec-unknown
+380641838,lra/chc-lra-0099.smt2,7589579,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.03,900.121,5397120.0,starexec-unknown
+380641839,lra/chc-lra-0099.smt2,7589579,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.13,316.012,1.5777112E7,starexec-unknown
+380641840,lra/chc-lra-0099.smt2,7589579,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.02,900.039,140960.0,starexec-unknown
+380641841,lra/chc-lra-0099.smt2,7589579,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.16,827.119,5.9470372E7,starexec-unknown
+380641842,lra/chc-lra-0099.smt2,7589579,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.07,888.529,5.9914012E7,starexec-unknown
+380641843,lra/chc-lra-0099.smt2,7589579,rebus v1.5,20525,def,303851,complete,255.052,255.056,432240.0,sat
+380641844,lra/chc-lra-0099.smt2,7589579,spacer,19768,def,300997,timeout (cpu),900.03,900.113,562560.0,starexec-unknown
+380641845,lra/chc-lra-0099.smt2,7589579,TransfHORNer,20513,default,303835,complete,835.638,835.805,9940036.0,starexec-unknown
+380642486,lra/chc-lra-0100.smt2,7589660,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.07,900.106,4339800.0,starexec-unknown
+380642487,lra/chc-lra-0100.smt2,7589660,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.12,297.855,1.5781668E7,starexec-unknown
+380642488,lra/chc-lra-0100.smt2,7589660,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.063,900.112,140960.0,starexec-unknown
+380642489,lra/chc-lra-0100.smt2,7589660,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.05,838.118,5.9470372E7,starexec-unknown
+380642490,lra/chc-lra-0100.smt2,7589660,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.04,887.519,5.9845668E7,starexec-unknown
+380642491,lra/chc-lra-0100.smt2,7589660,rebus v1.5,20525,def,303851,complete,36.0657,36.0665,368952.0,sat
+380642492,lra/chc-lra-0100.smt2,7589660,spacer,19768,def,300997,complete,519.83,519.833,595324.0,sat
+380642493,lra/chc-lra-0100.smt2,7589660,TransfHORNer,20513,default,303835,timeout (cpu),900.07,900.112,8294888.0,starexec-unknown
+380642390,lra/chc-lra-0101.smt2,7589648,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.07,900.307,4339800.0,starexec-unknown
+380642391,lra/chc-lra-0101.smt2,7589648,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.06,298.306,1.5781616E7,starexec-unknown
+380642392,lra/chc-lra-0101.smt2,7589648,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.01,900.096,140960.0,starexec-unknown
+380642393,lra/chc-lra-0101.smt2,7589648,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.0,839.604,5.9470372E7,starexec-unknown
+380642394,lra/chc-lra-0101.smt2,7589648,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.0,888.019,5.9845688E7,starexec-unknown
+380642395,lra/chc-lra-0101.smt2,7589648,rebus v1.5,20525,def,303851,complete,19.0653,19.0643,357728.0,unsat
+380642396,lra/chc-lra-0101.smt2,7589648,spacer,19768,def,300997,complete,109.336,109.341,314284.0,unsat
+380642397,lra/chc-lra-0101.smt2,7589648,TransfHORNer,20513,default,303835,timeout (cpu),900.05,900.2,8294888.0,starexec-unknown
+380641654,lra/chc-lra-0102.smt2,7589556,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.01,900.213,880940.0,starexec-unknown
+380641655,lra/chc-lra-0102.smt2,7589556,Eldarica 2.0alpha 12GB,20382,def,303234,complete,80.3497,23.6792,1.8447232E7,sat
+380641656,lra/chc-lra-0102.smt2,7589556,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.0,890.034,310352.0,starexec-unknown
+380641657,lra/chc-lra-0102.smt2,7589556,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.05,834.467,5.9470372E7,starexec-unknown
+380641658,lra/chc-lra-0102.smt2,7589556,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,96.5301,52.839,6.0265048E7,sat
+380641659,lra/chc-lra-0102.smt2,7589556,rebus v1.5,20525,def,303851,complete,92.2318,92.2364,304992.0,sat
+380641660,lra/chc-lra-0102.smt2,7589556,spacer,19768,def,300997,timeout (cpu),900.01,900.127,570156.0,starexec-unknown
+380641661,lra/chc-lra-0102.smt2,7589556,TransfHORNer,20513,default,303835,timeout (cpu),900.01,900.727,5225180.0,starexec-unknown
+380641590,lra/chc-lra-0103.smt2,7589548,PECOS-v1.10,20409,lra.sh,303281,complete,10.6603,10.6604,319284.0,starexec-unknown
+380641591,lra/chc-lra-0103.smt2,7589548,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.25,312.579,1.5781804E7,starexec-unknown
+380641592,lra/chc-lra-0103.smt2,7589548,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.05,900.145,185996.0,starexec-unknown
+380641593,lra/chc-lra-0103.smt2,7589548,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.04,821.614,5.9468324E7,starexec-unknown
+380641594,lra/chc-lra-0103.smt2,7589548,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.1,429.953,5.9846604E7,starexec-unknown
+380641595,lra/chc-lra-0103.smt2,7589548,rebus v1.5,20525,def,303851,timeout (cpu),900.01,900.114,331064.0,starexec-unknown
+380641596,lra/chc-lra-0103.smt2,7589548,spacer,19768,def,300997,timeout (cpu),900.05,900.103,606224.0,starexec-unknown
+380641597,lra/chc-lra-0103.smt2,7589548,TransfHORNer,20513,default,303835,timeout (cpu),900.0,902.867,3.5346664E7,starexec-unknown
+380641966,lra/chc-lra-0104.smt2,7589595,PECOS-v1.10,20409,lra.sh,303281,complete,11.0064,11.0107,319284.0,starexec-unknown
+380641967,lra/chc-lra-0104.smt2,7589595,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.28,307.235,1.5713628E7,starexec-unknown
+380641968,lra/chc-lra-0104.smt2,7589595,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.0,899.996,185996.0,starexec-unknown
+380641969,lra/chc-lra-0104.smt2,7589595,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.08,861.534,5.9470372E7,starexec-unknown
+380641970,lra/chc-lra-0104.smt2,7589595,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.09,288.696,5.9846476E7,starexec-unknown
+380641971,lra/chc-lra-0104.smt2,7589595,rebus v1.5,20525,def,303851,timeout (cpu),900.05,900.213,430136.0,starexec-unknown
+380641972,lra/chc-lra-0104.smt2,7589595,spacer,19768,def,300997,timeout (cpu),900.02,900.113,3148916.0,starexec-unknown
+380641973,lra/chc-lra-0104.smt2,7589595,TransfHORNer,20513,default,303835,timeout (cpu),900.03,905.116,6.6667104E7,starexec-unknown
+380641790,lra/chc-lra-0105.smt2,7589573,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.07,900.908,981208.0,starexec-unknown
+380641791,lra/chc-lra-0105.smt2,7589573,Eldarica 2.0alpha 12GB,20382,def,303234,complete,149.166,50.1011,1.7025892E7,sat
+380641792,lra/chc-lra-0105.smt2,7589573,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.07,893.293,301528.0,starexec-unknown
+380641793,lra/chc-lra-0105.smt2,7589573,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.03,836.674,5.947362E7,starexec-unknown
+380641794,lra/chc-lra-0105.smt2,7589573,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,109.775,64.8492,6.0297052E7,sat
+380641795,lra/chc-lra-0105.smt2,7589573,rebus v1.5,20525,def,303851,complete,494.562,494.644,516124.0,sat
+380641796,lra/chc-lra-0105.smt2,7589573,spacer,19768,def,300997,timeout (cpu),900.04,900.218,572732.0,starexec-unknown
+380641797,lra/chc-lra-0105.smt2,7589573,TransfHORNer,20513,default,303835,timeout (cpu),900.07,900.823,5569376.0,starexec-unknown
+380642270,lra/chc-lra-0106.smt2,7589633,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.03,900.083,1007680.0,starexec-unknown
+380642271,lra/chc-lra-0106.smt2,7589633,Eldarica 2.0alpha 12GB,20382,def,303234,complete,177.249,62.8288,1.7155944E7,sat
+380642272,lra/chc-lra-0106.smt2,7589633,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.0,896.923,376660.0,starexec-unknown
+380642273,lra/chc-lra-0106.smt2,7589633,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.04,818.914,5.9470372E7,starexec-unknown
+380642274,lra/chc-lra-0106.smt2,7589633,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,145.142,93.9272,6.034386E7,sat
+380642275,lra/chc-lra-0106.smt2,7589633,rebus v1.5,20525,def,303851,timeout (cpu),900.08,900.314,750104.0,starexec-unknown
+380642276,lra/chc-lra-0106.smt2,7589633,spacer,19768,def,300997,timeout (cpu),900.05,900.112,587392.0,starexec-unknown
+380642277,lra/chc-lra-0106.smt2,7589633,TransfHORNer,20513,default,303835,timeout (cpu),900.062,900.823,5726484.0,starexec-unknown
+380642046,lra/chc-lra-0107.smt2,7589605,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.06,901.916,933124.0,starexec-unknown
+380642047,lra/chc-lra-0107.smt2,7589605,Eldarica 2.0alpha 12GB,20382,def,303234,complete,279.408,111.697,1.866276E7,sat
+380642048,lra/chc-lra-0107.smt2,7589605,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.06,890.854,311200.0,starexec-unknown
+380642049,lra/chc-lra-0107.smt2,7589605,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.08,832.106,5.9470564E7,starexec-unknown
+380642050,lra/chc-lra-0107.smt2,7589605,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,193.599,134.608,6.03957E7,sat
+380642051,lra/chc-lra-0107.smt2,7589605,rebus v1.5,20525,def,303851,timeout (cpu),900.08,900.429,936528.0,starexec-unknown
+380642052,lra/chc-lra-0107.smt2,7589605,spacer,19768,def,300997,timeout (cpu),900.08,900.319,572188.0,starexec-unknown
+380642053,lra/chc-lra-0107.smt2,7589605,TransfHORNer,20513,default,303835,timeout (cpu),900.02,900.831,5691308.0,starexec-unknown
+380641886,lra/chc-lra-0108.smt2,7589585,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.04,900.119,3295296.0,starexec-unknown
+380641887,lra/chc-lra-0108.smt2,7589585,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.04,295.455,1.571326E7,starexec-unknown
+380641888,lra/chc-lra-0108.smt2,7589585,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.05,900.131,140960.0,starexec-unknown
+380641889,lra/chc-lra-0108.smt2,7589585,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.05,840.913,5.9470372E7,starexec-unknown
+380641890,lra/chc-lra-0108.smt2,7589585,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.04,888.371,5.9845356E7,starexec-unknown
+380641891,lra/chc-lra-0108.smt2,7589585,rebus v1.5,20525,def,303851,complete,49.3936,49.3915,365964.0,sat
+380641892,lra/chc-lra-0108.smt2,7589585,spacer,19768,def,300997,timeout (cpu),900.07,900.113,590556.0,starexec-unknown
+380641893,lra/chc-lra-0108.smt2,7589585,TransfHORNer,20513,default,303835,timeout (cpu),900.04,900.12,9830076.0,starexec-unknown
+380641878,lra/chc-lra-0109.smt2,7589584,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.04,900.154,932268.0,starexec-unknown
+380641879,lra/chc-lra-0109.smt2,7589584,Eldarica 2.0alpha 12GB,20382,def,303234,complete,323.139,131.578,1.7028608E7,sat
+380641880,lra/chc-lra-0109.smt2,7589584,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.01,895.427,305068.0,starexec-unknown
+380641881,lra/chc-lra-0109.smt2,7589584,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.08,835.044,5.9470372E7,starexec-unknown
+380641882,lra/chc-lra-0109.smt2,7589584,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,251.937,185.407,6.044388E7,sat
+380641883,lra/chc-lra-0109.smt2,7589584,rebus v1.5,20525,def,303851,timeout (cpu),900.0,900.205,844704.0,starexec-unknown
+380641884,lra/chc-lra-0109.smt2,7589584,spacer,19768,def,300997,timeout (cpu),900.01,900.188,584072.0,starexec-unknown
+380641885,lra/chc-lra-0109.smt2,7589584,TransfHORNer,20513,default,303835,timeout (cpu),900.02,901.845,5854440.0,starexec-unknown
+380642286,lra/chc-lra-0110.smt2,7589635,PECOS-v1.10,20409,lra.sh,303281,memout,365.85,367.668,6.7124372E7,starexec-unknown
+380642287,lra/chc-lra-0110.smt2,7589635,Eldarica 2.0alpha 12GB,20382,def,303234,complete,5.01885,1.29135,1.5712092E7,starexec-unknown
+380642288,lra/chc-lra-0110.smt2,7589635,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.09,899.715,309668.0,starexec-unknown
+380642289,lra/chc-lra-0110.smt2,7589635,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.08,831.222,5.9470372E7,starexec-unknown
+380642290,lra/chc-lra-0110.smt2,7589635,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,complete,11.7849,4.54846,5.974686E7,starexec-unknown
+380642291,lra/chc-lra-0110.smt2,7589635,rebus v1.5,20525,def,303851,timeout (cpu),900.0,900.089,491840.0,starexec-unknown
+380642292,lra/chc-lra-0110.smt2,7589635,spacer,19768,def,300997,timeout (cpu),900.02,900.121,605632.0,starexec-unknown
+380642293,lra/chc-lra-0110.smt2,7589635,TransfHORNer,20513,default,303835,memout,503.07,503.329,6.7122748E7,starexec-unknown
+380642030,lra/chc-lra-0111.smt2,7589603,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.08,900.113,3295292.0,starexec-unknown
+380642031,lra/chc-lra-0111.smt2,7589603,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.14,306.082,1.5713712E7,starexec-unknown
+380642032,lra/chc-lra-0111.smt2,7589603,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.01,900.075,140960.0,starexec-unknown
+380642033,lra/chc-lra-0111.smt2,7589603,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.03,837.729,5.9472656E7,starexec-unknown
+380642034,lra/chc-lra-0111.smt2,7589603,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.02,888.62,5.9845908E7,starexec-unknown
+380642035,lra/chc-lra-0111.smt2,7589603,rebus v1.5,20525,def,303851,complete,36.8144,36.8134,352304.0,unsat
+380642036,lra/chc-lra-0111.smt2,7589603,spacer,19768,def,300997,complete,176.089,176.151,369328.0,unsat
+380642037,lra/chc-lra-0111.smt2,7589603,TransfHORNer,20513,default,303835,timeout (cpu),900.01,900.019,9698604.0,starexec-unknown
+380641950,lra/chc-lra-0112.smt2,7589593,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.05,900.344,1.1165508E7,starexec-unknown
+380641951,lra/chc-lra-0112.smt2,7589593,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.16,547.636,1.6238944E7,starexec-unknown
+380641952,lra/chc-lra-0112.smt2,7589593,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.09,881.85,198792.0,starexec-unknown
+380641953,lra/chc-lra-0112.smt2,7589593,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,complete,135.249,91.6815,5.9540008E7,sat
+380641954,lra/chc-lra-0112.smt2,7589593,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.01,887.925,5.9844656E7,starexec-unknown
+380641955,lra/chc-lra-0112.smt2,7589593,rebus v1.5,20525,def,303851,complete,18.6598,18.6611,216644.0,sat
+380641956,lra/chc-lra-0112.smt2,7589593,spacer,19768,def,300997,complete,20.4731,20.4752,202328.0,sat
+380641957,lra/chc-lra-0112.smt2,7589593,TransfHORNer,20513,default,303835,complete,307.183,308.494,8916968.0,starexec-unknown
+380641806,lra/chc-lra-0113.smt2,7589575,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.09,900.113,5397616.0,starexec-unknown
+380641807,lra/chc-lra-0113.smt2,7589575,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.02,317.96,1.5779948E7,starexec-unknown
+380641808,lra/chc-lra-0113.smt2,7589575,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.07,900.09,140960.0,starexec-unknown
+380641809,lra/chc-lra-0113.smt2,7589575,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.03,840.059,5.9470372E7,starexec-unknown
+380641810,lra/chc-lra-0113.smt2,7589575,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.04,886.761,5.98462E7,starexec-unknown
+380641811,lra/chc-lra-0113.smt2,7589575,rebus v1.5,20525,def,303851,complete,209.313,209.317,535308.0,sat
+380641812,lra/chc-lra-0113.smt2,7589575,spacer,19768,def,300997,timeout (cpu),900.08,900.171,610880.0,starexec-unknown
+380641813,lra/chc-lra-0113.smt2,7589575,TransfHORNer,20513,default,303835,timeout (cpu),900.04,900.706,9698604.0,starexec-unknown
+380641638,lra/chc-lra-0114.smt2,7589554,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.01,900.013,4339540.0,starexec-unknown
+380641639,lra/chc-lra-0114.smt2,7589554,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.04,584.204,1.5714204E7,starexec-unknown
+380641640,lra/chc-lra-0114.smt2,7589554,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.01,883.96,185572.0,starexec-unknown
+380641641,lra/chc-lra-0114.smt2,7589554,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,complete,247.116,195.578,5.9540008E7,sat
+380641642,lra/chc-lra-0114.smt2,7589554,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.1,888.134,5.984534E7,starexec-unknown
+380641643,lra/chc-lra-0114.smt2,7589554,rebus v1.5,20525,def,303851,complete,49.5958,49.6012,266132.0,sat
+380641644,lra/chc-lra-0114.smt2,7589554,spacer,19768,def,300997,complete,38.0534,38.0881,250452.0,sat
+380641645,lra/chc-lra-0114.smt2,7589554,TransfHORNer,20513,default,303835,complete,549.542,549.65,8944500.0,starexec-unknown
+380641606,lra/chc-lra-0115.smt2,7589550,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.07,901.02,5391472.0,starexec-unknown
+380641607,lra/chc-lra-0115.smt2,7589550,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.09,300.596,1.5778464E7,starexec-unknown
+380641608,lra/chc-lra-0115.smt2,7589550,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.05,900.07,140960.0,starexec-unknown
+380641609,lra/chc-lra-0115.smt2,7589550,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.04,836.22,5.9470372E7,starexec-unknown
+380641610,lra/chc-lra-0115.smt2,7589550,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.01,886.681,5.984688E7,starexec-unknown
+380641611,lra/chc-lra-0115.smt2,7589550,rebus v1.5,20525,def,303851,complete,180.993,180.993,550956.0,unsat
+380641612,lra/chc-lra-0115.smt2,7589550,spacer,19768,def,300997,timeout (cpu),900.02,900.106,627928.0,starexec-unknown
+380641613,lra/chc-lra-0115.smt2,7589550,TransfHORNer,20513,default,303835,timeout (cpu),900.06,900.099,9593664.0,starexec-unknown
+380642502,lra/chc-lra-0116.smt2,7589662,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.05,888.52,2237216.0,starexec-unknown
+380642503,lra/chc-lra-0116.smt2,7589662,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.16,528.802,1.5715572E7,starexec-unknown
+380642504,lra/chc-lra-0116.smt2,7589662,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.07,893.915,185600.0,starexec-unknown
+380642505,lra/chc-lra-0116.smt2,7589662,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,complete,352.001,296.291,5.9540008E7,sat
+380642506,lra/chc-lra-0116.smt2,7589662,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.1,886.909,5.9845904E7,starexec-unknown
+380642507,lra/chc-lra-0116.smt2,7589662,rebus v1.5,20525,def,303851,complete,75.8895,75.94,299232.0,sat
+380642508,lra/chc-lra-0116.smt2,7589662,spacer,19768,def,300997,complete,53.1675,53.1736,250376.0,sat
+380642509,lra/chc-lra-0116.smt2,7589662,TransfHORNer,20513,default,303835,timeout (cpu),900.07,900.115,6340892.0,starexec-unknown
+380642374,lra/chc-lra-0117.smt2,7589646,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.1,900.195,5390960.0,starexec-unknown
+380642375,lra/chc-lra-0117.smt2,7589646,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.2,308.635,1.5778464E7,starexec-unknown
+380642376,lra/chc-lra-0117.smt2,7589646,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.04,900.076,140960.0,starexec-unknown
+380642377,lra/chc-lra-0117.smt2,7589646,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.02,841.2,5.9470372E7,starexec-unknown
+380642378,lra/chc-lra-0117.smt2,7589646,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.04,886.218,5.9847468E7,starexec-unknown
+380642379,lra/chc-lra-0117.smt2,7589646,rebus v1.5,20525,def,303851,complete,281.737,281.762,750636.0,sat
+380642380,lra/chc-lra-0117.smt2,7589646,spacer,19768,def,300997,timeout (cpu),900.06,900.099,574104.0,starexec-unknown
+380642381,lra/chc-lra-0117.smt2,7589646,TransfHORNer,20513,default,303835,timeout (cpu),900.05,900.213,9601980.0,starexec-unknown
+380641694,lra/chc-lra-0118.smt2,7589561,PECOS-v1.10,20409,lra.sh,303281,timeout (cpu),900.08,900.407,5911028.0,starexec-unknown
+380641695,lra/chc-lra-0118.smt2,7589561,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.15,292.174,1.5778464E7,starexec-unknown
+380641696,lra/chc-lra-0118.smt2,7589561,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.09,900.115,140960.0,starexec-unknown
+380641697,lra/chc-lra-0118.smt2,7589561,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.03,853.486,5.9468324E7,starexec-unknown
+380641698,lra/chc-lra-0118.smt2,7589561,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.08,885.922,5.9847984E7,starexec-unknown
+380641699,lra/chc-lra-0118.smt2,7589561,rebus v1.5,20525,def,303851,complete,282.14,282.206,708720.0,unsat
+380641700,lra/chc-lra-0118.smt2,7589561,spacer,19768,def,300997,timeout (cpu),900.1,900.219,566388.0,starexec-unknown
+380641701,lra/chc-lra-0118.smt2,7589561,TransfHORNer,20513,default,303835,timeout (cpu),900.02,900.106,9464908.0,starexec-unknown
+380641558,lra/chc-lra-0119.smt2,7589544,PECOS-v1.10,20409,lra.sh,303281,complete,167.454,172.729,1195268.0,starexec-unknown
+380641559,lra/chc-lra-0119.smt2,7589544,Eldarica 2.0alpha 12GB,20382,def,303234,complete,252.481,192.781,2.5527144E7,sat
+380641560,lra/chc-lra-0119.smt2,7589544,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.11,886.35,319468.0,starexec-unknown
+380641561,lra/chc-lra-0119.smt2,7589544,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,complete,212.358,163.746,5.9540008E7,sat
+380641562,lra/chc-lra-0119.smt2,7589544,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.05,787.831,5.9847756E7,starexec-unknown
+380641563,lra/chc-lra-0119.smt2,7589544,rebus v1.5,20525,def,303851,complete,5.81022,5.80905,229328.0,sat
+380641564,lra/chc-lra-0119.smt2,7589544,spacer,19768,def,300997,complete,3.70844,3.70872,164064.0,sat
+380641565,lra/chc-lra-0119.smt2,7589544,TransfHORNer,20513,default,303835,complete,170.403,170.92,5270264.0,starexec-unknown
+380642542,lra/chc-lra-0120.smt2,7589667,PECOS-v1.10,20409,lra.sh,303281,complete,161.373,167.252,1195268.0,starexec-unknown
+380642543,lra/chc-lra-0120.smt2,7589667,Eldarica 2.0alpha 12GB,20382,def,303234,complete,283.276,192.598,2.5461608E7,unsat
+380642544,lra/chc-lra-0120.smt2,7589667,hoice v1.5.0,20413,hoice_default,303297,complete,887.25,873.319,319472.0,unsat
+380642545,lra/chc-lra-0120.smt2,7589667,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,complete,83.0135,41.9154,5.9540008E7,unsat
+380642546,lra/chc-lra-0120.smt2,7589667,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.03,820.828,5.9847608E7,starexec-unknown
+380642547,lra/chc-lra-0120.smt2,7589667,rebus v1.5,20525,def,303851,complete,1.33694,1.3358,213740.0,unsat
+380642548,lra/chc-lra-0120.smt2,7589667,spacer,19768,def,300997,complete,2.38962,2.38978,158068.0,unsat
+380642549,lra/chc-lra-0120.smt2,7589667,TransfHORNer,20513,default,303835,complete,171.107,171.632,5274484.0,starexec-unknown
+380642318,lra/chc-lra-0121.smt2,7589639,PECOS-v1.10,20409,lra.sh,303281,complete,26.0922,29.763,319284.0,starexec-unknown
+380642319,lra/chc-lra-0121.smt2,7589639,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.06,298.684,1.5713224E7,starexec-unknown
+380642320,lra/chc-lra-0121.smt2,7589639,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.07,900.115,143008.0,starexec-unknown
+380642321,lra/chc-lra-0121.smt2,7589639,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.02,838.863,5.9470372E7,starexec-unknown
+380642322,lra/chc-lra-0121.smt2,7589639,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.03,885.754,5.9848892E7,starexec-unknown
+380642323,lra/chc-lra-0121.smt2,7589639,rebus v1.5,20525,def,303851,complete,499.228,499.21,963284.0,sat
+380642324,lra/chc-lra-0121.smt2,7589639,spacer,19768,def,300997,timeout (cpu),900.03,900.199,564660.0,starexec-unknown
+380642325,lra/chc-lra-0121.smt2,7589639,TransfHORNer,20513,default,303835,timeout (cpu),900.05,900.121,9464872.0,starexec-unknown
+380641718,lra/chc-lra-0122.smt2,7589564,PECOS-v1.10,20409,lra.sh,303281,complete,35.2039,38.5438,319284.0,starexec-unknown
+380641719,lra/chc-lra-0122.smt2,7589564,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.12,303.239,1.5712608E7,starexec-unknown
+380641720,lra/chc-lra-0122.smt2,7589564,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.07,900.109,143008.0,starexec-unknown
+380641721,lra/chc-lra-0122.smt2,7589564,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.05,838.725,5.9470372E7,starexec-unknown
+380641722,lra/chc-lra-0122.smt2,7589564,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.08,884.422,5.985E7,starexec-unknown
+380641723,lra/chc-lra-0122.smt2,7589564,rebus v1.5,20525,def,303851,timeout (cpu),900.04,900.113,1346460.0,starexec-unknown
+380641724,lra/chc-lra-0122.smt2,7589564,spacer,19768,def,300997,timeout (cpu),900.04,900.304,582792.0,starexec-unknown
+380641725,lra/chc-lra-0122.smt2,7589564,TransfHORNer,20513,default,303835,timeout (cpu),900.05,900.199,9398784.0,starexec-unknown
+380641550,lra/chc-lra-0123.smt2,7589543,PECOS-v1.10,20409,lra.sh,303281,complete,40.5515,42.8816,319284.0,starexec-unknown
+380641551,lra/chc-lra-0123.smt2,7589543,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.24,314.407,1.5716796E7,starexec-unknown
+380641552,lra/chc-lra-0123.smt2,7589543,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.0,900.089,143008.0,starexec-unknown
+380641553,lra/chc-lra-0123.smt2,7589543,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.05,842.633,5.9470372E7,starexec-unknown
+380641554,lra/chc-lra-0123.smt2,7589543,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.07,884.54,5.9850728E7,starexec-unknown
+380641555,lra/chc-lra-0123.smt2,7589543,rebus v1.5,20525,def,303851,timeout (cpu),900.05,900.414,1231212.0,starexec-unknown
+380641556,lra/chc-lra-0123.smt2,7589543,spacer,19768,def,300997,timeout (cpu),900.08,900.112,573284.0,starexec-unknown
+380641557,lra/chc-lra-0123.smt2,7589543,TransfHORNer,20513,default,303835,timeout (cpu),900.01,900.115,9343608.0,starexec-unknown
+380641902,lra/chc-lra-0124.smt2,7589587,PECOS-v1.10,20409,lra.sh,303281,complete,46.9268,50.306,319564.0,starexec-unknown
+380641903,lra/chc-lra-0124.smt2,7589587,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.1,292.878,1.5717224E7,starexec-unknown
+380641904,lra/chc-lra-0124.smt2,7589587,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.02,900.115,143008.0,starexec-unknown
+380641905,lra/chc-lra-0124.smt2,7589587,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.05,839.694,5.9470372E7,starexec-unknown
+380641906,lra/chc-lra-0124.smt2,7589587,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.01,882.914,5.9852368E7,starexec-unknown
+380641907,lra/chc-lra-0124.smt2,7589587,rebus v1.5,20525,def,303851,timeout (cpu),900.02,900.316,1732400.0,starexec-unknown
+380641908,lra/chc-lra-0124.smt2,7589587,spacer,19768,def,300997,timeout (cpu),900.1,900.315,572520.0,starexec-unknown
+380641909,lra/chc-lra-0124.smt2,7589587,TransfHORNer,20513,default,303835,timeout (cpu),900.01,900.088,9343608.0,starexec-unknown
+380641870,lra/chc-lra-0125.smt2,7589583,PECOS-v1.10,20409,lra.sh,303281,complete,51.0411,53.8236,320264.0,starexec-unknown
+380641871,lra/chc-lra-0125.smt2,7589583,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.22,297.144,1.571456E7,starexec-unknown
+380641872,lra/chc-lra-0125.smt2,7589583,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.0,900.026,145056.0,starexec-unknown
+380641873,lra/chc-lra-0125.smt2,7589583,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.02,845.991,5.9468324E7,starexec-unknown
+380641874,lra/chc-lra-0125.smt2,7589583,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.08,883.313,5.9852848E7,starexec-unknown
+380641875,lra/chc-lra-0125.smt2,7589583,rebus v1.5,20525,def,303851,timeout (cpu),900.07,900.196,1667752.0,starexec-unknown
+380641876,lra/chc-lra-0125.smt2,7589583,spacer,19768,def,300997,timeout (cpu),900.02,900.069,579848.0,starexec-unknown
+380641877,lra/chc-lra-0125.smt2,7589583,TransfHORNer,20513,default,303835,timeout (cpu),900.09,900.139,9297408.0,starexec-unknown
+380642190,lra/chc-lra-0126.smt2,7589623,PECOS-v1.10,20409,lra.sh,303281,complete,62.0921,64.8132,320524.0,starexec-unknown
+380642191,lra/chc-lra-0126.smt2,7589623,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.13,305.292,1.5714552E7,starexec-unknown
+380642192,lra/chc-lra-0126.smt2,7589623,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.04,900.103,145056.0,starexec-unknown
+380642193,lra/chc-lra-0126.smt2,7589623,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.0,841.014,5.9470372E7,starexec-unknown
+380642194,lra/chc-lra-0126.smt2,7589623,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.07,881.82,5.985386E7,starexec-unknown
+380642195,lra/chc-lra-0126.smt2,7589623,rebus v1.5,20525,def,303851,timeout (cpu),900.01,900.306,2275756.0,starexec-unknown
+380642196,lra/chc-lra-0126.smt2,7589623,spacer,19768,def,300997,timeout (cpu),900.03,900.129,582672.0,starexec-unknown
+380642197,lra/chc-lra-0126.smt2,7589623,TransfHORNer,20513,default,303835,timeout (cpu),900.08,900.805,9297372.0,starexec-unknown
+380642110,lra/chc-lra-0127.smt2,7589613,PECOS-v1.10,20409,lra.sh,303281,complete,68.0766,74.1274,321084.0,starexec-unknown
+380642111,lra/chc-lra-0127.smt2,7589613,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.17,303.265,1.5714552E7,starexec-unknown
+380642112,lra/chc-lra-0127.smt2,7589613,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.05,900.17,145056.0,starexec-unknown
+380642113,lra/chc-lra-0127.smt2,7589613,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.02,839.573,5.9470372E7,starexec-unknown
+380642114,lra/chc-lra-0127.smt2,7589613,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.07,883.927,5.9854696E7,starexec-unknown
+380642115,lra/chc-lra-0127.smt2,7589613,rebus v1.5,20525,def,303851,timeout (cpu),900.09,900.413,1829600.0,starexec-unknown
+380642116,lra/chc-lra-0127.smt2,7589613,spacer,19768,def,300997,timeout (cpu),900.09,900.124,580716.0,starexec-unknown
+380642117,lra/chc-lra-0127.smt2,7589613,TransfHORNer,20513,default,303835,timeout (cpu),900.03,900.11,9258036.0,starexec-unknown
+380641990,lra/chc-lra-0128.smt2,7589598,PECOS-v1.10,20409,lra.sh,303281,complete,78.1665,78.17,321712.0,starexec-unknown
+380641991,lra/chc-lra-0128.smt2,7589598,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.25,301.654,1.5715284E7,starexec-unknown
+380641992,lra/chc-lra-0128.smt2,7589598,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.05,900.13,147104.0,starexec-unknown
+380641993,lra/chc-lra-0128.smt2,7589598,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.06,837.908,5.9540008E7,starexec-unknown
+380641994,lra/chc-lra-0128.smt2,7589598,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.01,881.67,5.9856232E7,starexec-unknown
+380641995,lra/chc-lra-0128.smt2,7589598,rebus v1.5,20525,def,303851,timeout (cpu),900.03,900.213,2359324.0,starexec-unknown
+380641996,lra/chc-lra-0128.smt2,7589598,spacer,19768,def,300997,timeout (cpu),900.05,900.206,664792.0,starexec-unknown
+380641997,lra/chc-lra-0128.smt2,7589598,TransfHORNer,20513,default,303835,timeout (cpu),900.01,900.105,9249192.0,starexec-unknown
+380641766,lra/chc-lra-0129.smt2,7589570,PECOS-v1.10,20409,lra.sh,303281,complete,84.6302,84.6336,322308.0,starexec-unknown
+380641767,lra/chc-lra-0129.smt2,7589570,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.15,308.966,1.5717808E7,starexec-unknown
+380641768,lra/chc-lra-0129.smt2,7589570,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.04,900.013,147104.0,starexec-unknown
+380641769,lra/chc-lra-0129.smt2,7589570,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.04,843.712,5.9468324E7,starexec-unknown
+380641770,lra/chc-lra-0129.smt2,7589570,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.01,881.869,5.9857188E7,starexec-unknown
+380641771,lra/chc-lra-0129.smt2,7589570,rebus v1.5,20525,def,303851,timeout (cpu),900.09,900.307,2386712.0,starexec-unknown
+380641772,lra/chc-lra-0129.smt2,7589570,spacer,19768,def,300997,timeout (cpu),900.03,900.182,640916.0,starexec-unknown
+380641773,lra/chc-lra-0129.smt2,7589570,TransfHORNer,20513,default,303835,timeout (cpu),900.06,900.106,8143692.0,starexec-unknown
+380642158,lra/chc-lra-0130.smt2,7589619,PECOS-v1.10,20409,lra.sh,303281,complete,93.9709,100.954,323300.0,starexec-unknown
+380642159,lra/chc-lra-0130.smt2,7589619,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.07,306.103,1.5714272E7,starexec-unknown
+380642160,lra/chc-lra-0130.smt2,7589619,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.04,900.086,149152.0,starexec-unknown
+380642161,lra/chc-lra-0130.smt2,7589619,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.02,834.927,5.9470492E7,starexec-unknown
+380642162,lra/chc-lra-0130.smt2,7589619,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.04,880.629,5.9863316E7,starexec-unknown
+380642163,lra/chc-lra-0130.smt2,7589619,rebus v1.5,20525,def,303851,timeout (cpu),900.04,900.213,2892268.0,starexec-unknown
+380642164,lra/chc-lra-0130.smt2,7589619,spacer,19768,def,300997,timeout (cpu),900.05,900.091,583216.0,starexec-unknown
+380642165,lra/chc-lra-0130.smt2,7589619,TransfHORNer,20513,default,303835,timeout (cpu),900.02,900.11,8143692.0,starexec-unknown
+380642142,lra/chc-lra-0131.smt2,7589617,PECOS-v1.10,20409,lra.sh,303281,complete,103.975,105.107,323804.0,starexec-unknown
+380642143,lra/chc-lra-0131.smt2,7589617,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.18,304.258,1.578144E7,starexec-unknown
+380642144,lra/chc-lra-0131.smt2,7589617,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.02,900.074,149152.0,starexec-unknown
+380642145,lra/chc-lra-0131.smt2,7589617,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.0,830.987,5.9472504E7,starexec-unknown
+380642146,lra/chc-lra-0131.smt2,7589617,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.04,879.326,5.9858888E7,starexec-unknown
+380642147,lra/chc-lra-0131.smt2,7589617,rebus v1.5,20525,def,303851,timeout (cpu),900.02,900.313,2429148.0,starexec-unknown
+380642148,lra/chc-lra-0131.smt2,7589617,spacer,19768,def,300997,timeout (cpu),900.09,900.12,637192.0,starexec-unknown
+380642149,lra/chc-lra-0131.smt2,7589617,TransfHORNer,20513,default,303835,timeout (cpu),900.02,900.12,8116104.0,starexec-unknown
+380641934,lra/chc-lra-0132.smt2,7589591,PECOS-v1.10,20409,lra.sh,303281,complete,116.757,116.753,324512.0,starexec-unknown
+380641935,lra/chc-lra-0132.smt2,7589591,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.33,306.151,1.5780112E7,starexec-unknown
+380641936,lra/chc-lra-0132.smt2,7589591,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.06,900.184,149152.0,starexec-unknown
+380641937,lra/chc-lra-0132.smt2,7589591,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.02,825.941,5.9470708E7,starexec-unknown
+380641938,lra/chc-lra-0132.smt2,7589591,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.03,880.513,5.9860392E7,starexec-unknown
+380641939,lra/chc-lra-0132.smt2,7589591,rebus v1.5,20525,def,303851,timeout (cpu),900.02,900.213,2545000.0,starexec-unknown
+380641940,lra/chc-lra-0132.smt2,7589591,spacer,19768,def,300997,timeout (cpu),900.02,900.113,621876.0,starexec-unknown
+380641941,lra/chc-lra-0132.smt2,7589591,TransfHORNer,20513,default,303835,timeout (cpu),900.04,900.121,8113596.0,starexec-unknown
+380641830,lra/chc-lra-0133.smt2,7589578,PECOS-v1.10,20409,lra.sh,303281,complete,132.75,132.759,324864.0,starexec-unknown
+380641831,lra/chc-lra-0133.smt2,7589578,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.05,307.838,1.5781436E7,starexec-unknown
+380641832,lra/chc-lra-0133.smt2,7589578,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.02,900.082,149152.0,starexec-unknown
+380641833,lra/chc-lra-0133.smt2,7589578,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.06,831.619,5.9470372E7,starexec-unknown
+380641834,lra/chc-lra-0133.smt2,7589578,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.04,879.97,5.9861812E7,starexec-unknown
+380641835,lra/chc-lra-0133.smt2,7589578,rebus v1.5,20525,def,303851,timeout (cpu),900.0,900.206,2769756.0,starexec-unknown
+380641836,lra/chc-lra-0133.smt2,7589578,spacer,19768,def,300997,timeout (cpu),900.02,900.008,637148.0,starexec-unknown
+380641837,lra/chc-lra-0133.smt2,7589578,TransfHORNer,20513,default,303835,timeout (cpu),900.09,900.214,8092328.0,starexec-unknown
+380641750,lra/chc-lra-0134.smt2,7589568,PECOS-v1.10,20409,lra.sh,303281,complete,148.317,148.317,325568.0,starexec-unknown
+380641751,lra/chc-lra-0134.smt2,7589568,Eldarica 2.0alpha 12GB,20382,def,303234,timeout (cpu),900.02,309.284,1.5780124E7,starexec-unknown
+380641752,lra/chc-lra-0134.smt2,7589568,hoice v1.5.0,20413,hoice_default,303297,timeout (cpu),900.02,900.005,149152.0,starexec-unknown
+380641753,lra/chc-lra-0134.smt2,7589568,Ultimate TreeAutomizer  2018 07 06 11 04,20427,default,303312,timeout (cpu),900.09,836.026,5.9470372E7,starexec-unknown
+380641754,lra/chc-lra-0134.smt2,7589568,Ultimate Unihorn Automizer  2018 07 06 10 41,20426,default,303311,timeout (cpu),900.02,886.326,5.9865268E7,starexec-unknown
+380641755,lra/chc-lra-0134.smt2,7589568,rebus v1.5,20525,def,303851,timeout (cpu),900.02,900.116,3762240.0,starexec-unknown
+380641756,lra/chc-lra-0134.smt2,7589568,spacer,19768,def,300997,timeout (cpu),900.07,900.311,629736.0,starexec-unknown
+380641757,lra/chc-lra-0134.smt2,7589568,TransfHORNer,20513,default,303835,timeout (cpu),900.09,900.209,8089952.0,starexec-unknown
