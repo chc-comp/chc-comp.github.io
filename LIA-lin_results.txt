@@ -1,0 +1,20 @@
+          solver  cnt   ok  sat  uns  fld   to  mo    time    real  space  uniq
+0         Spacer  596  518  330  188   78   78   0  146626  146647   1576    12
+1   Eldarica-abs  596  477  300  177  119  119   0  241599  220513  37322     1
+2    Eldarica-hc  596  476  300  176  120  120   0  239256  125243  37475     1
+3        Unihorn  596  407  240  167  189  180   0  356127  285806  21492     0
+4          ic3ia  596  400  260  140  196   86   0  173394  173421    351     5
+5          PCSat  596  329  191  138  267  225  37  471817  150881   8189     1
+6  TreeAutomizer  596  307  166  141  289  208   0  391474  367225  21143     0
+
+cnt       number of benchmarks
+ok        number of solved benchmarks
+sat       number of SAT solved
+uns       number of UNSAT solved
+fld       number of failed unsolved
+to        number of timeouts
+mo        number of memory outs
+time      sum of total cpu time in seconds
+real      sum of total wall-clock time in seconds
+space     sum of memory used in MB
+uniq      number of unique benchmarks solved
