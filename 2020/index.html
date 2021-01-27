@@ -1,0 +1,237 @@
+---
+layout: page
+title: CHC-COMP
+---
+<div style="text-align: center; ">
+  <p style="padding-bottom: 0pt; padding-top: 0pt; " class="Heading_2"><a href="#Rarts">2020</a> | <a href="{% link format.md %}">Format</a> | <a href="{% link 2018/rules.md %}">Rules</a> | <a href="https://www.sci.unich.it/hcvs18/">HCVS</a> |
+  <a href="https://github.com/chc-comp">Github</a> | <a href="https://gitter.im/chc-comp/Lobby">Gitter</a> </p>
+</div>
+
+<table style="width:100%; padding-top: 20pt">
+    <td width="30%"> <img src="logo.png" width="100%"  />
+    </td>
+    <td width="80%">
+        <p style="padding-left: 10pt; padding-top: 0pt; " class="Body">
+        Constrained Horn Clauses (CHC) is a fragment of First
+        Order Logic (FOL) that is sufficiently expressive to
+        describe many verification, inference, and synthesis
+        problems including inductive invariant inference, model
+        checking of safety properties, inference of procedure
+        summaries, regression verification, and sequential
+        equivalence. The CHC competition (CHC-COMP) will compare
+        state-of-the-art tools for CHC solving with respect to
+        performance and effectiveness on a set of publicly
+        available benchmarks. The winners among participating
+        solvers are recognized by measuring the number of
+        correctly solved benchmarks as well as the runtime. The
+        results of the third CHC-COMP will be announced at the <a
+          href="https://www.sci.unich.it/hcvs20/">HCVS workshop</a>
+        affiliated with <a href="https://www.etaps.org/">ETAPS 2020</a>.<br /></p>
+    </td>
+</table>
+</div>
+
+<a name="Parts"></a>
+<h3>Competition Results</h3>
+<p style="padding-top: 0pt; " class="Body">
+<ul>
+<li> <a href="https://arxiv.org/abs/2008.02939">Report (announced May 19 2020, final version from June 11 2020) </a> </li>
+<li> <a href="LIA-lin_results.txt">Summary for <strong>LIA-Lin</strong></a> </li>
+<li> <a href="LIA_results.txt">Summary for <strong>LIA-Nonlin</strong></a> </li>
+<li> <a href="LIA-lin-arrays_results.txt">Summary for <strong>LIA-Lin-Arrays</strong></a> </li>
+<li> <a href="LRA-TS_results.txt">Summary for <strong>LRA-TS</strong></a> </li>
+</ul>
+</p>
+
+<a name="Parts"></a>
+<h3>UPDATE March 20</h3>
+<p style="padding-top: 0pt; " class="Body">
+Due to the Corona virus situation, ETAPS 2020 and the HCVS workshop
+<a href="https://etaps.org/">have been postponed</a>, and it is
+not clear when either event will take place. We are planning to
+run the competition still mostly as planned,
+and announce the competition results on this webpage, as well as in a
+short competition report published together with the HCVS proceedings
+(likely before the actual HCVS workshop).
+</p>
+
+<!--
+<a name="Parts"></a>
+<h3>Participants (Tool, Submitter)</h3>
+<p style="padding-top: 0pt; " class="Body">
+The list of participants will be made public, together with the
+competition results, at the HCVS workshop (April 26). If you would
+like to submit a solver, and have not yet been in touch with the
+organisers, please add a note in the Gitter chat, or send a mail
+to <a href="mailto:philipp.ruemmer@it.uu.se">Philipp Ruemmer</a>.
+</p>
+
+<a name="Benchmarks"></a>
+<h3>Solver Submission</h3>
+<p style="padding-top: 0pt; " class="Body">
+Solvers have to be <a href="2018/rules.html">provided in the form of a
+StarExec package.</a> As an example, you can have a look at the <a
+href="https://philipp.ruemmer.org/chc-comp-2020/Eldarica_CHC-COMP_2019.zip">Eldarica
+package</a> from 2019. <strong>Test your solver on StarExec before
+submitting!</strong> Submission is done by sending a link or the package to 
+<a href="mailto:philipp.ruemmer@it.uu.se">Philipp Ruemmer</a>.
+</p>
+-->
+
+<a name="Benchmarks"></a>
+<h3>Benchmarks</h3>
+<p style="padding-top: 0pt; " class="Body">
+The competition benchmarks will be selected among the
+benchmarks available on <a href="https://github.com/chc-comp">Github</a>.
+If you have benchmarks of any kind that can be made public, and that are not
+yet on Github, please upload!
+The final list of benchmarks used in the competition will be made
+public, together with the competition results, on April 26.
+</p>
+
+<p  class="Body">
+The following tracks will be evaluated at CHC-COMP 2020 (no change compared to 2019):</p>
+
+<table class="Body">
+<tbody>
+<tr>
+    <td>&nbsp;&nbsp; </td>
+    <td>
+     <strong>LIA-Lin</strong>:
+    </td>
+    <td>&nbsp;&nbsp; </td>
+    <td>
+        Linear Integer Arithmetic, linear clauses
+    </td>
+  </tr>
+
+<tr>
+    <td>&nbsp;&nbsp; </td>
+    <td>
+     <strong>LIA-Nonlin</strong>:
+    </td>
+    <td>&nbsp;&nbsp; </td>
+    <td>
+        Linear Integer Arithmetic, nonlinear clauses
+    </td>
+</tr>
+
+<tr>
+    <td>&nbsp;&nbsp; </td>
+    <td>
+      <strong>LIA-Lin-Arrays</strong>:
+    </td>
+    <td>&nbsp;&nbsp; </td>
+    <td>
+        Linear Integer Arithmetic + arrays, linear clauses
+    </td>
+</tr>
+
+<tr>
+    <td>&nbsp;&nbsp; </td>
+    <td>
+      <strong>LRA-TS</strong>:
+    </td>
+    <td>&nbsp;&nbsp; </td>
+    <td>
+        Linear Real Arithmetic, transition systems<br> (exactly one uninterpreted relation symbol, three clauses)
+    </td>
+</tr>
+</tbody></table>
+
+<a name="Deadlines"></a>
+<h3>Important Dates for 2020</h3>
+
+<table class="Body">
+<tbody>
+<tr>
+    <td>&nbsp;&nbsp; </td>
+    <td>
+      Submission deadline for benchmarks considered for the competition:
+    </td>
+    <td>&nbsp;&nbsp; </td>
+    <td>
+        <del>March 31 2020 </del> &nbsp; <font color="red">April 15 2020</font>
+    </td>
+  </tr>
+
+<tr>
+    <td>&nbsp;&nbsp; </td>
+    <td>
+      Solver submission deadline for test runs:
+    </td>
+    <td>&nbsp;&nbsp; </td>
+    <td>
+       <del>March 31 2020</del> &nbsp; <font color="red">April 15 2020</font>
+    </td>
+</tr>
+
+<tr>
+    <td>&nbsp;&nbsp; </td>
+    <td>
+      Final solver submission deadline for evaluation:
+    </td>
+    <td>&nbsp;&nbsp; </td>
+    <td>
+       <del>April 15 2020</del> &nbsp; <font color="red">April 30 2020</font>
+    </td>
+</tr>
+
+<tr>
+    <td>&nbsp;&nbsp; </td>
+    <td>
+      Presentation of results:
+    </td>
+    <td>&nbsp;&nbsp; </td>
+    <td>
+      <del> April 26 2020 (<a
+          href="https://www.sci.unich.it/hcvs20/">HCVS workshop</a>) </del>
+      &nbsp; <font color="red">tba</font>
+    </td>
+</tr>
+</tbody></table>
+
+<!--
+<a name="Res"></a>
+<p style="padding-top: 0pt; " class="Body"><h3>Results</h3></p>
+<ul>
+  <li><p class="Body"><a href="{% link 2019/chc-comp19.pdf
+    %}">Report</a> (announced on Apr 7 2019)</p></li>
+  </ul>
+</p>
+-->
+
+<!--
+<a name="Tracks"></a>
+<p class="Body"><br /></p>
+<p style="padding-top: 0pt; " class="Body"><b>Tracks</b>:</p><ul>
+<li><p class="Body">Linear CHC over LRA</p></li>
+<li><p class="Body">Linear CHC over LIA</p></li>
+<li><p class="Body">Linear CHC over LIA + Array</p></li></ul>
+</p>
+-->
+
+<a name="Org"></a>
+<h3>Organizer</h3>
+<p class="Body">
+<ul>
+  <li><p class="Body"><a href="http://www.philipp.ruemmer.org/">Philipp Ruemmer</a>, Uppsala University, Sweden</p></li>
+</ul>
+</p>
+
+<h3>Big thanks to</h3>
+<p class="Body">
+<ul>
+    <li class="Body">Everybody who helped with the competition infrastructure over the last years:<br> Arie Gurfinkel, Grigory Fedyukovich, Adrien Champion, Dejan Jovanovic, Nikolaj Bjørner, and others. </li>
+  <li class="Body"><a href="https://www.starexec.org">StarExec!</a></li>
+</ul>
+</p>
+
+<p style="padding-top: 0pt; " class="Body"><h3>Previous editions of CHC-COMP</h3></p>
+<ul>
+<li class="Body"> <a href="2019/">2019</a> </li>
+<li class="Body"> <a href="2018/">2018</a> </li>
+</ul>
+
+<p class="Body"><br /></p>
+<p style="text-align: right; padding-top: 0pt; " class="Body"><i>Last updated: {{site.time}} </i> <br /></p>
