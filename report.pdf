@@ -1,0 +1,899 @@
+\documentclass[submission,creativecommons]{eptcs}
+
+\providecommand{\event}{HCVS 2021} % Name of the event you are submitting to
+\usepackage{breakurl}             % Not needed if you use pdflatex only.
+\usepackage{underscore}           % Only needed if you use pdflatex.
+\usepackage{mathtools} 
+\usepackage{todonotes}
+\usepackage{listings}
+\usepackage{makecell}
+\usepackage{xspace}
+\usepackage{longtable,tablefootnote,tabularx}
+\usepackage[title]{appendix}
+\usepackage{color, colortbl}
+\usepackage{csvsimple}
+\usepackage{ifthen}
+
+\title{Competition Report: \CHCC%\\
+%(Draft: \today)
+}
+\author{Grigory Fedyukovich \institute{Florida State University, USA} \and
+Philipp R\"ummer
+\institute{Uppsala University, Sweden}
+}
+\def\titlerunning{Competition Report: \CHCC}
+\def\authorrunning{Grigory Fedyukovich and Philipp R\"ummer}
+
+% get rid of ugly boxes around links
+\iffalse
+\hypersetup{
+    colorlinks=false,
+    pdfborder={0 0 0},
+}
+\fi
+
+\newif\ifcomments
+\commentsfalse
+
+\newcommand{\pr}[1]{{\color{red}``PR: #1''}}
+\newcommand{\gf}[1]{{\color{red}``GF: #1''}}
+
+\newcommand{\LIA}{LIA-nonlin\xspace}
+\newcommand{\LIAlin}{LIA-lin\xspace}
+\newcommand{\LIAar}{LIA-nonlin-arrays\xspace}
+\newcommand{\LIAarshort}{LIA-nl-arrays\xspace}
+\newcommand{\LIAlinar}{LIA-lin-arrays\xspace}
+\newcommand{\LRATS}{LRA-TS\xspace}
+\newcommand{\LRATSpar}{LRA-TS-par\xspace}
+\newcommand{\ADT}{ADT-nonlin\xspace}
+
+\newcommand{\CHC}{CHC-COMP\xspace}
+\newcommand{\CHCC}{CHC-COMP-21\xspace}
+\newcommand{\CHCCold}{CHC-COMP-20\xspace}
+\newcommand{\CHCColdold}{CHC-COMP-19\xspace}
+\newcommand{\CHCColdoldold}{CHC-COMP-18\xspace}
+\newcommand{\CHCCnew}{CHC-COMP-21\xspace}
+
+\newcommand{\Score}{\textbf{Score}\xspace}
+\newcommand{\CPUtime}{\textbf{CPU time}\xspace}
+\newcommand{\Walltime}{\textbf{Wall-clock time}\xspace}
+\newcommand{\Speedup}{\textbf{Speedup}\xspace}
+\newcommand{\SotAC}{\textbf{SotAC}\xspace}
+\newcommand{\sat}{\textbf{sat}\xspace}
+\newcommand{\unsat}{\textbf{unsat}\xspace}
+\newcommand{\unknown}{\textbf{unknown}\xspace}
+
+\newcommand{\StarExec}{\href{https://www.starexec.org}{StarExec}\xspace}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+  \CHCC\footnote{\url{https://chc-comp.github.io/}} is the fourth
+  competition of solvers for Constrained Horn Clauses. In this year, 7
+  solvers participated at the competition, and were evaluated in 7
+  separate tracks on problems in linear integer arithmetic, linear
+  real arithmetic, arrays, and algebraic data-types. The competition
+  was run in March 2021 using the \StarExec computing
+  cluster. This report gives an overview of the competition design,
+  explains the organisation of the competition, and presents the
+  competition results.
+\end{abstract}
+
+\section{Introduction}
+
+Constrained Horn Clauses (CHC) have over the last decade emerged as a
+uniform framework for reasoning about different aspects of software
+safety~\cite{andrey-pldi,BjornerGMR15}. Constrained Horn clauses form
+a fragment of first-order logic, modulo various background theories,
+in which models can be constructed effectively with the help of
+techniques including model checking, abstract interpretation, or
+clause transformation. Horn clauses can be used as an intermediate
+verification language that elegantly captures various classes of
+systems (e.g., sequential code, programs with functions and
+procedures, concurrent programs, or reactive systems) and various
+verification methodologies (e.g., the use of state invariants,
+verification with the help of contracts, Owicki-Gries-style
+invariants, or rely-guarantee methods). Horn solvers can be used as
+off-the-shelf back-ends in verification tools, and thus enable
+construction of verification systems in a modular way.
+
+\CHCC is the fourth competition of solvers for Constrained Horn
+Clauses, a competition affiliated with the 8th Workshop on Horn
+Clauses for Verification and Synthesis (HCVS) at ETAPS~2021.  The goal
+of \CHC is to compare state-of-the-art tools for Horn solving with
+respect to performance and effectiveness on realistic, publicly
+available benchmarks.  The deadline for submitting solvers to \CHCC
+was March~18 2021, resulting in 7 solvers participating, which were
+evaluated in the second half of March~2021. The 7 solvers were
+evaluated in 7 separate tracks on problems in linear integer
+arithmetic, linear real arithmetic, the theory of arrays, and theories
+of algebraic data-types. The results of the competition can be found
+in Section~\ref{sec:results} of this report, and were presented at the
+(virtual) HCVS workshop on March 28 2021.
+
+
+\subsection{Acknowledgements}
+
+We would like to thank the HCVS chairs, Bishoksan Kafle and Hossein
+Hojjat, for hosting \CHC also in this year!
+
+\CHCC heavily built on the infrastructure developed for the
+previous instances of \CHC, run by Arie Gurfinkel, Grigory
+Fedyukovich, and Philipp R\"ummer, respectively. Contributors to the
+competition infrastructure also include Adrien Champion, Dejan
+Jovanovic, and Nikolaj Bj\o rner.
+
+Like in the first three competitions, \CHCC was run on
+\StarExec \cite{DBLP:conf/cade/StumpST14}. We are extremely grateful
+for the computing resources and evaluation environment provided by
+\StarExec, and for the fast and competent support by Aaron Stump and
+his team whenever problems occurred. \CHCC would not have been
+possible without this!
+
+Philipp R\"ummer is
+supported by the Swedish Research Council (VR) under grant 2018-04727,
+by the Swedish Foundation for Strategic Research (SSF) under the
+project WebSec (Ref.\ RIT17-0011), and by the Knut and Alice
+Wallenberg Foundation under the project UPDATE.
+
+\section{Brief Overview of the Competition Design}
+
+\subsection{Competition Tracks}
+
+Three new tracks were introduced in \CHCC (namely, \LIAar, \LRATSpar,
+\ADT), leading to altogether 7 tracks:
+\begin{itemize}
+\item \textbf{\LIA}: benchmarks with at least one non-linear clause,
+  and linear integer arithmetic as background theory;
+\item \textbf{\LIAlin}: benchmarks with only linear clauses, and
+  linear integer arithmetic as background theory;
+\item \textbf{\LIAar}: benchmarks with at least one non-linear clause, and the
+  combined theory of linear integer arithmetic and arrays as
+  background theory;
+\item \textbf{\LIAlinar}: benchmarks with only linear clauses, and the
+  combined theory of linear integer arithmetic and arrays as
+  background theory;
+\item \textbf{\LRATS}: benchmarks encoding transition systems, with
+  linear real arithmetic as background theory. Benchmarks in this
+  track have exactly one uninterpreted relation symbol, and exactly
+  three linear clauses encoding initial states, transitions, and error
+  states;
+\item \textbf{\LRATSpar}: same selection of benchmarks as in \LRATS,
+  but 2x4 CPU cores were reserved for each task, and the evaluation
+  was done with wall-clock time limit; this yields a setting benefiting
+  parallel solvers;
+\item \textbf{\ADT}: benchmarks with at least one non-linear clause,
+  and the algebraic data-types as background theory.
+\end{itemize}
+
+\subsection{Computing Nodes}
+
+Two separate queues on \StarExec were used for the competition, one
+queue with 15~nodes for the track \LRATSpar, and one with
+20~nodes for all other tracks.  Each node had two quadcore CPUs. In
+\LRATSpar, each job was run on its own node during the
+competition runs, while in the other tracks each node was used to run
+two jobs in parallel.  The
+\href{https://www.starexec.org/starexec/public/machine-specs.txt}{machine
+  specifications} are:
+\begin{verbatim}
+Intel(R) Xeon(R) CPU E5-2609 0 @ 2.40GHz (2393 MHZ)
+    10240  KB Cache
+    263932744 kB main memory
+
+# Software:
+OS:       CentOS Linux release 7.7.1908 (Core)
+kernel:   3.10.0-1062.4.3.el7.x86_64
+glibc:    glibc-2.17-292.el7.x86_64
+          gcc-4.8.5-39.el7.x86_64
+          glibc-2.17-292.el7.i686
+\end{verbatim}
+
+\subsection{Test and Competition Runs}
+
+The solvers submitted to \CHCC were evaluated twice:
+\begin{itemize}
+\item in a first set of \textbf{test runs}, in which (optional)
+  pre-submissions of the solvers were evaluated to check their
+  configurations and identify possible inconsistencies. For the test
+  runs a smaller set of randomly selected benchmarks was used. 
+%  The
+%  results of the test runs for each solver were directly communicated
+%  to the team submitting the solver, but not made public and not
+%  shared with other teams. 
+  In the test runs, each solver-benchmark
+  pair was limited to 600s CPU time, 600s wall-clock time, and 64GB
+  memory.
+\item in the \textbf{competition runs}, the results of which
+  determined the outcome of \CHCC. The selection of the benchmarks for
+  the competition runs is described in Section~\ref{sec:selection},
+  and the evaluation of the competition runs in
+  Section~\ref{sec:eval}. In the competition run of \LRATSpar, each
+  job was limited to 1800s wall-clock time, and 64GB memory.  In the
+  competition runs of all other tracks, each job was limited to 1800s
+  CPU time, 1800s wall-clock time, and 64GB memory.
+\end{itemize}
+
+\subsection{Evaluation of the Competition Runs}
+\label{sec:eval}
+
+The evaluation of the competition runs was in this year done using the
+\texttt{summarize.py} script available in the repository
+\url{https://github.com/chc-comp/scripts}, and on the basis of the
+data provided by \StarExec through the ``job information'' data export
+function. The ranking of solvers in each track was done
+based on the \Score reached by the solvers in the competition run for
+that track.  In case two solvers had equal \Score, the ranking of the
+two solvers was determined by \CPUtime (for \LRATSpar, by
+\Walltime). It was assumed that the outcome of running one solver on
+one benchmark can only be \sat, \unsat, or \unknown; the last outcome
+includes solvers giving up, running out of resources, or crashing.
+
+\medskip
+The definition of \Score, \CPUtime, and \Walltime are:
+\begin{itemize}
+\item \Score: the number of \sat or \unsat results produced by a
+  solver on the benchmarks of a track.
+\item \CPUtime: the total CPU time needed by a solver to produce its
+  answers in some track, including \unknown answers.
+\item \Walltime: the total wall-clock time needed by a solver to
+  produce its answers in some track, including \unknown answers.
+\end{itemize}
+
+In addition, the following feature is included in the results for each
+solver and each track:
+\begin{itemize}
+\item \textbf{\#unique}: The number of \sat or \unsat results produced
+  by a solver for benchmarks for which all other solvers returned
+  \unknown.
+\end{itemize}
+
+We decided to not include the \textbf{Space} feature, specifying the
+total maximum virtual memory consumption, in the tables, since this
+number is less telling for solvers running in a JVM.
+
+\section{Competition Benchmarks}
+
+\subsection{File Format}
+
+\CHC represents benchmarks in a fragment of the SMT-LIB 2.6
+format. The fragment is defined on
+\url{https://chc-comp.github.io/format.html}.  The conformance of a
+well-typed SMT-LIB script with the \CHC fragment can be checked using
+the \texttt{format-checker} available on
+\url{https://github.com/chc-comp/chc-tools}.
+
+\subsection{Benchmark Processing in Tracks other than \ADT}
+\label{sec:processing}
+
+All benchmarks used in \CHCC were pre-processed using the
+\texttt{format.py} script available in the repository
+\url{https://github.com/chc-comp/scripts}, using the command line
+\begin{verbatim}
+> python3 format.py --out_dir <outdir> --merge_queries True <smt-file>
+\end{verbatim}
+The script tries to translate arbitrary Horn-like problems in SMT-LIB
+format to problems within the \CHC fragment.  Only benchmarks
+processed in this way were used in the competition.
+
+The option \verb!--merge_queries! has the effect of merging multiple
+queries in a benchmark into a single query by introducing an auxiliary
+nullary predicate. This transformation was introduced in \CHCCold, and
+is discussed in \cite{DBLP:journals/corr/abs-2008-02939}.
+
+After processing with \texttt{format.py}, benchmarks were checked and
+categorised into the four tracks using the \texttt{format-checker}
+scripts available on
+\url{https://github.com/chc-comp/chc-tools}.
+
+Benchmarks that could not be processed by \texttt{format.py} were
+rejected by the \texttt{format-checker}.
+Benchmarks that did not conform to any of
+the competition tracks, were not used in \CHCC.
+
+\subsection{Benchmark Processing in \ADT}
+\label{sec:processingADT}
+
+Benchmarks used in the \ADT track were preprocessed by eliminating all theory constraints and recursively-defined functions. The transformation was performed using the feature of the \textsc{RInGen} tool~\cite{kostyukov2021finite}.
+This way, we were able to satisfy the input-language constraints for all four tools entering the competition in this track.
+In the future, we, however, plan introducing other ADT-related tracks with benchmarks over ADT and linear arithmetic and/or arrays.
+
+
+\subsection{Benchmark Inventory}
+
+\begin{table}[tb]
+  \begin{center}\footnotesize
+  \newcommand{\empt}{\multicolumn{2}{c}{}}
+  \begin{tabular}{l*{6}{r@{ / }l}}
+    \textbf{Repository} &
+               \multicolumn{2}{c}{\LIA} &
+               \multicolumn{2}{c}{\LIAlin} &
+               \multicolumn{2}{c}{\LIAar} &
+               \multicolumn{2}{c}{\LIAlinar} &
+               \multicolumn{2}{c}{\LRATS} &
+               \multicolumn{2}{c}{\ADT}
+    \\\hline\hline
+    adt-purified & \empt & \empt &  \empt & \empt & \empt & 67 & 67
+    \\\hline
+    aeval & \empt & 54&54
+    \\\hline
+    eldarica-misc & 69&66 & 147&134 
+    \\\hline
+    extra-small-lia & \empt & 55&55 
+    \\\hline
+    hcai & 135&133 & 100&86 & 25&25 &  39&39 
+    \\\hline
+    hopv & 68&67 & 49&48 
+    \\\hline
+    jayhorn &  5138&5084 & 75&73 
+    \\\hline
+    kind2 & 851&738 
+    \\\hline
+    ldv-ant-med & \empt & \empt & 79&79 & 10&10
+    \\\hline
+    ldv-arrays & \empt & \empt & 821&546 &3&2
+    \\\hline
+    llreve & 59&57 & 44&44 &\empt& 31&31 
+    \\\hline
+    quic3 & \empt & \empt &\empt& 43&43 
+    \\\hline
+    ringen & \empt & \empt & \empt & \empt & \empt & 439 & 439
+    \\\hline
+    sally & \empt & \empt & \empt &\empt& 177 & 174
+    \\\hline
+    seahorn & 68&66 & 3396&2822 
+    \\\hline
+    synth/nay-horn & 119&114
+    \\\hline
+    synth/semgus & \empt & \empt & 5371*&4839*
+    \\\hline
+    tricera & 4&4 & 405&405 
+    \\\hline
+    vmt & \empt & 905&802 & \empt &\empt& 99 & 98
+    \\\hline\hline
+    chc-comp19 & 271&265 & 325&313 & 15&15 & 290&290 & 228&226
+    \\\hline
+    sv-comp & 1643&1169 & 3150&2932 & 855&779 & 79&73 
+    \\\hline\hline
+    \textbf{Total} & ~~8425&7763~~ & ~~8705&7768~~ & ~~7166 &6283 & ~~495&488 & 504&498 & ~~~506 & 506
+  \end{tabular}
+  \end{center}
+
+  \caption{Summary of benchmarks available on
+    \url{https://github.com/chc-comp} and in the
+    \href{https://www.starexec.org/starexec/secure/explore/spaces.jsp?id=73700}{StarExec
+      CHC space}.  For each collection of benchmarks and each \CHCC
+    track, the first number gives the total number of benchmarks, and
+    the second number the number of contributed unique benchmarks
+    (after discarding duplicate benchmarks). In the benchmark family
+    synth/semgus, only 2357/2331 benchmarks were taken into account
+    for the competition, as processing of the other benchmarks
+    (according to Section~\ref{sec:processing}) was incorrect due to
+    inconsistent filename conventions. This mistake was only
+    discovered after the main competition runs were finished, and
+    could not be corrected in time.}
+  \label{tab:benchmarks}
+\end{table}
+
+In contrast to most other competitions, \CHC stores benchmarks in a
+decentralised way, in multiple repositories managed by the
+contributors of the benchmarks themselves.  Table~\ref{tab:benchmarks}
+summarises the number of benchmarks that were obtained by collecting
+benchmarks from all available repositories using the process in
+Section~\ref{sec:processing} and
+Section~\ref{sec:processingADT}. Duplicate benchmarks were identified
+by computing a checksum for each (processed) benchmark, and were
+discarded.
+
+The repository chc-comp19-benchmarks of benchmarks selected for
+\CHCColdold was included in the collection, because this repository
+contains several unique families of benchmarks that are not available
+in other repositories under \url{https://github.com/chc-comp}. Such
+benchmarks include problems generated by the Ultimate tools in the
+\LIAlinar track.
+
+From jayhorn-benchmarks, only the problems generated for sv-comp-2020
+were considered, which subsume the problems for sv-comp-2019.
+
+For \ADT, benchmarks originate from the TIP suite (originally, designed for theorem-proving) and verification of programs in functional languages.
+
+\section{Benchmark Rating and Selection}
+\label{sec:selection}
+
+\begin{table}[tb]
+  \begin{center}\footnotesize
+  \newcommand{\empt}{\multicolumn{3}{c}{}}
+  \begin{tabular}{l*{3}{r@{ / }r@{ / }r}}
+    &          \multicolumn{3}{c}{~~~~~~~\LIA} &
+               \multicolumn{3}{c}{~~~~~~~~\LIAlin} &
+               \multicolumn{3}{c}{~~~~~\LIAarshort}
+                                          \\
+    \textbf{Repository} &
+               \#A & \#B & \#C &
+               \#A & \#B & \#C &
+               ~~~~\#A & \#B & \#C
+    \\\hline\hline
+    aeval & \empt & 11&15&28
+    \\\hline
+    eldarica-misc & 35&4&27 & 105&20&9
+    \\\hline
+    extra-small-lia & \empt & 21&24&10
+    \\\hline
+    hcai & 74&44&15 & 73&8&5 & 14&6&5
+    \\\hline
+    hopv & 60&7& & 47&1&
+    \\\hline
+    jayhorn &  2688&769&1627 & 73&
+    \\\hline
+    kind2 & 250&455&33
+    \\\hline
+    ldv-ant-med & \empt & \empt & &25&54
+    \\\hline
+    ldv-arrays & \empt & \empt & &127&419
+    \\\hline
+    llreve & 35&13&9 & 37&5&2
+    \\\hline
+    seahorn & 38&19&9 & 977&985&860
+    \\\hline
+    synth/nay-horn & 46&30&38
+    \\\hline
+    synth/semgus & \empt & \empt & 282&768&1281
+    \\\hline
+    tricera & 4&& & 28&14&363
+    \\\hline
+    vmt & \empt & 85&616&101
+    \\\hline\hline
+    chc-comp19 & 144&80&41 & 80&101&132 &&7&8
+    \\\hline
+    sv-comp & 1013&144&12 & 2801&17&114 & 258&268&253
+    \\\hline\hline
+    \textbf{Total} & ~~~~4387&1565&1811 & ~~~~~4338&1806&1624 & 554&1201&2020
+  \end{tabular}
+  \end{center}
+
+  \caption{The number of unique benchmarks with ratings
+    A / B / C, respectively.}
+  \label{tab:rating}
+\end{table}
+
+\begin{table}[tb]
+  \begin{center}\footnotesize
+  \newcommand{\empt}{\multicolumn{2}{c}{}}
+  \begin{tabular}{l*{3}{@{~~~~~~~~~~~~}r@{~~~~}r}@{\qquad}*{3}{r}}
+    &          \multicolumn{2}{l}{\hspace*{-2ex}\LIA} &
+               \multicolumn{2}{l}{\LIAlin} &
+               \multicolumn{2}{l}{\hspace*{-3ex}\LIAarshort} &
+               ~~\LIAlinar & \LRATS & \ADT
+                                          \\
+    \textbf{Repository} &
+               $N_r$ & \#Sel & 
+               $N_r$ & \#Sel & 
+               $N_r$ & \#Sel & \#Selected~~~~ & \#Selected & \#Selected~~
+    \\\hline\hline
+    adt-purified & \empt & \empt & \empt &&& 67~~~~~~~~
+    \\\hline
+    aeval & \empt & 10&30
+    \\\hline
+    eldarica-misc & 10&30 & 15&39
+    \\\hline
+    extra-small-lia & \empt & 10&30
+    \\\hline
+    hcai & 20&55 & 15&28 & 5&15 & 39~~~~~~~~
+    \\\hline
+    hopv & 10&17 & 10&11
+    \\\hline
+    jayhorn &  30&90 & 10&10
+    \\\hline
+    kind2 & 30&90
+    \\\hline
+    ldv-ant-med & \empt & \empt & 20&60  & 10~~~~~~~~
+    \\\hline
+    ldv-arrays & \empt & \empt & 30&90 &2~~~~~~~~
+    \\\hline
+    llreve & 15&37 & 10&17 & \empt & 31~~~~~~~~
+    \\\hline
+    quic3 & \empt & \empt & \empt & 43~~~~~~~~
+    \\\hline
+    ringen & \empt & \empt & \empt & & & 111~~~~~~~~
+    \\\hline
+    sally & \empt & \empt & \empt & & 174~~~~~
+    \\\hline
+    seahorn & 15&39 & 30&90
+    \\\hline
+    synth/nay-horn & 20&60
+    \\\hline
+    synth/semgus & 20&60 & \empt & 45&135
+    \\\hline
+    tricera & 1&1 & 20&60
+    \\\hline
+    vmt & \empt & 30&90 && \empt & 98~~~~~
+    \\\hline\hline
+    chc-comp19 & 30&90 & 30&90 & 5&15 & 290~~~~~~~~ & 226~~~~~
+    \\\hline
+    sv-comp & 30&72 & 30&90 & 45&135 & 73~~~~~~~~
+    \\\hline\hline
+    \textbf{Total} & &581 & &585 & & 450 & 488~~~~~~~~ & 498~~~~~ & 178~~~~~~~~
+  \end{tabular}
+  \end{center}
+
+  \caption{The number of selected unique benchmarks for the \CHCC
+    tracks.}
+  \label{tab:selectionNum}
+\end{table}
+
+This section describes how the benchmarks for \CHCC were selected
+among the unique benchmarks summarised in
+Table~\ref{tab:benchmarks}. For the competition tracks \LIAlinar, 
+\LRATS, and \ADT, the benchmark library only contains 488, 498, and 506 unique
+benchmarks, respectively, which are small enough sets to use all
+benchmarks in the competition. For the tracks \LIA, \LIAlin, and \LIAar, in
+contrast, too many benchmarks are available, so that a representative
+sample of the benchmarks had to be chosen. %\pr{explain how \ADT was handled}
+
+To gauge the difficulty of the available problems in \LIA, \LIAlin,
+\LIAar, a simple rating based on the performance of the \CHCCold
+solvers was computed. The same approach was used in the last
+competition, \CHCCold, using solvers from \CHCColdold. In this year,
+the two top-ranked competing solvers from \CHCCold were run for a few
+seconds on each of the benchmarks:\footnote{Run on an Intel
+  Core~i5-650 2-core machine with 3.2GHz. All timeouts are in terms of
+  wall-clock time.}
+\begin{itemize}
+\item For \textbf{\LIA} and \textbf{\LIAlin}: Spacer (timeout 5s) and
+  Eldarica-abs (timeout 10s);
+\item For \textbf{\LIAar}: Spacer (timeout 5s) and Ultimate Unihorn
+  (timeout 10s). Since \LIAar was not evaluated at \CHCCold, the
+  top-ranked solvers from the track \LIAlinar were chosen.
+\end{itemize}
+All solvers were run using the same binary and same options as in
+\CHCCold. For the JVM-based tools, Eldarica-abs and Ultimate Unihorn,
+the higher timeout was chosen to compensate for the JVM start-up delay.
+
+The outcomes of those test runs gave rise to three possible ratings
+for each benchmark:
+\begin{itemize}
+\item \textbf{A:} both tools were able to determine the benchmark
+  status within the given time budget.
+\item \textbf{B:} only one tool could determine the benchmark status.
+\item \textbf{C:} both tools timed out.
+\end{itemize}
+
+The number of benchmarks per rating are shown in
+Table~\ref{tab:rating}. As can be seen from the table, the simple
+rating method separates the benchmarks into partitions of comparable
+size, and provides some information about the relative hardness of the
+problems in the different repositories.
+
+From each repository~$r$, up to $3\cdot N_r$ benchmarks were then
+selected randomly: $N_r$ benchmarks with rating~A, $N_r$ benchmarks
+with rating~B, and $N_r$ benchmarks with rating~C. If a repository
+contained fewer than $N_r$ benchmarks for some particular rating,
+instead benchmarks with the next-higher rating were chosen. As special
+cases, up to $N_r$ benchmarks were selected from repositories with
+only A-rated benchmarks; up to $2\cdot N_r$ benchmarks from
+repositories with only B-rated benchmarks; and up to $3\cdot N_r$
+benchmarks from repositories with only C-rated benchmarks.
+
+The number~$N_r$ was chosen individually for each repository, based on
+a manual inspection of the repository to judge the diversity of the
+contained benchmarks. The chosen~$N_r$, and the numbers of selected
+benchmarks for each repository, are given in
+Table~\ref{tab:selectionNum}.
+
+For the actual selection of benchmarks with rating~X, the following
+Unix command was used:
+\begin{verbatim}
+> cat <rating-X-benchmark-list> | sort -R | head -n <num>
+\end{verbatim}
+
+\medskip
+The final set of benchmarks selected for \CHCC can be found in the
+github repository
+\url{https://github.com/chc-comp/chc-comp21-benchmarks}, and on
+\StarExec in the public space \linebreak
+\href{https://www.starexec.org/starexec/secure/explore/spaces.jsp?id=442514}{\texttt{CHC/CHC-COMP/chc-comp21-benchmarks}}.
+
+\section{Solvers Entering \CHCC}
+
+\begin{table}[tb]
+  \begin{center}
+    \small
+  \begin{tabularx}{\linewidth}{X*{7}{X}}
+    \hline
+    \textbf{Solver} &  \LIA & \LIAlin & \LIAar & \LIAlinar & \LRATS  & \LRATSpar  & \ADT
+    \\\hline\hline
+    Golem & --- &  \ttfamily LIA-Lin & --- & --- & \ttfamily LRA-TS & \ttfamily LRA-TS & ---
+    \\\hline
+    PCSat & \ttfamily pcsat\_tb\_ucore\_ar &  \ttfamily pcsat\_tb\_ucore\_ar & --- & --- & --- & --- & \ttfamily pcsat\_tb\_ucore\_reduce\_quals
+    \\\hline
+    Spacer
+           & \ttfamily LIA\-NONLIN
+           & \ttfamily LIA-LIN
+           &\ttfamily   LIA\-NONLIN\-ARRAYS
+           &\ttfamily  LIA-LIN\-ARRAYS
+           & \ttfamily LRA-TS
+           & \ttfamily LRA-TS
+           & \ttfamily ADT\-NONLIN
+    \\\hline
+    \raggedright
+    Ultimate TreeAutomizer & \ttfamily default & \ttfamily default & \ttfamily default & \ttfamily default & \ttfamily default & \ttfamily default & ---
+    \\\hline
+    \raggedright
+    Ultimate Unihorn & \ttfamily default & \ttfamily default & \ttfamily default & \ttfamily default & \ttfamily default & \ttfamily default & ---
+    \\\hline
+    RInGen & --- & ---&---&---&---&---& \ttfamily default
+    \\\hline\hline
+    \raggedright
+    Eldarica (Hors Concours) & \ttfamily def   & \ttfamily def & \ttfamily def & \ttfamily def & --- & --- & \ttfamily def
+    \\\hline
+  \end{tabularx}
+  \end{center}
+  \caption{The submitted solvers, and the configurations used in the
+  individual tracks.}
+  \label{tab:solvers}
+\end{table}
+
+In total, 7~solvers were submitted to \CHCC: 6 competing solvers, and
+one further solver (Eldarica, co-developed by one of the competition
+organisers) that was entering outside of the competition.  A summary of
+the participating solvers is given in Table~\ref{tab:solvers}.
+
+More details about the participating solvers are provided in the
+solver descriptions in Section~\ref{sec:solvers}. The binaries of the
+solvers used for the competition runs can be found in the public
+\StarExec space \linebreak
+\href{https://www.starexec.org/starexec/secure/explore/spaces.jsp?id=442514}{\texttt{CHC/CHC-COMP/chc-comp21-benchmarks}}.
+
+\section{Competition Results}
+\label{sec:results}
+
+The winners and top-ranked solvers of the seven \CHCC tracks are:
+\begin{center}
+  \small
+  \begin{tabularx}{\linewidth-2ex}{l@{}|*{7}{X}}
+    \hline
+    & \raisebox{-1.5ex}{\LIA} & \raisebox{-1.5ex}{\LIAlin} & \LIAarshort & \LIAlinar & \raisebox{-1.5ex}{\LRATS} & \LRATSpar & \ADT
+    \\\hline\hline
+    \textbf{Winner}~~~ & \textbf{Spacer} & \textbf{Spacer} & \textbf{Spacer} & \textbf{Spacer} & \textbf{Spacer} & \textbf{Spacer} & \textbf{Spacer}
+    \\\hline
+    Place 2& Ultimate Unihorn & Golem & \raggedright Ultimate Unihorn & Ultimate Unihorn & Golem & Golem & RInGen
+    \\\hline
+    Place 3 & \raggedright PCSat & \raggedright Ultimate Unihorn & Ultimate TreeAutomizer & Ultimate TreeAutomizer & Ultimate TreeAutomizer & Ultimate TreeAutomizer & PCSat
+    \\\hline
+  \end{tabularx}
+\end{center}
+
+Detailed results for the seven tracks are provided in the tables on
+page~\pageref{tab:results-LIA}.
+
+\subsection{Observed Issues and Fixes during the Competition Runs}
+
+\paragraph{Fixes in Spacer:}
+
+During the competition runs, it was observed that Spacer, in the
+version submitted by March~18, did not run correctly on \StarExec and
+did not produce output for any of the benchmarks. Since this issue was
+discovered soon after the start of the competition runs, the
+organisers decided to let the Spacer authors submit a corrected
+version. The problem turned out to be compilation/linking-related, and
+the results presented in this report were produced with the fixed
+version of Spacer.  To ensure fairness of the competition, all teams
+were given time until March~20 to submit revised versions of their
+tools.
+
+\paragraph{Fixes in Golem:}
+
+One case of inconsistent results was observed in the competition runs
+in the track \LIAlin. For the benchmark \verb!chc-LIA-Lin_502.smt2!,
+the tool Golem reported \unsat, while Spacer and Eldarica reported
+\sat. The author of Golem confirmed that the inconsistency was due to
+a bug in the loop acceleration in Golem, and could provide a corrected
+version in which loop acceleration was switched off. The results
+presented in this report were produced with this fixed version of
+Golem.
+
+To ensure fairness of the competition, we provide the following table
+comparing the results of the two versions of Golem in track
+\LIAlin. The table shows that the fix in Golem led to marginally worse
+performance of the solver, and therefore did not put the other
+solvers at an unfair disadvantage:
+\begin{center}
+  \begin{tabular}{l*{2}{@{\qquad}c}}
+    \hline
+    & \#sat & \#unsat
+    \\\hline\hline
+    Golem (original) & 185 & 133
+    \\\hline
+    Golem (fixed) &  179 & 133
+    \\\hline
+  \end{tabular}
+\end{center}
+
+
+\section{Conclusions}
+\label{sec:next}
+
+The organisers would like to congratulate the general winner of this
+year's \CHC, the solver \textbf{Spacer}, as well as all solvers and
+tool authors for their excellent performance!  Thanks go to everybody
+who has been helping with infrastructure, scripts, benchmarks, or in
+other ways, see the acknowledgements in the introduction; and to the
+HCVS workshop for hosting \CHC!
+
+\bigskip
+\noindent
+The organisers also identified several questions and issues that
+should be discussed and addressed in the next editions, in order to
+keep \CHC an interesting and relevant competition:
+\begin{itemize}
+\item \textbf{Models and counterexamples} (as already discussed in
+  \cite{DBLP:journals/corr/abs-2008-02939}). A concern brought up
+  again at the HCVS workshop is the generation of models and/or
+  counterexample certificates, highlighting the user demand for this
+  functionality. Since at the moment many tools do not support
+  certificates yet, this could initially happen in the scope of a new
+  track, or by awarding a higher number of points for each produced
+  and verified model/counterexample.
+\item \textbf{Multi-query benchmarks} (as already discussed in
+  \cite{DBLP:journals/corr/abs-2008-02939}). We propose to extend the
+  \CHC fragment of SMT-LIB to include also problems with multiple
+  queries. This would leave the decision how to handle multi-query
+  benchmarks to each solver. For solvers that can only solve problems
+  with a single query, a script is available to transform multi-query
+  problems to single-query problems.
+\item \textbf{The \LRATS track.} This restricted track was created to
+  enable also solvers that only support traditional transition systems
+  to enter. However, no such solver was submitted to \CHCC (in
+  contrast to \CHCCold), which means that the results presented in
+  this report do not fully reflect the state of the art for such
+  problems. For future instances of \CHC, it can be considered to
+  replace \LRATS with a general LRA track, dropping the restriction to
+  problems in transition system form.
+\item\textbf{\ADT}: As mentioned in Sect.~\ref{sec:processingADT}, the syntactic restrictions on the ADT tasks were needed to let more solvers participate in the competition. Thus, we had only ``pure ADT'' problems. However, as the technology evolves, we expect more solvers to participate in the next editions of the competition. Thus,  ADT tasks that also use constraints in other theories (if collected in sufficient amounts) could form new tracks.
+\item \textbf{A bigger set of benchmarks is needed, and all users and
+    tool authors are encouraged to submit benchmarks!} In particular,
+  in the \LIA, \LRATS, and \ADT tracks, the competition results indicate that
+  more and/or harder benchmarks are required.
+\end{itemize}
+
+\newpage
+\section{Solver Descriptions}
+\label{sec:solvers}
+
+The tool descriptions in this section were contributed by the tool
+submitters, and the copyright on the texts remains with the individual
+authors.
+
+\makeatletter
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
+                                    {2ex \@plus1ex \@minus.2ex}%
+                                    {-1em}%
+                                    {\normalfont\normalsize\bfseries}}
+\makeatother
+
+\newcommand{\toolname}[1]{\bigskip\section*{#1}}
+\newcommand{\toolsubmitter}[2]{%
+  \noindent
+  \begin{tabular}[t]{@{}l@{}}
+    #1\\#2
+  \end{tabular}\hspace*{8ex}}
+\newcommand{\toolalgorithm}{\paragraph{Algorithm.}}
+\newcommand{\toolnew}{\paragraph{News in 2021.}}
+\newcommand{\toolarchitecture}{\paragraph{Architecture and Implementation.}}
+\newcommand{\toolconfiguration}{\paragraph{Configuration in \CHCC.}}
+\newcommand{\toollink}[2]{\par\medskip\noindent\url{#1}\\#2}
+
+%\input{tools/template.tex}
+
+%\input{tools/Eldarica-abs.tex}
+
+%\newpage
+%\input{tools/ic3ia.tex}
+
+\input{tools/golem.tex}
+
+\input{tools/pcsat.tex}
+
+\input{tools/ringen.tex}
+
+%\newpage
+%\input{tools/prophic3.tex}
+
+%\input{tools/sally.tex}
+
+\input{tools/spacer.tex}
+
+\input{tools/TreeAutomizer.tex}
+
+\newpage
+\input{tools/Unihorn.tex}
+
+\newpage
+\input{tools/eldarica.tex}
+
+\newpage
+\bibliographystyle{eptcs}
+\bibliography{refs}
+
+\newcommand{\solver}{}
+\newcommand{\eldgray}{\ifthenelse{\equal{\solver}{Eldarica}}{\cellcolor{lightgray}}{}}
+\newcommand{\readcsv}[1]{%
+    \begin{tabular}{>{\eldgray}l*{6}{>{\eldgray}r}}
+      \hline
+      \bfseries Solver & \bfseries Score & \bfseries \#sat & \bfseries \#unsat &
+         \bfseries CPU time/s &
+               \bfseries Wall-clock/s & \bfseries \#unique
+      \\\hline
+      \csvreader[head to column names,late after line=\\\hline]{#1}{}%
+      {\solver & \ok & \sat & \uns &  \time & \real & \uniq}
+    \end{tabular}
+}
+
+\begin{table}[p]
+  \caption{Solver performance on the 581 benchmarks of the \LIA\ track}
+  \label{tab:results-LIA}
+
+  \smallskip
+  { \small\centering
+    \readcsv{csv/LIA-NonLin.csv}
+
+  }
+
+  \caption{Solver performance on the 585 benchmarks of the \LIAlin\ track}
+  \label{tab:results-LIAlin}
+
+  \smallskip
+  { \small\centering
+    \readcsv{csv/LIA-Lin.csv}
+
+  }
+
+  \caption{Solver performance on the 450 benchmarks of the \LIAar\ track}
+  \label{tab:results-LIAar}
+
+  \smallskip
+  { \small\centering
+    \readcsv{csv/LIA-NonLin-Arrays.csv}
+
+  }
+
+  \caption{Solver performance on the 488 benchmarks of the \LIAlinar\ track}
+  \label{tab:results-LIAlinar}
+
+  \smallskip
+  { \small\centering
+    \readcsv{csv/LIA-Lin-Arrays.csv}
+
+  }
+
+  \caption{Solver performance on the 498 benchmarks of the \LRATS\ track}
+  \label{tab:results-LRATS}
+
+  \smallskip
+  { \small\centering
+    \readcsv{csv/LRA-TS.csv}
+
+  }
+
+  \caption{Solver performance on the 498 benchmarks of the \LRATSpar\ track}
+  \label{tab:results-LRATSpar}
+
+  \smallskip
+  { \small\centering
+    \readcsv{csv/LRA-TS-par.csv}
+
+  }
+
+  \caption{Solver performance on the 178 benchmarks of the \ADT\ track}
+  \label{tab:results-ADT}
+
+  \smallskip
+  { \small\centering
+    \readcsv{csv/ADT-NonLin.csv}
+
+  }
+
+\end{table}
+
+\end{document}
