@@ -19,6 +19,7 @@ benchmark   ::=
    set_info*
    logic
    set_info*
+   dt_decl*
    fun_decl+
    (assert chc_assert)*
    (assert chc_query)
@@ -26,6 +27,12 @@ benchmark   ::=
    (exit)?
 
 logic       ::= (set-logic HORN)
+
+dt_decl     ::= (declare-datatypes (par_sort+) (ctor_list+))
+par_sort    ::= (symbol 0)
+ctor_list   ::= (ctor+)
+ctor        ::= (symbol (symbol sort)*)
+
 fun_decl    ::= (declare-fun symbol ( sort* ) Bool)
 
 chc_assert  ::=   ;; a well-formed first-order sentence of the form
