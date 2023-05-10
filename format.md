@@ -4,7 +4,7 @@ title: CHC-COMP Format
 ---
 
 # CHC-COMP Benchmark Format
-(Revision: April 7, 2020)
+(Revision: Mar 31, 2023)
 
 Comments on this document can be submitted through [Gitter][chc
 gitter] or emailed directly to the organizers.
