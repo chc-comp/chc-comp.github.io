@@ -31,7 +31,7 @@ correctly solved benchmarks as well as the runtime.
 ### Organizers
 
 - [Gidon Ernst](https://www.sosy-lab.org/people/ernst/), LMU Munich, Germany
-- [Jose F. Morales](https://jfmc.github.io/), LMU Munich, Germany
+- [Jose F. Morales](https://jfmc.github.io/), IMDEA Software Institute, Spain
 
 ### Participation and Schedule
 
