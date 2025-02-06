@@ -28,6 +28,8 @@ available benchmarks. The winners among participating
 solvers are recognized by measuring the number of
 correctly solved benchmarks as well as the runtime.
 
+<div style="clear: both" />
+
 ### Organizers
 
 - [Gidon Ernst](https://www.sosy-lab.org/people/ernst/), LMU Munich, Germany
