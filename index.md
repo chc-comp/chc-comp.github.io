@@ -87,8 +87,7 @@ The following tracks are planned for CHC-COMP 2025
 - LIA-lin-Arrays: Linear Integer Arithmetic + arrays, linear clauses
 - LIA-nonlin-Arrays: Linear Integer Arithmetic + arrays, non-linear clauses
 - LIA-nonlin-Arrays-nonrecADT: Linear Integer Arithmetic + arrays + non-recursive Algebraic data-types, nonlinear clauses
-- ADT-LIA-nonlin: Algebraic data-types + Linear Integer Arithmetic, nonlinear clauses 
-
+- ADT-LIA-nonlin: Algebraic data-types + Linear Integer Arithmetic, nonlinear clauses
 - LRA: Linar Real Arithmetic (*tentative*)
 
 In addition to the theories listed in the track names, benchmarks can also use the Bool theory.
