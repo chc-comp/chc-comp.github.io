@@ -49,7 +49,6 @@ Please be aware that we will not necessarily be responsive over there.
 - April 17: solver submission deadline
 - May 7 or 8, presentation of results at [SPIN 2025](https://spin-web.github.io/SPIN2025/), (co-located with [ETAPS](https://etaps.org/2025/), Hamilton, Canada)
 
-
 ### Solver submission
 
 Participation guidelines will be published shortly and announced on the mailing list.
@@ -66,6 +65,8 @@ The key difference to earlier years will be that evaluations will run on the [SV
 - We aim to keep the overhead on the side of participants *low*. This means we will offer a standard way to integrate, similar to the one on StarExec.
   Typical SV-COMP participation steps, like submitting a [toolinfo module](https://github.com/sosy-lab/benchexec/blob/main/doc/tool-integration.md)
   or [benchmark definitions](https://gitlab.com/sosy-lab/sv-comp/bench-defs) are *not* necessary for CHC-COMP.
+- We will likely use this type of machine: Intel Xeon E3-1230 v5 @ 3.40 GHz, 4x2 cores with hyperthreading, 33GB of main memory.
+  Results will be reported by wall-time and by CPU time to illustrate the benefits of solvers that can run parallel threads.
 
 ### Benchmarks
 
@@ -92,11 +93,11 @@ The following tracks are planned for CHC-COMP 2025
 
 In addition to the theories listed in the track names, benchmarks can also use the Bool theory.
 
-### Model validation
+### Novel features of CHC-COMP in 2025
 
-In 2025 we aim to introduce model validation. Participants can opt-in to have their `sat` models checked independently.
-
-We will report these results separately from the main standings.
+- **Model Validation**: We introduce a model validation demo track. Participants can opt-in to have their `sat` models checked independently.
+  We will report these results separately from the main standings. Details and format are being clarified at the moment.
+- **Massively Parallel Track**: We may run selected evaluations with on a machine with 256 cores. Please get in touch if you think your solver may be able to make use of this.
 
 ### Big thanks to
 
