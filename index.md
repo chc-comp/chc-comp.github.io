@@ -9,7 +9,7 @@ title: CHC-COMP
     <a href="{% link 2018/rules.md %}">Rules</a> |
     <!-- <a href="https://tacas.info/toolympics2023.php">TOOLympics</a> | -->
     <a href="https://github.com/chc-comp">Github</a> |
-    <a href="https://gitter.im/chc-comp/Lobby">Gitter</a>
+    <!-- <a href="https://gitter.im/chc-comp/Lobby">Gitter</a> -->
   </p>
 </div>
 
@@ -30,14 +30,42 @@ correctly solved benchmarks as well as the runtime.
 
 <div style="clear: both" />
 
+### New: Mailing List
+
+Please register here <https://software.imdea.org/mailman3/postorius/lists/chc-comp.software.imdea.org> to receive updates and to participate in the discussion
+
+Note, there is also the ealier [Gitter](https://gitter.im/chc-comp/Lobby) chatroom, but this seemed to have little popularity.
+Please be aware that we will not necessarily be responsive over there.
+
 ### Organizers
 
 - [Gidon Ernst](https://www.sosy-lab.org/people/ernst/), LMU Munich, Germany
 - [Jose F. Morales](https://jfmc.github.io/), IMDEA Software Institute, Spain
 
-### Participation and Schedule
+### Schedule
 
-Participation guidelines and important dates for 2025 will be announced shortly.
+- April 10: participation registration soft deadline
+- April 10: benchmark submission hard deadline
+- April 17: solver submission deadline
+- May 7 or 8, presentation of results at [SPIN 2025](https://spin-web.github.io/SPIN2025/), (co-located with [ETAPS](https://etaps.org/2025/), Hamilton, Canada)
+
+
+### Solver submission
+
+Participation guidelines will be published shortly and announced on the mailing list.
+
+We will offer pre-runs on a subset of benchmarks for solvers until the soft registration deadline on April 10 to test that everything works properly.
+
+### Infrastructure
+
+The key difference to earlier years will be that evaluations will run on the [SV-COMP](https://sv-comp.sosy-lab.org/) infrastructure at the LMU Munich.
+- You can already test your solver in the [competition environment](https://gitlab.com/sosy-lab/benchmarking/competition-scripts/-/blob/main/test/Dockerfile.user.2025?ref_type=heads),
+  which is provided as a Docker file. It is based on standard Ubuntu 24.04.
+- If you are missing a *standard* software package from the list provided there, you may consider submitting a pull requests, but we do not guarantee that this will be honored.
+- Please otherwise package all additional dependencies with your solver submission.
+- We aim to keep the overhead on the side of participants *low*. This means we will offer a standard way to integrate, similar to the one on StarExec.
+  Typical SV-COMP participation steps, like submitting a [toolinfo module](https://github.com/sosy-lab/benchexec/blob/main/doc/tool-integration.md)
+  or [benchmark definitions](https://gitlab.com/sosy-lab/sv-comp/bench-defs) are *not* necessary for CHC-COMP.
 
 ### Benchmarks
 
@@ -60,13 +88,19 @@ The following tracks are planned for CHC-COMP 2025
 - LIA-nonlin-Arrays-nonrecADT: Linear Integer Arithmetic + arrays + non-recursive Algebraic data-types, nonlinear clauses
 - ADT-LIA-nonlin: Algebraic data-types + Linear Integer Arithmetic, nonlinear clauses 
 
+- LRA: Linar Real Arithmetic (*tentative*)
 
 In addition to the theories listed in the track names, benchmarks can also use the Bool theory.
 
+### Model validation
+
+In 2025 we aim to introduce model validation. Participants can opt-in to have their `sat` models checked independently.
+
+We will report these results separately from the main standings.
 
 ### Big thanks to
 
-- Everybody who organized and helped with the competition infrastructure over the last years:  
+- Everybody who organized and helped with the competition infrastructure over the last years, notably:  
       Nikolaj Bjørner,
       Adrien Champion,
       Emanuele De Angelis,
