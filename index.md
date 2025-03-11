@@ -28,6 +28,9 @@ available benchmarks. The winners among participating
 solvers are recognized by measuring the number of
 correctly solved benchmarks as well as the runtime.
 
+CHC-COMP is associated with the Workshop on Horn-Clause Verification and Synthesis 
+[HCVS 2025](https://www.sci.unich.it/hcvs25/).
+
 <div style="clear: both" />
 
 ### New: Mailing List
@@ -47,7 +50,6 @@ Please be aware that we will not necessarily be responsive over there.
 - April 10: participation registration soft deadline
 - April 10: benchmark submission hard deadline
 - April 17: solver submission deadline
-
 
 Originally, the schedule aimed at presenting the results at [ETAPS 2025](https://etaps.org/2025/).
 However, as [HCVS 2025](https://www.sci.unich.it/hcvs25/) has been announced at [CAV 2025](https://conferences.i-cav.org/2025/),
