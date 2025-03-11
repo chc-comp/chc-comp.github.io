@@ -42,12 +42,20 @@ Please be aware that we will not necessarily be responsive over there.
 - [Gidon Ernst](https://www.sosy-lab.org/people/ernst/), LMU Munich, Germany
 - [Jose F. Morales](https://jfmc.github.io/), IMDEA Software Institute, Spain
 
-### Schedule
+### Preliminary Schedule
 
 - April 10: participation registration soft deadline
 - April 10: benchmark submission hard deadline
 - April 17: solver submission deadline
-- May 7 or 8, presentation of results at [SPIN 2025](https://spin-web.github.io/SPIN2025/), (co-located with [ETAPS](https://etaps.org/2025/), Hamilton, Canada)
+
+
+Originally, the schedule aimed at presenting the results at [ETAPS 2025](https://etaps.org/2025/).
+However, as [HCVS 2025](https://www.sci.unich.it/hcvs25/) has been announced at [CAV 2025](https://conferences.i-cav.org/2025/),
+we might relax the schedule to this event.
+
+<!-- - May 7 or 8: [SPIN 2025](https://spin-web.github.io/SPIN2025/), (co-located with [ETAPS](https://etaps.org/2025/), Hamilton, Canada)
+- July 22: [HCVS](https://www.sci.unich.it/hcvs25/), (co-located with [CAV 2025](https://conferences.i-cav.org/2025/), Zagreb, Croatia) -->
+
 
 ### Solver submission
 
