@@ -33,6 +33,19 @@ CHC-COMP is associated with the Workshop on Horn-Clause Verification and Synthes
 
 <div style="clear: both" />
 
+### Participation and Schedule (updated!)
+
+- April 25: solver submission deadline.  
+  **Participate here <https://forms.gle/Lh6VmRjRDaknZ4xU9>**.
+  We aim to do some pre-runs to check for technical issues.
+
+- April 25: benchmark submission deadline.  
+  Benchmarks can be contributed by sending is the link to some Github repository.
+  We will then fork it in the CHC-COMP Github organization.
+  Benchmark contributions can be updated via pull requests.
+
+- May 8: presentation of results at [SPIN 2025](https://spin-web.github.io/SPIN2025/), co-located with [ETAPS 2025](https://etaps.org/2025/), Hamilton, Canada.
+
 ### New: Mailing List
 
 Please register here <https://software.imdea.org/mailman3/postorius/lists/chc-comp.software.imdea.org> to receive updates and to participate in the discussion
@@ -44,26 +57,7 @@ Please be aware that we will not necessarily be responsive over there.
 
 - [Gidon Ernst](https://www.sosy-lab.org/people/ernst/), LMU Munich, Germany
 - [Jose F. Morales](https://jfmc.github.io/), IMDEA Software Institute, Spain
-
-### Preliminary Schedule
-
-- April 10: participation registration soft deadline
-- April 10: benchmark submission hard deadline
-- April 17: solver submission deadline
-
-Originally, the schedule aimed at presenting the results at [ETAPS 2025](https://etaps.org/2025/).
-However, as [HCVS 2025](https://www.sci.unich.it/hcvs25/) has been announced at [CAV 2025](https://conferences.i-cav.org/2025/),
-we might relax the schedule to this event.
-
-<!-- - May 7 or 8: [SPIN 2025](https://spin-web.github.io/SPIN2025/), (co-located with [ETAPS](https://etaps.org/2025/), Hamilton, Canada)
-- July 22: [HCVS](https://www.sci.unich.it/hcvs25/), (co-located with [CAV 2025](https://conferences.i-cav.org/2025/), Zagreb, Croatia) -->
-
-
-### Solver submission
-
-Participation guidelines will be published shortly and announced on the mailing list.
-
-We will offer pre-runs on a subset of benchmarks for solvers until the soft registration deadline on April 10 to test that everything works properly.
+  
 
 ### Infrastructure
 
@@ -92,13 +86,14 @@ public, together with the competition results.
 
 The following tracks are planned for CHC-COMP 2025
 
-- LIA-lin: Linear Integer Arithmetic, linear clauses
-- LIA-nonlin: Linear Integer Arithmetic, nonlinear clauses
-- LIA-lin-Arrays: Linear Integer Arithmetic + arrays, linear clauses
-- LIA-nonlin-Arrays: Linear Integer Arithmetic + arrays, non-linear clauses
-- LIA-nonlin-Arrays-nonrecADT: Linear Integer Arithmetic + arrays + non-recursive Algebraic data-types, nonlinear clauses
-- ADT-LIA-nonlin: Algebraic data-types + Linear Integer Arithmetic, nonlinear clauses
+- LIA-Lin: Linear Integer Arithmetic, linear clauses
+- LIA-Nonlin: Linear Integer Arithmetic, nonlinear clauses
+- LIA-Lin-Arrays: Linear Integer Arithmetic + Arrays, linear clauses
+- LIA-Nonlin-Arrays: Linear Integer Arithmetic + Arrays, nonlinear clauses
+- ADT-LIA: Linear Integer Arithmetic + Arrays + non-recursive Algebraic data-types, nonlinear clauses
+- ADT-LIA-Arrays: Algebraic data-types + Linear Integer Arithmetic, nonlinear clauses
 - LRA: Linar Real Arithmetic (*tentative*)
+- BV: Bitvectors (*tentative*)
 
 In addition to the theories listed in the track names, benchmarks can also use the Bool theory.
 
