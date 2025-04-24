@@ -36,13 +36,13 @@ CHC-COMP is associated with the Workshop on Horn-Clause Verification and Synthes
 ### Participation and Schedule (updated!)
 
 - April 25: solver submission deadline.  
-  **Participate here <https://forms.gle/Lh6VmRjRDaknZ4xU9>**.
+  **Participate here** <https://forms.gle/Lh6VmRjRDaknZ4xU9>.  
   We aim to do some pre-runs to check for technical issues.
 
 - April 25: benchmark submission deadline.  
-  Benchmarks can be contributed by sending is the link to some Github repository.
-  We will then fork it in the CHC-COMP Github organization.
-  Benchmark contributions can be updated via pull requests.
+  Benchmarks can be contributed by sending is the link to some Github repository.  
+  We will then fork it in the CHC-COMP Github organization.  
+  Benchmark contributions can be updated via pull requests.  
 
 - May 8: presentation of results at [SPIN 2025](https://spin-web.github.io/SPIN2025/), co-located with [ETAPS 2025](https://etaps.org/2025/), Hamilton, Canada.
 
@@ -90,8 +90,8 @@ The following tracks are planned for CHC-COMP 2025
 - LIA-Nonlin: Linear Integer Arithmetic, nonlinear clauses
 - LIA-Lin-Arrays: Linear Integer Arithmetic + Arrays, linear clauses
 - LIA-Nonlin-Arrays: Linear Integer Arithmetic + Arrays, nonlinear clauses
-- ADT-LIA: Linear Integer Arithmetic + Arrays + non-recursive Algebraic data-types, nonlinear clauses
-- ADT-LIA-Arrays: Algebraic data-types + Linear Integer Arithmetic, nonlinear clauses
+- ADT-LIA: Linear Integer Arithmetic + non-recursive Algebraic data-types, nonlinear clauses
+- ADT-LIA-Arrays: Algebraic data-types + Arrays + Linear Integer Arithmetic, nonlinear clauses
 - LRA: Linar Real Arithmetic (*tentative*)
 - BV: Bitvectors (*tentative*)
 
