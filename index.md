@@ -61,7 +61,10 @@ Please be aware that we will not necessarily be responsive over there.
     h4 { margin-bottom: 2px; }
 </style>
 
+- [CHC-COMP 2025 report](2025/CHC-COMP%202025%20Report%20-%20SPIN.pdf) as presented at SPIN 2025 (with a minor update in LIA-Lin-
+Arrays)
 - the full list of benchmarks is available here: <https://github.com/chc-comp/chc-comp25-benchmarks>
+- scripts for running the competition are here: <https://github.com/chc-comp/chc-comp25-scripts>, making use of some of the other repositories, too
 - plots are "quantile plots", aggregating points over results sorted by the CPU time it took to produce them (lower is faster, overall score corresponds to the rightmost value)
 - click on category names for aggregate table including all tools
 - click on the tool names to see table of individual results
