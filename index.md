@@ -78,14 +78,14 @@ but it is not always clear what is the ground truth, which we will fix in the fu
 
 #### Tools
 
-- CHC2C (Mihály Dobos-Kovács, Levente Bajczi, András Vörös), Note: *meta-solver*
+- CHC2C 1.0 (Mihály Dobos-Kovács, Levente Bajczi, András Vörös), Note: *meta-solver*
 - ChocoCatalia (Hiroyuki Katsura, Naoki Kobayashi, Ryosuke Sato)
 - [Eldarica 2.2](https://github.com/uuverifiers/eldarica) (Hossein Hojjat, Philipp Ruemmer)
 - [Golem 0.7.1](https://github.com/usi-verification-and-security/golem) (Martin Blicha)
 - [LoAT](https://loat-developers.github.io/LoAT/) (Florian Frohn, Jürgen Giesl)
 - [MuCyc](https://github.com/hiroshi-unno/coar) (Kazuki Uehara, Hiroshi Unno)
 - [PCSat](https://github.com/hiroshi-unno/coar) (Takuma Monma, Hiroshi Unno)
-- [Theta CHC](http://inf.mit.bme.hu/en/theta) (Levente Bajczi, Mihály Dobos-Kovács, Márk Somorjai, András Vörös)
+- [ThetaCHC 6.13.2](https://github.com/ftsrg/theta) (Levente Bajczi, Mihály Dobos-Kovács, Márk Somorjai, András Vörös)
 - [Ultimate Tree Automizer](https://www.ultimate-pa.org/) (Matthias Heizmann, Max Barth, Daniel Dietsch, Dominik Klumpp)
 - [Ultimate Unihorn](https://www.ultimate-pa.org/) (Matthias Heizmann, Max Barth, Daniel Dietsch, Dominik Klumpp)
 
