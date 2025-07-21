@@ -62,8 +62,7 @@ Please be aware that we will not necessarily be responsive over there.
 </style>
 
 - [CHC-COMP 2025 extended report](2025/CHC-COMP 2025 Extended Report - HCVS.pdf) as presented at HCVS 2025 (adds details and model validation)
-- [CHC-COMP 2025 report](2025/CHC-COMP 2025 Report - SPIN.pdf) as presented at SPIN 2025 (with a minor update in LIA-Lin-
-Arrays)
+- [CHC-COMP 2025 report](2025/CHC-COMP 2025 Report - SPIN.pdf) as presented at SPIN 2025 (with a minor update in `LIA-Lin-Arrays`)
 - the full list of benchmarks is available here: <https://github.com/chc-comp/chc-comp25-benchmarks>
 - scripts for running the competition are here: <https://github.com/chc-comp/chc-comp25-scripts>, making use of some of the other repositories, too
 - plots are "quantile plots", aggregating points over results sorted by the CPU time it took to produce them (lower is faster, overall score corresponds to the rightmost value)
