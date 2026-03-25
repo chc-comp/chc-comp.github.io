@@ -26,7 +26,9 @@ available benchmarks. The winners among participating
 solvers are recognized by measuring the number of
 correctly solved benchmarks as well as the runtime.
 The results of CHC-COMP 2026 will be announced at the
-HCVS workshop affiliated with [ETAPS 2026](https://www.etaps.org/).
+HCVS workshop affiliated with
+[CAV 2026](https://conferences.i-cav.org/2026/) @ 
+[FLoC 2026](https://www.floc26.org/).
 
 <div style="clear: both" />
 
