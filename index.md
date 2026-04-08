@@ -79,9 +79,9 @@ In addition to the theories listed in the track names, benchmarks can also use t
 
 To be announced.
 
-- Benchmark submission deadline: -- April, 2026
-- Solver submission deadline: -- April, 2026
-- Solver resubmission deadline (technical issues): -- April/May, 2026
+- Benchmark submission deadline: 25 April, 2026
+- Solver submission deadline: 25 April, 2026
+- Solver resubmission deadline (technical issues): 02 May, 2026
 - Presentation of results: 25 July, 2026
 
 ### Solvers Evaluation & Ranking
