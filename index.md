@@ -72,6 +72,9 @@ The following tracks are planned for CHC-COMP 2026:
 - LIA-Nonlin-Arrays: Linear Integer Arithmetic + Arrays, nonlinear clauses
 - ADT-LIA: Linear Integer Arithmetic + non-recursive Algebraic data-types, nonlinear clauses
 - ADT-LIA-Arrays: Algebraic data-types + Arrays + Linear Integer Arithmetic, nonlinear clauses
+- LRA-Lin: Linear Real Arithmetic, linear clauses
+- BV-Lin: Fixed-size bitvectors, linear clauses
+- BV-Nonlin: Fixed-size bitvectors, nonlinear clauses
 
 In addition to the theories listed in the track names, benchmarks can also use the Bool theory.
 
