@@ -49,8 +49,6 @@ competition results, at the [HCVS workshop](https://www.sci.unich.it/hcvs26/).
 ### Solver Submission
 
 To submit a solver, open a pull request in the [chc-comp-2026](https://github.com/chc-comp/chc-comp-2026) github repository. See the [sample PR](https://github.com/chc-comp/chc-comp-2026/pull/5) and the main README of the repository for details. In case of any technical questions, open the pull request, and leave a comment there.
-If you would like to participate, please get in touch with the organisers:
-[Konstantin Britikov](mailto:konstantin.britikov@usi.ch) and [Levente Bajczi](mailto:levente.bajczi@edu.bme.hu).
 
 ### Benchmarks
 
