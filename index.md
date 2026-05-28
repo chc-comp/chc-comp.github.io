@@ -32,6 +32,10 @@ HCVS workshop affiliated with
 
 <div style="clear: both" />
 
+> **CHC-COMP 2026 results are out!** Browse the full results
+> [here](https://chc-comp.github.io/chc-comp-2026/). A detailed competition
+> report is coming soon.
+
 ### Organizers
 
 - [Konstantin Britikov](https://britikovki.com/), University of Lugano, Switzerland
